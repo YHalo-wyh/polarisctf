@@ -1,0 +1,23 @@
+Dump of assembler code for function ShowNote:
+0x0000000000001d2c <+41>:  lea    rax,[rip+0x254d]        # 0x4280 <g_mutex>
+0x0000000000001d36 <+51>:  call   0x12a0 <pthread_mutex_lock@plt>
+0x0000000000001d3b <+56>:  mov    rdx,QWORD PTR [rip+0x25ce]        # 0x4310 <gc+16>
+0x0000000000001d42 <+63>:  mov    eax,DWORD PTR [rbp-0x14]
+0x0000000000001d47 <+68>:  add    rax,rdx
+0x0000000000001d4a <+71>:  mov    QWORD PTR [rbp-0x8],rax
+...
+0x0000000000001d69 <+102>: cmp    edx,eax
+0x0000000000001d6b <+104>: jne    0x1d86 <ShowNote+131>
+...
+0x0000000000001d86 <+131>: mov    WORD PTR [rbp-0x10],0x0
+0x0000000000001d8c <+137>: mov    WORD PTR [rbp-0xe],0x8
+...
+0x0000000000001da9 <+166>: add    edx,0x8
+0x0000000000001db3 <+176>: add    rcx,rdx
+0x0000000000001dc1 <+190>: call   0x11a0 <write@plt>
+
+What to look at:
+- lock happens inside ShowNote, after offset was already passed in
+- ptr = gc.base + off is built at +56..+71
+- if header check fails, fallback becomes off=0, len=8
+- then it reads fixed 8 bytes from ptr+8

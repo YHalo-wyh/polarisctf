@@ -1,0 +1,18 @@
+pwndbg> break *GarbageClean+0x67
+pwndbg> continue
+
+Thread 2 hit Breakpoint: GarbageClean+103
+[gc_before_compact]
+0x555555558308 <gc+8>:   0x00000273
+0x55555555830c <gc+12>:  0x00000200
+0x555555558310 <gc+16>:  0x0000555555558318
+0x555555558b18 <gc+2072>: 0xffffffff  0x00000010  0xffffffff  0x00000000
+0x555555558b28 <gc+2088>: 0xffffffff  0x00000000  0xffffffff  0x00000000
+#0  GarbageClean()
+#1  start_thread()
+
+What to look at:
+- gc+8  = used = 0x273
+- gc+12 = threshold = 0x200
+- gc+16 = current base = 0x...8318 (space0)
+- slot table is still old layout right before compact

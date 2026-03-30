@@ -1,0 +1,196 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x318 | 28 | ASCII | /lib64/ld-linux-x86-64.so.2
+0xaa1 | 15 | ASCII | __gmon_start__
+0xab0 | 28 | ASCII | _ITM_deregisterTMCloneTable
+0xacc | 26 | ASCII | _ITM_registerTMCloneTable
+0xae6 | 17 | ASCII | _ZNSt6localeD1Ev
+0xaf7 | 30 | ASCII | _ZSt20__throw_length_errorPKc
+0xb15 | 64 | ASCII | _ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+0xb55 | 70 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+0xb9b | 64 | ASCII | _ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+0xbdb | 60 | ASCII | _ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+0xc17 | 44 | ASCII | _ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
+0xc43 | 19 | ASCII | _ZNSt8ios_baseD2Ev
+0xc56 | 8 | ASCII | _ZdlPvm
+0xc5e | 10 | ASCII | _ZNSolsEi
+0xc68 | 44 | ASCII | _ZTTSt14basic_ifstreamIcSt11char_traitsIcEE
+0xc94 | 64 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm
+0xcd4 | 25 | ASCII | _ZNSo9_M_insertImEERSoT_
+0xced | 50 | ASCII | _ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv
+0xd1f | 27 | ASCII | _ZNKSt5ctypeIcE8do_widenEc
+0xd3a | 9 | ASCII | _ZSt3cin
+0xd43 | 45 | ASCII | _ZTVSt15basic_streambufIcSt11char_traitsIcEE
+0xd70 | 46 | ASCII | _ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+0xd9e | 73 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+0xde7 | 108 | ASCII | _ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_
+0xe53 | 60 | ASCII | _ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE
+0xe8f | 17 | ASCII | _ZNSt6localeC1Ev
+0xea0 | 18 | ASCII | __cxa_begin_catch
+0xeb2 | 10 | ASCII | _ZSt4cerr
+0xebc | 34 | ASCII | _ZNSt8ios_base15sync_with_stdioEb
+0xede | 24 | ASCII | _ZSt16__throw_bad_castv
+0xef6 | 19 | ASCII | _ZNSt8ios_baseC2Ev
+0xf09 | 68 | ASCII | _ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+0xf4d | 29 | ASCII | _ZSt21ios_base_library_initv
+0xf6a | 21 | ASCII | __gxx_personality_v0
+0xf7f | 43 | ASCII | _ZTVSt13basic_filebufIcSt11char_traitsIcEE
+0xfaa | 78 | ASCII | _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+0xff8 | 12 | ASCII | _ZNSo3putEc
+0x1004 | 33 | ASCII | _ZNKSt5ctypeIcE13_M_widen_initEv
+0x1025 | 27 | ASCII | _ZNSt12__basic_fileIcED1Ev
+0x1040 | 14 | ASCII | _ZNSo5flushEv
+0x104e | 47 | ASCII | _ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+0x107d | 56 | ASCII | _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+0x10b5 | 6 | ASCII | _Znwm
+0x10bb | 38 | ASCII | _ZTVSt9basic_iosIcSt11char_traitsIcEE
+0x10e1 | 69 | ASCII | _ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+0x1126 | 46 | ASCII | _ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
+0x1154 | 68 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+0x1198 | 65 | ASCII | _ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+0x11d9 | 35 | ASCII | _ZSt24__throw_out_of_range_fmtPKcz
+0x11fc | 71 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm
+0x1243 | 68 | ASCII | _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+0x1287 | 10 | ASCII | _ZSt4cout
+0x1291 | 16 | ASCII | __cxa_end_catch
+0x12a1 | 15 | ASCII | _Unwind_Resume
+0x12b0 | 9 | ASCII | snprintf
+0x12b9 | 18 | ASCII | __isoc23_strtoull
+0x12cb | 6 | ASCII | prctl
+0x12d1 | 17 | ASCII | __stack_chk_fail
+0x12e7 | 8 | ASCII | memmove
+0x12ef | 7 | ASCII | strlen
+0x12f6 | 8 | ASCII | isspace
+0x12fe | 7 | ASCII | malloc
+0x1305 | 18 | ASCII | __libc_start_main
+0x1317 | 15 | ASCII | __cxa_finalize
+0x1326 | 7 | ASCII | calloc
+0x132d | 7 | ASCII | memset
+0x1334 | 15 | ASCII | __snprintf_chk
+0x1343 | 7 | ASCII | memcpy
+0x134a | 17 | ASCII | __errno_location
+0x135b | 15 | ASCII | libstdc++.so.6
+0x136a | 14 | ASCII | libgcc_s.so.1
+0x1378 | 10 | ASCII | libc.so.6
+0x1382 | 8 | ASCII | GCC_3.0
+0x138a | 11 | ASCII | GLIBC_2.38
+0x1395 | 10 | ASCII | GLIBC_2.4
+0x139f | 11 | ASCII | GLIBC_2.14
+0x13aa | 11 | ASCII | GLIBC_2.34
+0x13b5 | 12 | ASCII | GLIBC_2.3.4
+0x13c1 | 12 | ASCII | GLIBC_2.2.5
+0x13cd | 15 | ASCII | GLIBCXX_3.4.32
+0x13dc | 15 | ASCII | GLIBCXX_3.4.20
+0x13eb | 15 | ASCII | GLIBCXX_3.4.11
+0x13fa | 13 | ASCII | CXXABI_1.3.9
+0x1407 | 14 | ASCII | GLIBCXX_3.4.9
+0x1415 | 11 | ASCII | CXXABI_1.3
+0x1420 | 15 | ASCII | GLIBCXX_3.4.21
+0x142f | 12 | ASCII | GLIBCXX_3.4
+0xa004 | 21 | ASCII | basic_string::substr
+0xa019 | 25 | ASCII | [task-runner] op=mul ack
+0xa032 | 25 | ASCII | [task-runner] op=xor ack
+0xa04b | 23 | ASCII | [task-runner] task_id=
+0xa062 | 7 | ASCII |  arg0=
+0xa069 | 7 | ASCII |  tag='
+0xa073 | 6 | ASCII | never
+0xa079 | 8 | ASCII | sqe-%zu
+0xa081 | 21 | ASCII | session slot invalid
+0xa096 | 24 | ASCII | session slot not active
+0xa0ae | 19 | ASCII | session slot empty
+0xa0c1 | 18 | ASCII | scheduler offline
+0xa0d3 | 16 | ASCII | queue.task_id> 
+0xa0e3 | 16 | ASCII | task id invalid
+0xa0f3 | 28 | ASCII | task descriptor unavailable
+0xa10f | 22 | ASCII | manifest.items(u32)> 
+0xa125 | 23 | ASCII | manifest.stride(u32)> 
+0xa13c | 22 | ASCII | manifest parse failed
+0xa152 | 27 | ASCII | artifact allocation failed
+0xa16d | 23 | ASCII | artifact staged bytes=
+0xa184 | 17 | ASCII |  declared_bytes=
+0xa195 | 12 | ASCII | queue_ctrl=
+0xa1a1 | 16 | ASCII |  strict_policy=
+0xa1b1 | 10 | ASCII |  healthy=
+0xa1bb | 7 | ASCII | [task:
+0xa1c2 | 10 | ASCII |  handler=
+0xa1cc | 6 | ASCII |  ctx=
+0xa1d2 | 21 | ASCII | session.slot(0-15)> 
+0xa1e7 | 23 | ASCII | session.tensor_bytes> 
+0xa1fe | 16 | ASCII | session.alias> 
+0xa211 | 27 | ASCII | session tensor ready slot=
+0xa22c | 10 | ASCII |  payload=
+0xa236 | 11 | ASCII |  postproc=
+0xa241 | 20 | ASCII | diag.session.slot> 
+0xa255 | 19 | ASCII | diag.qword_index> 
+0xa268 | 24 | ASCII | diag.qword_value(u64)> 
+0xa280 | 30 | ASCII | diagnostic patch args invalid
+0xa29e | 23 | ASCII | session handle missing
+0xa2b5 | 29 | ASCII | diagnostic patch applied at 
+0xa2d2 | 28 | ASCII | [telemetry] artifact.arena=
+0xa2ee | 14 | ASCII |  alloc_bytes=
+0xa2fc | 28 | ASCII | [telemetry] scheduler.ctrl=
+0xa318 | 18 | ASCII |  diag.audit_sink=
+0xa32a | 10 | ASCII | [session:
+0xa334 | 10 | ASCII | ] handle=
+0xa348 | 23 | ASCII | [autoscaler] profiles=
+0xa35f | 11 | ASCII |   profile[
+0xa36d | 23 | ASCII | [scheduler.head] desc=
+0xa384 | 7 | ASCII | ./flag
+0xa38b | 19 | ASCII | [audit] snapshot: 
+0xa39e | 26 | ASCII | vector::_M_realloc_insert
+0xa3b8 | 28 | ASCII | autoscaler capacity reached
+0xa3d4 | 19 | ASCII | worker.cpu_quota> 
+0xa3e7 | 19 | ASCII | worker.mem_quota> 
+0xa3fa | 19 | ASCII | worker.io_weight> 
+0xa40d | 21 | ASCII | worker.latency_slo> 
+0xa422 | 18 | ASCII | worker.replicas> 
+0xa434 | 21 | ASCII | worker.region_code> 
+0xa449 | 14 | ASCII | worker.memo> 
+0xa457 | 28 | ASCII | worker profile parse failed
+0xa473 | 8 | ASCII |  index=
+0xa47b | 24 | ASCII | artifact not registered
+0xa493 | 16 | ASCII | stream.offset> 
+0xa4a3 | 20 | ASCII | offset parse failed
+0xa4b7 | 21 | ASCII | stream.payload.hex> 
+0xa4cc | 25 | ASCII | payload hex parse failed
+0xa4e5 | 23 | ASCII | ingest accepted bytes=
+0xa4fc | 26 | ASCII |  (declared boundary mode)
+0xa516 | 29 | ASCII | [1] Register model artifact\n
+0xa533 | 27 | ASCII | [2] Stream artifact chunk\n
+0xa54e | 29 | ASCII | [4] Inspect scheduler queue\n
+0xa56b | 29 | ASCII | [5] Allocate session tensor\n
+0xa588 | 30 | ASCII | [6] Complete batch inference\n
+0xa5a6 | 28 | ASCII | [7] Patch session metadata\n
+0xa5c2 | 30 | ASCII | [8] Provision worker profile\n
+0xa5e0 | 25 | ASCII | [9] Dispatch async task\n
+0xa5f9 | 24 | ASCII | [10] Runtime telemetry\n
+0xa611 | 24 | ASCII | [11] Operator handbook\n
+0xa629 | 22 | ASCII | [0] Shutdown gateway\n
+0xa63f | 10 | ASCII | gateway> 
+0xa64d | 8 | ASCII | unknown
+0xa658 | 55 | ASCII | %s: __pos (which is %zu) > this->size() (which is %zu)
+0xa698 | 38 | ASCII | [task-runner] null descriptor context
+0xa6c0 | 251 | ASCII | \n[portal] Operator handbook is managed by central SRE and not distributed in this runtime.\n[portal] Available actions depend on your tenant role and deployment policy.\n[portal] For emergency operations, escalate via on-call channel with incident id.\n
+0xa7c0 | 31 | ASCII | scheduler already bootstrapped
+0xa7e0 | 42 | ASCII | scheduler control plane allocation failed
+0xa810 | 34 | ASCII | task descriptor allocation failed
+0xa838 | 47 | ASCII | scheduler bootstrap complete, strict_policy=on
+0xa868 | 55 | ASCII | postproc profile invalid, fallback to default pipeline
+0xa8a0 | 44 | ASCII | batch inference finalized, session recycled
+0xa8d0 | 46 | ASCII | policy engine blocked non-whitelisted handler
+0xa900 | 31 | ASCII | session tensor request invalid
+0xa920 | 33 | ASCII | session tensor allocation failed
+0xa948 | 51 | ASCII | diagnostic patch requires recycled session context
+0xa980 | 51 | ASCII | diagnostic offset policy allows qword_index=0 only
+0xa9b8 | 35 | ASCII | [telemetry] diag.postproc_default=
+0xa9e0 | 45 | ASCII | [audit] snapshot read failed (/flag, ./flag)
+0xaa10 | 35 | ASCII | worker profile provisioned handle=
+0xaa38 | 38 | ASCII | stream exceeds declared artifact size
+0xaa60 | 41 | ASCII | ingest window policy rejected far offset
+0xaa90 | 46 | ASCII | ============================================\n
+0xaac0 | 47 | ASCII |  InferenceForge :: Edge Runtime Control Plane\n
+0xaaf0 | 52 | ASCII |  Region: apac-sz  Cluster: edge-a1  Build: 2026.03\n
+0xab28 | 31 | ASCII | [3] Bootstrap async scheduler\n
+0xacff | 6 | ASCII | 9*3$"

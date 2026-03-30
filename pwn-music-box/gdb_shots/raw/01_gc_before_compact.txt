@@ -1,0 +1,23 @@
+pwndbg: loaded 212 pwndbg commands. Type pwndbg [filter] for a list.
+pwndbg: created 9 GDB functions (can be used with print/break). Type help function to see them.
+Reading symbols from ./attachments/main...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+(No debugging symbols found in ./attachments/main)
+Breakpoint 1 at 0x1410
+Starting program: /mnt/c/Users/WYH/Desktop/polarisctf招新赛/pwn/pwn-music-box/attachments/main 
+warning: Could not trace the inferior process.
+warning: ptrace: Operation not permitted
+During startup program exited with code 127.
+[gc_before_compact]
+0x4308 <gc+8>:	0x00000000
+0x430c <gc+12>:	0x00000000
+0x4310 <gc+16>:	0x0000000000000000
+0x4b18 <gc+2072>:	0x00000000	0x00000000	0x00000000	0x00000000
+0x4b28 <gc+2088>:	0x00000000	0x00000000	0x00000000	0x00000000
+0x4b38 <gc+2104>:	0x00000000	0x00000000	0x00000000	0x00000000
+0x4b48 <gc+2120>:	0x00000000	0x00000000	0x00000000	0x00000000
+No stack.

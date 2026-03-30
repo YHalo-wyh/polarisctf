@@ -1,0 +1,732 @@
+# Function Index
+# Total exported functions: 64
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x1000
+File: 1000.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4cd8 (__gmon_start__)
+
+================================================================================
+Function: sub_1020
+Address: 0x1020
+File: 1020.c
+
+Called by (20 callers):
+  - 0x1030 (sub_1030) -> 1030.c
+  - 0x1040 (sub_1040) -> 1040.c
+  - 0x1050 (sub_1050) -> 1050.c
+  - 0x1060 (sub_1060) -> 1060.c
+  - 0x1070 (sub_1070) -> 1070.c
+  - 0x1080 (sub_1080) -> 1080.c
+  - 0x1090 (sub_1090) -> 1090.c
+  - 0x10a0 (sub_10A0) -> 10A0.c
+  - 0x10b0 (sub_10B0) -> 10B0.c
+  - 0x10c0 (sub_10C0) -> 10C0.c
+  - 0x10d0 (sub_10D0) -> 10D0.c
+  - 0x10e0 (sub_10E0) -> 10E0.c
+  - 0x10f0 (sub_10F0) -> 10F0.c
+  - 0x1100 (sub_1100) -> 1100.c
+  - 0x1110 (sub_1110) -> 1110.c
+  - 0x1120 (sub_1120) -> 1120.c
+  - 0x1130 (sub_1130) -> 1130.c
+  - 0x1140 (sub_1140) -> 1140.c
+  - 0x1150 (sub_1150) -> 1150.c
+  - 0x1160 (sub_1160) -> 1160.c
+
+Calls: none
+
+================================================================================
+Function: sub_1030
+Address: 0x1030
+File: 1030.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1040
+Address: 0x1040
+File: 1040.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1050
+Address: 0x1050
+File: 1050.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1060
+Address: 0x1060
+File: 1060.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1070
+Address: 0x1070
+File: 1070.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1080
+Address: 0x1080
+File: 1080.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1090
+Address: 0x1090
+File: 1090.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10A0
+Address: 0x10a0
+File: 10A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10B0
+Address: 0x10b0
+File: 10B0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10C0
+Address: 0x10c0
+File: 10C0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10D0
+Address: 0x10d0
+File: 10D0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10E0
+Address: 0x10e0
+File: 10E0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_10F0
+Address: 0x10f0
+File: 10F0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1100
+Address: 0x1100
+File: 1100.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1110
+Address: 0x1110
+File: 1110.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1120
+Address: 0x1120
+File: 1120.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1130
+Address: 0x1130
+File: 1130.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1140
+Address: 0x1140
+File: 1140.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1150
+Address: 0x1150
+File: 1150.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1160
+Address: 0x1160
+File: 1160.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __cxa_finalize
+Address: 0x1170
+File: 1170.c
+
+Called by (1 callers):
+  - 0x1360 (__do_global_dtors_aux) -> 1360.c
+
+Calls: none
+
+================================================================================
+Function: .strncpy
+Address: 0x1180
+File: 1180.c
+
+Called by (1 callers):
+  - 0x1775 (MusicBox) -> 1775.c
+
+Calls: none
+
+================================================================================
+Function: .puts
+Address: 0x1190
+File: 1190.c
+
+Called by (9 callers):
+  - 0x13a9 (GarbageClean) -> 13A9.c
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1886 (Initial) -> 1886.c
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1bd0 (DeleteNote) -> 1BD0.c
+  - 0x1c3c (EditNote) -> 1C3C.c
+  - 0x1d03 (ShowNote) -> 1D03.c
+  - 0x1dd7 (Main) -> 1DD7.c
+  - 0x1f13 (main) -> 1F13.c
+
+Calls: none
+
+================================================================================
+Function: .write
+Address: 0x11a0
+File: 11A0.c
+
+Called by (1 callers):
+  - 0x1d03 (ShowNote) -> 1D03.c
+
+Calls: none
+
+================================================================================
+Function: .strlen
+Address: 0x11b0
+File: 11B0.c
+
+Called by (1 callers):
+  - 0x1775 (MusicBox) -> 1775.c
+
+Calls: none
+
+================================================================================
+Function: .__stack_chk_fail
+Address: 0x11c0
+File: 11C0.c
+
+Called by (1 callers):
+  - 0x19ff (GetUint32) -> 19FF.c
+
+Calls: none
+
+================================================================================
+Function: .setbuf
+Address: 0x11d0
+File: 11D0.c
+
+Called by (1 callers):
+  - 0x1886 (Initial) -> 1886.c
+
+Calls: none
+
+================================================================================
+Function: .printf
+Address: 0x11e0
+File: 11E0.c
+
+Called by (1 callers):
+  - 0x1aac (AddNote) -> 1AAC.c
+
+Calls: none
+
+================================================================================
+Function: .memset
+Address: 0x11f0
+File: 11F0.c
+
+Called by (1 callers):
+  - 0x15c7 (Allocate) -> 15C7.c
+
+Calls: none
+
+================================================================================
+Function: .close
+Address: 0x1200
+File: 1200.c
+
+Called by (1 callers):
+  - 0x1886 (Initial) -> 1886.c
+
+Calls: none
+
+================================================================================
+Function: .read
+Address: 0x1210
+File: 1210.c
+
+Called by (4 callers):
+  - 0x1886 (Initial) -> 1886.c
+  - 0x19ff (GetUint32) -> 19FF.c
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1c3c (EditNote) -> 1C3C.c
+
+Calls: none
+
+================================================================================
+Function: .memcpy
+Address: 0x1220
+File: 1220.c
+
+Called by (1 callers):
+  - 0x13a9 (GarbageClean) -> 13A9.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_mutex_unlock
+Address: 0x1230
+File: 1230.c
+
+Called by (7 callers):
+  - 0x13a9 (GarbageClean) -> 13A9.c
+  - 0x15c7 (Allocate) -> 15C7.c
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1bd0 (DeleteNote) -> 1BD0.c
+  - 0x1c3c (EditNote) -> 1C3C.c
+  - 0x1d03 (ShowNote) -> 1D03.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_create
+Address: 0x1240
+File: 1240.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls: none
+
+================================================================================
+Function: .open
+Address: 0x1250
+File: 1250.c
+
+Called by (1 callers):
+  - 0x1886 (Initial) -> 1886.c
+
+Calls: none
+
+================================================================================
+Function: .atoi
+Address: 0x1260
+File: 1260.c
+
+Called by (1 callers):
+  - 0x19ff (GetUint32) -> 19FF.c
+
+Calls: none
+
+================================================================================
+Function: .exit
+Address: 0x1270
+File: 1270.c
+
+Called by (2 callers):
+  - 0x1886 (Initial) -> 1886.c
+  - 0x1f13 (main) -> 1F13.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_join
+Address: 0x1280
+File: 1280.c
+
+Called by (1 callers):
+  - 0x1ed9 (Cleanup) -> 1ED9.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_mutex_init
+Address: 0x1290
+File: 1290.c
+
+Called by (1 callers):
+  - 0x1886 (Initial) -> 1886.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_mutex_lock
+Address: 0x12a0
+File: 12A0.c
+
+Called by (7 callers):
+  - 0x13a9 (GarbageClean) -> 13A9.c
+  - 0x15c7 (Allocate) -> 15C7.c
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1bd0 (DeleteNote) -> 1BD0.c
+  - 0x1c3c (EditNote) -> 1C3C.c
+  - 0x1d03 (ShowNote) -> 1D03.c
+
+Calls: none
+
+================================================================================
+Function: .usleep
+Address: 0x12b0
+File: 12B0.c
+
+Called by (3 callers):
+  - 0x13a9 (GarbageClean) -> 13A9.c
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls: none
+
+================================================================================
+Function: _start
+Address: 0x12c0
+File: 12C0.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4c20 (__libc_start_main)
+
+================================================================================
+Function: deregister_tm_clones
+Address: 0x12f0
+File: 12F0.c
+
+Called by (1 callers):
+  - 0x1360 (__do_global_dtors_aux) -> 1360.c
+
+Calls: none
+
+================================================================================
+Function: register_tm_clones
+Address: 0x1320
+File: 1320.c
+
+Called by (1 callers):
+  - 0x13a0 (frame_dummy) -> 13A0.c
+
+Calls: none
+
+================================================================================
+Function: __do_global_dtors_aux
+Address: 0x1360
+File: 1360.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x1170 (__cxa_finalize) -> 1170.c
+  - 0x12f0 (deregister_tm_clones) -> 12F0.c
+
+================================================================================
+Function: frame_dummy
+Address: 0x13a0
+File: 13A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: GarbageClean
+Address: 0x13a9
+File: 13A9.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls (5 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x1220 (.memcpy) -> 1220.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+  - 0x12b0 (.usleep) -> 12B0.c
+
+================================================================================
+Function: GetIndex
+Address: 0x1544
+File: 1544.c
+
+Called by (1 callers):
+  - 0x1aac (AddNote) -> 1AAC.c
+
+Calls: none
+
+================================================================================
+Function: Allocate
+Address: 0x15c7
+File: 15C7.c
+
+Called by (2 callers):
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1aac (AddNote) -> 1AAC.c
+
+Calls (3 callees):
+  - 0x11f0 (.memset) -> 11F0.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+
+================================================================================
+Function: Free
+Address: 0x16f9
+File: 16F9.c
+
+Called by (2 callers):
+  - 0x1775 (MusicBox) -> 1775.c
+  - 0x1bd0 (DeleteNote) -> 1BD0.c
+
+Calls: none
+
+================================================================================
+Function: MusicBox
+Address: 0x1775
+File: 1775.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls (8 callees):
+  - 0x1180 (.strncpy) -> 1180.c
+  - 0x1190 (.puts) -> 1190.c
+  - 0x11b0 (.strlen) -> 11B0.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+  - 0x12b0 (.usleep) -> 12B0.c
+  - 0x15c7 (Allocate) -> 15C7.c
+  - 0x16f9 (Free) -> 16F9.c
+
+================================================================================
+Function: Initial
+Address: 0x1886
+File: 1886.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls (7 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x11d0 (.setbuf) -> 11D0.c
+  - 0x1200 (.close) -> 1200.c
+  - 0x1210 (.read) -> 1210.c
+  - 0x1250 (.open) -> 1250.c
+  - 0x1270 (.exit) -> 1270.c
+  - 0x1290 (.pthread_mutex_init) -> 1290.c
+
+================================================================================
+Function: GetUint32
+Address: 0x19ff
+File: 19FF.c
+
+Called by (2 callers):
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls (3 callees):
+  - 0x11c0 (.__stack_chk_fail) -> 11C0.c
+  - 0x1210 (.read) -> 1210.c
+  - 0x1260 (.atoi) -> 1260.c
+
+================================================================================
+Function: GetSlotOffset
+Address: 0x1a72
+File: 1A72.c
+
+Called by (1 callers):
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls: none
+
+================================================================================
+Function: AddNote
+Address: 0x1aac
+File: 1AAC.c
+
+Called by (1 callers):
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls (8 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x11e0 (.printf) -> 11E0.c
+  - 0x1210 (.read) -> 1210.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+  - 0x1544 (GetIndex) -> 1544.c
+  - 0x15c7 (Allocate) -> 15C7.c
+  - 0x19ff (GetUint32) -> 19FF.c
+
+================================================================================
+Function: DeleteNote
+Address: 0x1bd0
+File: 1BD0.c
+
+Called by (1 callers):
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls (4 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+  - 0x16f9 (Free) -> 16F9.c
+
+================================================================================
+Function: EditNote
+Address: 0x1c3c
+File: 1C3C.c
+
+Called by (1 callers):
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls (4 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x1210 (.read) -> 1210.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+
+================================================================================
+Function: ShowNote
+Address: 0x1d03
+File: 1D03.c
+
+Called by (1 callers):
+  - 0x1dd7 (Main) -> 1DD7.c
+
+Calls (4 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x11a0 (.write) -> 11A0.c
+  - 0x1230 (.pthread_mutex_unlock) -> 1230.c
+  - 0x12a0 (.pthread_mutex_lock) -> 12A0.c
+
+================================================================================
+Function: Main
+Address: 0x1dd7
+File: 1DD7.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls (8 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x12b0 (.usleep) -> 12B0.c
+  - 0x19ff (GetUint32) -> 19FF.c
+  - 0x1a72 (GetSlotOffset) -> 1A72.c
+  - 0x1aac (AddNote) -> 1AAC.c
+  - 0x1bd0 (DeleteNote) -> 1BD0.c
+  - 0x1c3c (EditNote) -> 1C3C.c
+  - 0x1d03 (ShowNote) -> 1D03.c
+
+================================================================================
+Function: Cleanup
+Address: 0x1ed9
+File: 1ED9.c
+
+Called by (1 callers):
+  - 0x1f13 (main) -> 1F13.c
+
+Calls (1 callees):
+  - 0x1280 (.pthread_join) -> 1280.c
+
+================================================================================
+Function: main
+Address: 0x1f13
+File: 1F13.c
+
+Called by (1 callers):
+  - 0x12c0 (_start) -> 12C0.c
+
+Calls (6 callees):
+  - 0x1190 (.puts) -> 1190.c
+  - 0x1240 (.pthread_create) -> 1240.c
+  - 0x1270 (.exit) -> 1270.c
+  - 0x1886 (Initial) -> 1886.c
+  - 0x1dd7 (Main) -> 1DD7.c
+  - 0x1ed9 (Cleanup) -> 1ED9.c
+
+================================================================================
+Function: .term_proc
+Address: 0x1fc0
+File: 1FC0.c
+
+Called by: none
+
+Calls: none
+

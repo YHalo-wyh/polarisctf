@@ -1,0 +1,18 @@
+pwndbg> break *GarbageClean+0x157
+pwndbg> continue
+
+Thread 2 hit Breakpoint: GarbageClean+0x157
+[before_base_switch]
+0x555555558310 <gc+16>:  0x0000555555558318
+pwndbg> ni
+[after_base_switch]
+0x555555558310 <gc+16>:  0x0000555555558718
+0x555555558b18 <gc+2072>: 0xffffffff  0x00000010  0xffffffff  0x00000000
+0x555555558b28 <gc+2088>: 0xffffffff  0x00000000  0xffffffff  0x00000000
+#0  GarbageClean()
+#1  start_thread()
+
+What to look at:
+- gc.base changes from 0x...8318 to 0x...8718
+- that means heap switched from space0 to space1
+- old offset is now stale if Main fetched it before this point

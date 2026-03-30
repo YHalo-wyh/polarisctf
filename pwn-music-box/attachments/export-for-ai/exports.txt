@@ -1,0 +1,37 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x4240:stdout@GLIBC_2.2.5
+0x4280:g_mutex
+0x4250:stdin@GLIBC_2.2.5
+0x1ed9:Cleanup
+0x1fc0:.term_proc
+0x4300:gc
+0x42fc:stop
+0x1c3c:EditNote
+0x42c0:g_alloc_mutex
+0x1775:MusicBox
+0x40c8:__dso_handle
+0x1544:GetIndex
+0x2000:_IO_stdin_used
+0x42f8:random_key
+0x15c7:Allocate
+0x1886:Initial
+0x12c0:_start
+0x1a72:GetSlotOffset
+0x19ff:GetUint32
+0x1f13:main
+0x42f0:t_music
+0x42e8:t_gc
+0x16f9:Free
+0x1dd7:Main
+0x40e0:lyrics
+0x1aac:AddNote
+0x4230:__bss_start
+0x1d03:ShowNote
+0x1bd0:DeleteNote
+0x13a9:GarbageClean
+0x1000:.init_proc
+0x4260:stderr@GLIBC_2.2.5
+0x40c0:__data_start

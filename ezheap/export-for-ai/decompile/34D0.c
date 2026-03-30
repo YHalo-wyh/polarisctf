@@ -1,0 +1,11 @@
+/*
+ * func-name: _ZNKSt5ctypeIcE8do_widenEc
+ * func-address: 0x34d0
+ * callers: 0x2cc0, 0x2f40, 0x2ff0, 0x30a0, 0x36a0, 0x3910, 0x3df0, 0x4230, 0x4870, 0x4d60, 0x55b0, 0x5d60, 0x6750, 0x6e90, 0x7fb0, 0x8a60
+ * callees: none
+ */
+
+__int64 __fastcall std::ctype<char>::do_widen(__int64 a1, unsigned int a2)
+{
+  return a2;
+}

@@ -1,0 +1,67 @@
+pwndbg: loaded 212 pwndbg commands. Type pwndbg [filter] for a list.
+pwndbg: created 9 GDB functions (can be used with print/break). Type help function to see them.
+Reading symbols from ./attachments/main...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+(No debugging symbols found in ./attachments/main)
+Dump of assembler code for function ShowNote:
+   0x0000000000001d03 <+0>:	endbr64
+   0x0000000000001d07 <+4>:	push   rbp
+   0x0000000000001d08 <+5>:	mov    rbp,rsp
+   0x0000000000001d0b <+8>:	sub    rsp,0x20
+   0x0000000000001d0f <+12>:	mov    DWORD PTR [rbp-0x14],edi
+   0x0000000000001d12 <+15>:	cmp    DWORD PTR [rbp-0x14],0xffffffff
+   0x0000000000001d16 <+19>:	jne    0x1d2c <ShowNote+41>
+   0x0000000000001d18 <+21>:	lea    rax,[rip+0x5dd]        # 0x22fc
+   0x0000000000001d1f <+28>:	mov    rdi,rax
+   0x0000000000001d22 <+31>:	call   0x1190 <puts@plt>
+   0x0000000000001d27 <+36>:	jmp    0x1dd5 <ShowNote+210>
+   0x0000000000001d2c <+41>:	lea    rax,[rip+0x254d]        # 0x4280 <g_mutex>
+   0x0000000000001d33 <+48>:	mov    rdi,rax
+   0x0000000000001d36 <+51>:	call   0x12a0 <pthread_mutex_lock@plt>
+   0x0000000000001d3b <+56>:	mov    rdx,QWORD PTR [rip+0x25ce]        # 0x4310 <gc+16>
+   0x0000000000001d42 <+63>:	mov    eax,DWORD PTR [rbp-0x14]
+   0x0000000000001d45 <+66>:	cdqe
+   0x0000000000001d47 <+68>:	add    rax,rdx
+   0x0000000000001d4a <+71>:	mov    QWORD PTR [rbp-0x8],rax
+   0x0000000000001d4e <+75>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000001d52 <+79>:	mov    eax,DWORD PTR [rax+0x4]
+   0x0000000000001d55 <+82>:	mov    DWORD PTR [rbp-0xc],eax
+   0x0000000000001d58 <+85>:	mov    eax,DWORD PTR [rip+0x259a]        # 0x42f8 <random_key>
+   0x0000000000001d5e <+91>:	xor    eax,DWORD PTR [rbp-0xc]
+   0x0000000000001d61 <+94>:	mov    edx,eax
+   0x0000000000001d63 <+96>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000001d67 <+100>:	mov    eax,DWORD PTR [rax]
+   0x0000000000001d69 <+102>:	cmp    edx,eax
+   0x0000000000001d6b <+104>:	jne    0x1d86 <ShowNote+131>
+   0x0000000000001d6d <+106>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000001d71 <+110>:	movzx  eax,WORD PTR [rax]
+   0x0000000000001d74 <+113>:	mov    WORD PTR [rbp-0x10],ax
+   0x0000000000001d78 <+117>:	mov    rax,QWORD PTR [rbp-0x8]
+   0x0000000000001d7c <+121>:	movzx  eax,WORD PTR [rax+0x2]
+   0x0000000000001d80 <+125>:	mov    WORD PTR [rbp-0xe],ax
+   0x0000000000001d84 <+129>:	jmp    0x1d92 <ShowNote+143>
+   0x0000000000001d86 <+131>:	mov    WORD PTR [rbp-0x10],0x0
+   0x0000000000001d8c <+137>:	mov    WORD PTR [rbp-0xe],0x8
+   0x0000000000001d92 <+143>:	lea    rax,[rip+0x5a8]        # 0x2341
+   0x0000000000001d99 <+150>:	mov    rdi,rax
+   0x0000000000001d9c <+153>:	call   0x1190 <puts@plt>
+   0x0000000000001da1 <+158>:	movzx  eax,WORD PTR [rbp-0xe]
+   0x0000000000001da5 <+162>:	movzx  edx,WORD PTR [rbp-0x10]
+   0x0000000000001da9 <+166>:	add    edx,0x8
+   0x0000000000001dac <+169>:	movsxd rcx,edx
+   0x0000000000001daf <+172>:	mov    rdx,QWORD PTR [rbp-0x8]
+   0x0000000000001db3 <+176>:	add    rcx,rdx
+   0x0000000000001db6 <+179>:	mov    rdx,rax
+   0x0000000000001db9 <+182>:	mov    rsi,rcx
+   0x0000000000001dbc <+185>:	mov    edi,0x1
+   0x0000000000001dc1 <+190>:	call   0x11a0 <write@plt>
+   0x0000000000001dc6 <+195>:	lea    rax,[rip+0x24b3]        # 0x4280 <g_mutex>
+   0x0000000000001dcd <+202>:	mov    rdi,rax
+   0x0000000000001dd0 <+205>:	call   0x1230 <pthread_mutex_unlock@plt>
+   0x0000000000001dd5 <+210>:	leave
+   0x0000000000001dd6 <+211>:	ret
+End of assembler dump.

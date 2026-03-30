@@ -1,0 +1,29 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x4c20:__libc_start_main@@GLIBC_2.34
+0x4c28:strncpy@@GLIBC_2.2.5
+0x4c30:puts@@GLIBC_2.2.5
+0x4c38:write@@GLIBC_2.2.5
+0x4c40:strlen@@GLIBC_2.2.5
+0x4c48:__stack_chk_fail@@GLIBC_2.4
+0x4c50:setbuf@@GLIBC_2.2.5
+0x4c58:printf@@GLIBC_2.2.5
+0x4c60:memset@@GLIBC_2.2.5
+0x4c68:close@@GLIBC_2.2.5
+0x4c70:read@@GLIBC_2.2.5
+0x4c78:memcpy@@GLIBC_2.14
+0x4c80:pthread_mutex_unlock@@GLIBC_2.2.5
+0x4c88:pthread_create@@GLIBC_2.34
+0x4c90:open@@GLIBC_2.2.5
+0x4c98:atoi@@GLIBC_2.2.5
+0x4ca0:exit@@GLIBC_2.2.5
+0x4ca8:pthread_join@@GLIBC_2.34
+0x4cb0:pthread_mutex_init@@GLIBC_2.2.5
+0x4cb8:pthread_mutex_lock@@GLIBC_2.2.5
+0x4cc0:usleep@@GLIBC_2.2.5
+0x4cc8:__cxa_finalize@@GLIBC_2.2.5
+0x4cd0:_ITM_deregisterTMCloneTable
+0x4cd8:__gmon_start__
+0x4ce0:_ITM_registerTMCloneTable

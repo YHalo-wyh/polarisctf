@@ -1,0 +1,8 @@
+# Memory dump: 0xd020 - 0xd040
+# Segment: LOAD
+#============================================================================
+
+# Address        | Hex Bytes                                       | ASCII
+#----------------------------------------------------------------------------
+000000000000D020 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................
+000000000000D030 | FF FF FF FF FF FF FF FF  FF FF FF FF FF FF FF FF  | ................

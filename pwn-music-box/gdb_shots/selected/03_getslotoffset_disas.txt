@@ -1,0 +1,16 @@
+Dump of assembler code for function GetSlotOffset:
+0x0000000000001a72 <+0>:   endbr64
+0x0000000000001a7a <+8>:   mov    DWORD PTR [rbp-0x4],edi
+0x0000000000001a7d <+11>:  mov    eax,DWORD PTR [rip+0x2881]        # 0x4304 <gc+4>
+0x0000000000001a83 <+17>:  cmp    DWORD PTR [rbp-0x4],eax
+0x0000000000001a8f <+29>:  mov    eax,DWORD PTR [rbp-0x4]
+0x0000000000001a92 <+32>:  add    rax,0x102
+0x0000000000001a98 <+38>:  lea    rdx,[rax*8+0x0]
+0x0000000000001aa0 <+46>:  lea    rax,[rip+0x2861]        # 0x4308 <gc+8>
+0x0000000000001aa7 <+53>:  mov    eax,DWORD PTR [rdx+rax*1]
+0x0000000000001aab <+57>:  ret
+
+What to look at:
+- this function only reads slot[idx].off and returns it
+- there is no pthread_mutex_lock here
+- so Main can fetch an old offset before GC moves the heap

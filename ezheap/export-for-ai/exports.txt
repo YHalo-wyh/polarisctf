@@ -1,0 +1,19 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0xcad0:_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+0xcaf0:_ZTVSt13basic_filebufIcSt11char_traitsIcEE
+0xd160:_ZSt3cin
+0xd280:_ZSt4cerr
+0xc990:_ZTVSt9basic_iosIcSt11char_traitsIcEE
+0xcb70:_ZTTSt14basic_ifstreamIcSt11char_traitsIcEE
+0xcb90:_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE
+0xc9b0:_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+0x34d0:_ZNKSt5ctypeIcE8do_widenEc
+0xca30:_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+0xca80:_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
+0xd040:_ZSt4cout
+0x2000:.init_proc
+0x9044:.term_proc
+0x2b60:start

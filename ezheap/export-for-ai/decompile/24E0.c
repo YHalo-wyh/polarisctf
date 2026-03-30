@@ -1,0 +1,12 @@
+/*
+ * func-name: .__stack_chk_fail
+ * func-address: 0x24e0
+ * callers: 0x27a0, 0x2d30, 0x3210, 0x3910, 0x3df0, 0x4230, 0x4870, 0x4d60, 0x55b0, 0x5d60, 0x6750, 0x6e90, 0x7fb0, 0x8a60
+ * callees: none
+ */
+
+// attributes: thunk
+void __noreturn __stack_chk_fail()
+{
+  _stack_chk_fail();
+}

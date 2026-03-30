@@ -1,0 +1,1823 @@
+# Function Index
+# Total exported functions: 137
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x2000
+File: 2000.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0xd550 (__gmon_start__)
+
+================================================================================
+Function: sub_2020
+Address: 0x2020
+File: 2020.c
+
+Called by (50 callers):
+  - 0x2030 (sub_2030) -> 2030.c
+  - 0x2040 (sub_2040) -> 2040.c
+  - 0x2050 (sub_2050) -> 2050.c
+  - 0x2060 (sub_2060) -> 2060.c
+  - 0x2070 (sub_2070) -> 2070.c
+  - 0x2080 (sub_2080) -> 2080.c
+  - 0x2090 (sub_2090) -> 2090.c
+  - 0x20a0 (sub_20A0) -> 20A0.c
+  - 0x20b0 (sub_20B0) -> 20B0.c
+  - 0x20c0 (sub_20C0) -> 20C0.c
+  - 0x20d0 (sub_20D0) -> 20D0.c
+  - 0x20e0 (sub_20E0) -> 20E0.c
+  - 0x20f0 (sub_20F0) -> 20F0.c
+  - 0x2100 (sub_2100) -> 2100.c
+  - 0x2110 (sub_2110) -> 2110.c
+  - 0x2120 (sub_2120) -> 2120.c
+  - 0x2130 (sub_2130) -> 2130.c
+  - 0x2140 (sub_2140) -> 2140.c
+  - 0x2150 (sub_2150) -> 2150.c
+  - 0x2160 (sub_2160) -> 2160.c
+  - 0x2170 (sub_2170) -> 2170.c
+  - 0x2180 (sub_2180) -> 2180.c
+  - 0x2190 (sub_2190) -> 2190.c
+  - 0x21a0 (sub_21A0) -> 21A0.c
+  - 0x21b0 (sub_21B0) -> 21B0.c
+  - 0x21c0 (sub_21C0) -> 21C0.c
+  - 0x21d0 (sub_21D0) -> 21D0.c
+  - 0x21e0 (sub_21E0) -> 21E0.c
+  - 0x21f0 (sub_21F0) -> 21F0.c
+  - 0x2200 (sub_2200) -> 2200.c
+  - 0x2210 (sub_2210) -> 2210.c
+  - 0x2220 (sub_2220) -> 2220.c
+  - 0x2230 (sub_2230) -> 2230.c
+  - 0x2240 (sub_2240) -> 2240.c
+  - 0x2250 (sub_2250) -> 2250.c
+  - 0x2260 (sub_2260) -> 2260.c
+  - 0x2270 (sub_2270) -> 2270.c
+  - 0x2280 (sub_2280) -> 2280.c
+  - 0x2290 (sub_2290) -> 2290.c
+  - 0x22a0 (sub_22A0) -> 22A0.c
+  - 0x22b0 (sub_22B0) -> 22B0.c
+  - 0x22c0 (sub_22C0) -> 22C0.c
+  - 0x22d0 (sub_22D0) -> 22D0.c
+  - 0x22e0 (sub_22E0) -> 22E0.c
+  - 0x22f0 (sub_22F0) -> 22F0.c
+  - 0x2300 (sub_2300) -> 2300.c
+  - 0x2310 (sub_2310) -> 2310.c
+  - 0x2320 (sub_2320) -> 2320.c
+  - 0x2330 (sub_2330) -> 2330.c
+  - 0x2340 (sub_2340) -> 2340.c
+
+Calls: none
+
+================================================================================
+Function: sub_2030
+Address: 0x2030
+File: 2030.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2040
+Address: 0x2040
+File: 2040.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2050
+Address: 0x2050
+File: 2050.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2060
+Address: 0x2060
+File: 2060.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2070
+Address: 0x2070
+File: 2070.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2080
+Address: 0x2080
+File: 2080.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2090
+Address: 0x2090
+File: 2090.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20A0
+Address: 0x20a0
+File: 20A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20B0
+Address: 0x20b0
+File: 20B0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20C0
+Address: 0x20c0
+File: 20C0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20D0
+Address: 0x20d0
+File: 20D0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20E0
+Address: 0x20e0
+File: 20E0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_20F0
+Address: 0x20f0
+File: 20F0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2100
+Address: 0x2100
+File: 2100.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2110
+Address: 0x2110
+File: 2110.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2120
+Address: 0x2120
+File: 2120.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2130
+Address: 0x2130
+File: 2130.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2140
+Address: 0x2140
+File: 2140.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2150
+Address: 0x2150
+File: 2150.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2160
+Address: 0x2160
+File: 2160.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2170
+Address: 0x2170
+File: 2170.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2180
+Address: 0x2180
+File: 2180.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2190
+Address: 0x2190
+File: 2190.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21A0
+Address: 0x21a0
+File: 21A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21B0
+Address: 0x21b0
+File: 21B0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21C0
+Address: 0x21c0
+File: 21C0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21D0
+Address: 0x21d0
+File: 21D0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21E0
+Address: 0x21e0
+File: 21E0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_21F0
+Address: 0x21f0
+File: 21F0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2200
+Address: 0x2200
+File: 2200.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2210
+Address: 0x2210
+File: 2210.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2220
+Address: 0x2220
+File: 2220.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2230
+Address: 0x2230
+File: 2230.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2240
+Address: 0x2240
+File: 2240.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2250
+Address: 0x2250
+File: 2250.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2260
+Address: 0x2260
+File: 2260.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2270
+Address: 0x2270
+File: 2270.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2280
+Address: 0x2280
+File: 2280.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2290
+Address: 0x2290
+File: 2290.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22A0
+Address: 0x22a0
+File: 22A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22B0
+Address: 0x22b0
+File: 22B0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22C0
+Address: 0x22c0
+File: 22C0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22D0
+Address: 0x22d0
+File: 22D0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22E0
+Address: 0x22e0
+File: 22E0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_22F0
+Address: 0x22f0
+File: 22F0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2300
+Address: 0x2300
+File: 2300.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2310
+Address: 0x2310
+File: 2310.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2320
+Address: 0x2320
+File: 2320.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2330
+Address: 0x2330
+File: 2330.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_2340
+Address: 0x2340
+File: 2340.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __cxa_finalize
+Address: 0x2350
+File: 2350.c
+
+Called by (1 callers):
+  - 0x2c00 (sub_2C00) -> 2C00.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSo3putEc
+Address: 0x2360
+File: 2360.c
+
+Called by (16 callers):
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: .__errno_location
+Address: 0x2370
+File: 2370.c
+
+Called by (1 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+Calls: none
+
+================================================================================
+Function: .isspace
+Address: 0x2380
+File: 2380.c
+
+Called by (2 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv
+Address: 0x2390
+File: 2390.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+Address: 0x23a0
+File: 23A0.c
+
+Called by (1 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+Address: 0x23b0
+File: 23B0.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt8ios_baseC2Ev
+Address: 0x23c0
+File: 23C0.c
+
+Called by (2 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt8ios_baseD2Ev
+Address: 0x23d0
+File: 23D0.c
+
+Called by (2 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: .__cxa_begin_catch
+Address: 0x23e0
+File: 23E0.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt8ios_base15sync_with_stdioEb
+Address: 0x23f0
+File: 23F0.c
+
+Called by (1 callers):
+  - 0x27a0 (main) -> 27A0.c
+
+Calls: none
+
+================================================================================
+Function: .strlen
+Address: 0x2400
+File: 2400.c
+
+Called by (4 callers):
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZSt20__throw_length_errorPKc
+Address: 0x2410
+File: 2410.c
+
+Called by (2 callers):
+  - 0x6d00 (sub_6D00) -> 6D00.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+Address: 0x2420
+File: 2420.c
+
+Called by (1 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+
+Calls: none
+
+================================================================================
+Function: .memset
+Address: 0x2430
+File: 2430.c
+
+Called by (2 callers):
+  - 0x3570 (runtime_ctx_cleanup) -> 3570.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+
+Calls: none
+
+================================================================================
+Function: .__snprintf_chk
+Address: 0x2440
+File: 2440.c
+
+Called by (1 callers):
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+
+Calls: none
+
+================================================================================
+Function: .calloc
+Address: 0x2450
+File: 2450.c
+
+Called by (1 callers):
+  - 0x4230 (register_model_artifact) -> 4230.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSo9_M_insertImEERSoT_
+Address: 0x2460
+File: 2460.c
+
+Called by (8 callers):
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSo5flushEv
+Address: 0x2470
+File: 2470.c
+
+Called by (16 callers):
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: .memcpy
+Address: 0x2480
+File: 2480.c
+
+Called by (3 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x6d00 (sub_6D00) -> 6D00.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+Address: 0x2490
+File: 2490.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+Address: 0x24a0
+File: 24A0.c
+
+Called by (5 callers):
+  - 0x27a0 (main) -> 27A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+
+Calls: none
+
+================================================================================
+Function: ._Znwm
+Address: 0x24b0
+File: 24B0.c
+
+Called by (6 callers):
+  - 0x27a0 (main) -> 27A0.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x6d00 (sub_6D00) -> 6D00.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: ._ZdlPvm
+Address: 0x24c0
+File: 24C0.c
+
+Called by (18 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x3570 (runtime_ctx_cleanup) -> 3570.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4200 (sub_4200) -> 4200.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6720 (sub_6720) -> 6720.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6d00 (sub_6D00) -> 6D00.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
+Address: 0x24d0
+File: 24D0.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: .__stack_chk_fail
+Address: 0x24e0
+File: 24E0.c
+
+Called by (14 callers):
+  - 0x27a0 (main) -> 27A0.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l
+Address: 0x24f0
+File: 24F0.c
+
+Called by (16 callers):
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNKSt5ctypeIcE13_M_widen_initEv
+Address: 0x2500
+File: 2500.c
+
+Called by (16 callers):
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: .free
+Address: 0x2510
+File: 2510.c
+
+Called by (3 callers):
+  - 0x3570 (runtime_ctx_cleanup) -> 3570.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+Address: 0x2520
+File: 2520.c
+
+Called by (12 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZSt16__throw_bad_castv
+Address: 0x2530
+File: 2530.c
+
+Called by (16 callers):
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: .prctl
+Address: 0x2540
+File: 2540.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: .malloc
+Address: 0x2550
+File: 2550.c
+
+Called by (2 callers):
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+Address: 0x2560
+File: 2560.c
+
+Called by (2 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: .__isoc23_strtoull
+Address: 0x2570
+File: 2570.c
+
+Called by (1 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt6localeD1Ev
+Address: 0x2580
+File: 2580.c
+
+Called by (2 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZSt24__throw_out_of_range_fmtPKcz
+Address: 0x2590
+File: 2590.c
+
+Called by (1 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm
+Address: 0x25a0
+File: 25A0.c
+
+Called by (1 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+Address: 0x25b0
+File: 25B0.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm
+Address: 0x25c0
+File: 25C0.c
+
+Called by (1 callers):
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: .snprintf
+Address: 0x25d0
+File: 25D0.c
+
+Called by (2 callers):
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+
+Calls: none
+
+================================================================================
+Function: .memmove
+Address: 0x25e0
+File: 25E0.c
+
+Called by (2 callers):
+  - 0x6d00 (sub_6D00) -> 6D00.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+
+Calls: none
+
+================================================================================
+Function: .__cxa_end_catch
+Address: 0x25f0
+File: 25F0.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+Address: 0x2600
+File: 2600.c
+
+Called by (2 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSolsEi
+Address: 0x2610
+File: 2610.c
+
+Called by (2 callers):
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+
+Calls: none
+
+================================================================================
+Function: ._Unwind_Resume
+Address: 0x2620
+File: 2620.c
+
+Called by (13 callers):
+  - 0x27a0 (main) -> 27A0.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm
+Address: 0x2630
+File: 2630.c
+
+Called by (1 callers):
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm
+Address: 0x2640
+File: 2640.c
+
+Called by (1 callers):
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: ._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_
+Address: 0x2650
+File: 2650.c
+
+Called by (9 callers):
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt12__basic_fileIcED1Ev
+Address: 0x2660
+File: 2660.c
+
+Called by (1 callers):
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+
+Calls: none
+
+================================================================================
+Function: ._ZNSt6localeC1Ev
+Address: 0x2670
+File: 2670.c
+
+Called by (1 callers):
+  - 0x3210 (sub_3210) -> 3210.c
+
+Calls: none
+
+================================================================================
+Function: main
+Address: 0x27a0
+File: 27A0.c
+
+Called by (1 callers):
+  - 0x2b60 (start) -> 2B60.c
+
+Calls (8 callees):
+  - 0x23f0 (._ZNSt8ios_base15sync_with_stdioEb) -> 23F0.c
+  - 0x24a0 (._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc) -> 24A0.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x3570 (runtime_ctx_cleanup) -> 3570.c
+  - 0x6720 (sub_6720) -> 6720.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+================================================================================
+Function: start
+Address: 0x2b60
+File: 2B60.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0xd428 (__libc_start_main)
+
+================================================================================
+Function: sub_2B90
+Address: 0x2b90
+File: 2B90.c
+
+Called by (1 callers):
+  - 0x2c00 (sub_2C00) -> 2C00.c
+
+Calls: none
+
+================================================================================
+Function: sub_2BC0
+Address: 0x2bc0
+File: 2BC0.c
+
+Called by (1 callers):
+  - 0x2c40 (sub_2C40) -> 2C40.c
+
+Calls: none
+
+================================================================================
+Function: sub_2C00
+Address: 0x2c00
+File: 2C00.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x2350 (__cxa_finalize) -> 2350.c
+  - 0x2b90 (sub_2B90) -> 2B90.c
+
+================================================================================
+Function: sub_2C40
+Address: 0x2c40
+File: 2C40.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: session_postproc_default
+Address: 0x2c50
+File: 2C50.c
+
+Called by (3 callers):
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+
+Calls: none
+
+================================================================================
+Function: sub_2CC0
+Address: 0x2cc0
+File: 2CC0.c
+
+Called by (5 callers):
+  - 0x27a0 (main) -> 27A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+
+Calls (3 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+
+================================================================================
+Function: sub_2D30
+Address: 0x2d30
+File: 2D30.c
+
+Called by (8 callers):
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (8 callees):
+  - 0x2370 (.__errno_location) -> 2370.c
+  - 0x2380 (.isspace) -> 2380.c
+  - 0x2480 (.memcpy) -> 2480.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x2570 (.__isoc23_strtoull) -> 2570.c
+  - 0x2590 (._ZSt24__throw_out_of_range_fmtPKcz) -> 2590.c
+  - 0x2630 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm) -> 2630.c
+
+================================================================================
+Function: task_runner_mul_ack
+Address: 0x2f40
+File: 2F40.c
+
+Called by (2 callers):
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+
+Calls (4 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+
+================================================================================
+Function: task_runner_xor_ack
+Address: 0x2ff0
+File: 2FF0.c
+
+Called by (2 callers):
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+
+Calls (4 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+
+================================================================================
+Function: task_runner_log_ack
+Address: 0x30a0
+File: 30A0.c
+
+Called by (2 callers):
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+
+Calls (6 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2400 (.strlen) -> 2400.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+
+================================================================================
+Function: sub_3210
+Address: 0x3210
+File: 3210.c
+
+Called by (6 callers):
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+
+Calls (11 callees):
+  - 0x23c0 (._ZNSt8ios_baseC2Ev) -> 23C0.c
+  - 0x23d0 (._ZNSt8ios_baseD2Ev) -> 23D0.c
+  - 0x2420 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_) -> 2420.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2560 (._ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E) -> 2560.c
+  - 0x2580 (._ZNSt6localeD1Ev) -> 2580.c
+  - 0x25a0 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm) -> 25A0.c
+  - 0x2670 (._ZNSt6localeC1Ev) -> 2670.c
+
+================================================================================
+Function: _ZNKSt5ctypeIcE8do_widenEc
+Address: 0x34d0
+File: 34D0.c
+
+Called by (16 callers):
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2f40 (task_runner_mul_ack) -> 2F40.c
+  - 0x2ff0 (task_runner_xor_ack) -> 2FF0.c
+  - 0x30a0 (task_runner_log_ack) -> 30A0.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6750 (audit_sink_print_flag) -> 6750.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls: none
+
+================================================================================
+Function: session_postproc_clamp_negative
+Address: 0x34e0
+File: 34E0.c
+
+Called by (1 callers):
+  - 0x3910 (complete_batch_inference) -> 3910.c
+
+Calls: none
+
+================================================================================
+Function: session_postproc_shift_right
+Address: 0x3520
+File: 3520.c
+
+Called by (1 callers):
+  - 0x3910 (complete_batch_inference) -> 3910.c
+
+Calls: none
+
+================================================================================
+Function: runtime_ctx_cleanup
+Address: 0x3570
+File: 3570.c
+
+Called by (1 callers):
+  - 0x27a0 (main) -> 27A0.c
+
+Calls (3 callees):
+  - 0x2430 (.memset) -> 2430.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x2510 (.free) -> 2510.c
+
+================================================================================
+Function: bootstrap_async_scheduler
+Address: 0x36a0
+File: 36A0.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (7 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2440 (.__snprintf_chk) -> 2440.c
+  - 0x24a0 (._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc) -> 24A0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2550 (.malloc) -> 2550.c
+
+================================================================================
+Function: complete_batch_inference
+Address: 0x3910
+File: 3910.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (12 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2510 (.free) -> 2510.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+================================================================================
+Function: dispatch_async_task
+Address: 0x3df0
+File: 3DF0.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (11 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+
+================================================================================
+Function: sub_4200
+Address: 0x4200
+File: 4200.c
+
+Called by (1 callers):
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls: none
+
+================================================================================
+Function: register_model_artifact
+Address: 0x4230
+File: 4230.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (17 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2450 (.calloc) -> 2450.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24a0 (._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc) -> 24A0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2510 (.free) -> 2510.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+
+================================================================================
+Function: inspect_scheduler_queue
+Address: 0x4870
+File: 4870.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (13 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2400 (.strlen) -> 2400.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2610 (._ZNSolsEi) -> 2610.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x3210 (sub_3210) -> 3210.c
+
+================================================================================
+Function: allocate_session_tensor
+Address: 0x4d60
+File: 4D60.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (19 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2430 (.memset) -> 2430.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24a0 (._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc) -> 24A0.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2550 (.malloc) -> 2550.c
+  - 0x25d0 (.snprintf) -> 25D0.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+
+================================================================================
+Function: patch_session_metadata
+Address: 0x55b0
+File: 55B0.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (12 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+
+================================================================================
+Function: runtime_telemetry
+Address: 0x5d60
+File: 5D60.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (13 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2400 (.strlen) -> 2400.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2610 (._ZNSolsEi) -> 2610.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x3210 (sub_3210) -> 3210.c
+
+================================================================================
+Function: sub_6720
+Address: 0x6720
+File: 6720.c
+
+Called by (1 callers):
+  - 0x27a0 (main) -> 27A0.c
+
+Calls: none
+
+================================================================================
+Function: audit_sink_print_flag
+Address: 0x6750
+File: 6750.c
+
+Called by (1 callers):
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+
+Calls (23 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2390 (._ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv) -> 2390.c
+  - 0x23b0 (._ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev) -> 23B0.c
+  - 0x23c0 (._ZNSt8ios_baseC2Ev) -> 23C0.c
+  - 0x23d0 (._ZNSt8ios_baseD2Ev) -> 23D0.c
+  - 0x23e0 (.__cxa_begin_catch) -> 23E0.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x2490 (._ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode) -> 2490.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24d0 (._ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev) -> 24D0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2560 (._ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E) -> 2560.c
+  - 0x2580 (._ZNSt6localeD1Ev) -> 2580.c
+  - 0x25b0 (._ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev) -> 25B0.c
+  - 0x25f0 (.__cxa_end_catch) -> 25F0.c
+  - 0x2600 (._ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate) -> 2600.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2660 (._ZNSt12__basic_fileIcED1Ev) -> 2660.c
+
+================================================================================
+Function: sub_6D00
+Address: 0x6d00
+File: 6D00.c
+
+Called by (1 callers):
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+
+Calls (5 callees):
+  - 0x2410 (._ZSt20__throw_length_errorPKc) -> 2410.c
+  - 0x2480 (.memcpy) -> 2480.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x25e0 (.memmove) -> 25E0.c
+
+================================================================================
+Function: provision_worker_profile
+Address: 0x6e90
+File: 6E90.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (18 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24a0 (._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc) -> 24A0.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x25d0 (.snprintf) -> 25D0.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2cc0 (sub_2CC0) -> 2CC0.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x3210 (sub_3210) -> 3210.c
+  - 0x6d00 (sub_6D00) -> 6D00.c
+
+================================================================================
+Function: sub_7E60
+Address: 0x7e60
+File: 7E60.c
+
+Called by (1 callers):
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+Calls (5 callees):
+  - 0x2410 (._ZSt20__throw_length_errorPKc) -> 2410.c
+  - 0x2480 (.memcpy) -> 2480.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x25e0 (.memmove) -> 25E0.c
+
+================================================================================
+Function: sub_7FB0
+Address: 0x7fb0
+File: 7FB0.c
+
+Called by (1 callers):
+  - 0x8a60 (sub_8A60) -> 8A60.c
+
+Calls (18 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2380 (.isspace) -> 2380.c
+  - 0x2460 (._ZNSo9_M_insertImEERSoT_) -> 2460.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24b0 (._Znwm) -> 24B0.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x25c0 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEm) -> 25C0.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2640 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEmmPKcm) -> 2640.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x4200 (sub_4200) -> 4200.c
+  - 0x7e60 (sub_7E60) -> 7E60.c
+
+================================================================================
+Function: sub_8A60
+Address: 0x8a60
+File: 8A60.c
+
+Called by (1 callers):
+  - 0x27a0 (main) -> 27A0.c
+
+Calls (24 callees):
+  - 0x2360 (._ZNSo3putEc) -> 2360.c
+  - 0x2400 (.strlen) -> 2400.c
+  - 0x2470 (._ZNSo5flushEv) -> 2470.c
+  - 0x24c0 (._ZdlPvm) -> 24C0.c
+  - 0x24e0 (.__stack_chk_fail) -> 24E0.c
+  - 0x24f0 (._ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l) -> 24F0.c
+  - 0x2500 (._ZNKSt5ctypeIcE13_M_widen_initEv) -> 2500.c
+  - 0x2520 (._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv) -> 2520.c
+  - 0x2530 (._ZSt16__throw_bad_castv) -> 2530.c
+  - 0x2540 (.prctl) -> 2540.c
+  - 0x2600 (._ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate) -> 2600.c
+  - 0x2620 (._Unwind_Resume) -> 2620.c
+  - 0x2650 (._ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_) -> 2650.c
+  - 0x2d30 (sub_2D30) -> 2D30.c
+  - 0x36a0 (bootstrap_async_scheduler) -> 36A0.c
+  - 0x3910 (complete_batch_inference) -> 3910.c
+  - 0x3df0 (dispatch_async_task) -> 3DF0.c
+  - 0x4230 (register_model_artifact) -> 4230.c
+  - 0x4870 (inspect_scheduler_queue) -> 4870.c
+  - 0x4d60 (allocate_session_tensor) -> 4D60.c
+  - 0x55b0 (patch_session_metadata) -> 55B0.c
+  - 0x5d60 (runtime_telemetry) -> 5D60.c
+  - 0x6e90 (provision_worker_profile) -> 6E90.c
+  - 0x7fb0 (sub_7FB0) -> 7FB0.c
+
+================================================================================
+Function: .term_proc
+Address: 0x9044
+File: 9044.c
+
+Called by: none
+
+Calls: none
+

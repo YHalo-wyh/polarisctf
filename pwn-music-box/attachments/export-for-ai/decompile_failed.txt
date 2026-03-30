@@ -1,0 +1,27 @@
+# Failed to decompile 23 functions
+# Format: address | function_name | reason
+#================================================================================
+
+0x4c20 | __libc_start_main | decompile returned None
+0x4c28 | strncpy | decompile returned None
+0x4c30 | puts | decompile returned None
+0x4c38 | write | decompile returned None
+0x4c40 | strlen | decompile returned None
+0x4c48 | __stack_chk_fail | decompile returned None
+0x4c50 | setbuf | decompile returned None
+0x4c58 | printf | decompile returned None
+0x4c60 | memset | decompile returned None
+0x4c68 | close | decompile returned None
+0x4c70 | read | decompile returned None
+0x4c78 | memcpy | decompile returned None
+0x4c80 | pthread_mutex_unlock | decompile returned None
+0x4c88 | pthread_create | decompile returned None
+0x4c90 | open | decompile returned None
+0x4c98 | atoi | decompile returned None
+0x4ca0 | exit | decompile returned None
+0x4ca8 | pthread_join | decompile returned None
+0x4cb0 | pthread_mutex_init | decompile returned None
+0x4cb8 | pthread_mutex_lock | decompile returned None
+0x4cc0 | usleep | decompile returned None
+0x4cc8 | __imp___cxa_finalize | decompile returned None
+0x4cd8 | __gmon_start__ | decompile returned None

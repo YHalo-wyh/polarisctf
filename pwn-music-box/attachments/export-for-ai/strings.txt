@@ -1,0 +1,71 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x318 | 28 | ASCII | /lib64/ld-linux-x86-64.so.2
+0x6a1 | 15 | ASCII | __cxa_finalize
+0x6b5 | 19 | ASCII | pthread_mutex_lock
+0x6c8 | 21 | ASCII | pthread_mutex_unlock
+0x6dd | 6 | ASCII | write
+0x6e3 | 7 | ASCII | usleep
+0x6ea | 13 | ASCII | pthread_join
+0x6f7 | 18 | ASCII | __libc_start_main
+0x70e | 7 | ASCII | memset
+0x715 | 7 | ASCII | stdout
+0x721 | 6 | ASCII | close
+0x727 | 15 | ASCII | pthread_create
+0x73b | 8 | ASCII | strncpy
+0x743 | 7 | ASCII | strlen
+0x74a | 6 | ASCII | stdin
+0x750 | 7 | ASCII | stderr
+0x757 | 7 | ASCII | memcpy
+0x75e | 7 | ASCII | setbuf
+0x765 | 19 | ASCII | pthread_mutex_init
+0x77d | 17 | ASCII | __stack_chk_fail
+0x78e | 7 | ASCII | printf
+0x795 | 10 | ASCII | libc.so.6
+0x79f | 11 | ASCII | GLIBC_2.14
+0x7aa | 10 | ASCII | GLIBC_2.4
+0x7b4 | 12 | ASCII | GLIBC_2.2.5
+0x7c0 | 11 | ASCII | GLIBC_2.34
+0x7cb | 28 | ASCII | _ITM_deregisterTMCloneTable
+0x7e7 | 15 | ASCII | __gmon_start__
+0x7f6 | 26 | ASCII | _ITM_registerTMCloneTable
+0x2008 | 21 | ASCII | Garbage Clean Start.
+0x201d | 14 | ASCII | GC: Be quiet.
+0x202b | 11 | ASCII | GC: Music.
+0x2036 | 16 | ASCII | Lalalalalalala.
+0x2046 | 8 | ASCII | ~~~~~~~
+0x204e | 21 | ASCII | A tiny little cloud,
+0x2063 | 23 | ASCII | Is drifting slowly by.
+0x207a | 29 | ASCII | Please take a moment's rest,
+0x2098 | 34 | ASCII | And stay a while beneath the sky.
+0x20c0 | 42 | ASCII | The flowers on the mountain are in bloom,
+0x20f0 | 36 | ASCII | And that is why I've come this way.
+0x2118 | 37 | ASCII | So, you've come up the mountain too,
+0x2140 | 32 | ASCII | To see the flowers bloom today?
+0x2160 | 22 | ASCII | A tiny little breeze,
+0x2178 | 41 | ASCII | The white foam on the waves is in bloom,
+0x21a8 | 40 | ASCII | And that is why I've come to the shore.
+0x21d0 | 37 | ASCII | So, you love the crashing waves too,
+0x21f8 | 35 | ASCII | Is that what you've come here for?
+0x221b | 17 | ASCII | Music Box Start.
+0x222c | 29 | ASCII | Global mutex initial failed.
+0x2250 | 31 | ASCII | Allocate mutex initial failed.
+0x226f | 13 | ASCII | /dev/urandom
+0x227c | 23 | ASCII | Get random key failed.
+0x2293 | 26 | ASCII | Give me the size of note:
+0x22ad | 10 | ASCII | Too long.
+0x22b7 | 17 | ASCII | Allocate failed.
+0x22c8 | 29 | ASCII | Give me the content of note:
+0x22e5 | 23 | ASCII | The note index is %d.\n
+0x22fc | 16 | ASCII | Invalid offset.
+0x230c | 14 | ASCII | Free success.
+0x2320 | 33 | ASCII | Give me the new content of note:
+0x2341 | 14 | ASCII | Your content:
+0x2350 | 102 | ASCII | #####Menu#####\n1. Add note\n2. Delete note\n3. Edit note\n4. Show note\n5. Exit\nPlease input your choice:
+0x23b6 | 8 | ASCII | Index: 
+0x23be | 16 | ASCII | Invalid choice.
+0x23e8 | 28 | ASCII | Garbage clean start failed.
+0x2404 | 24 | ASCII | Music box start failed.
+0x250f | 6 | ASCII | :*3$"

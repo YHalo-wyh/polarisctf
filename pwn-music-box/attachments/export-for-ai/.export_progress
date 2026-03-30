@@ -1,0 +1,112 @@
+# Export Progress
+# Format: address | status (done/failed/skipped)
+1000|done
+1200|done
+1210|done
+1020|done
+1220|done
+4C20|done
+4C28|done
+1030|done
+1230|done
+4C30|done
+4C38|done
+1C3C|done
+1040|done
+1240|done
+4C40|done
+4C48|done
+1050|done
+1250|done
+4C50|done
+4C58|done
+1060|done
+1260|done
+4C60|done
+4C68|done
+1070|done
+1270|done
+1A72|done
+4C70|done
+4C78|done
+1080|done
+1280|done
+4C80|done
+1886|done
+4C88|done
+1090|done
+1290|done
+4C90|done
+4C98|done
+4CA0|done
+10A0|done
+12A0|done
+4CA8|done
+1AAC|done
+10B0|done
+12B0|done
+4CB0|done
+4CB8|done
+10C0|done
+12C0|done
+4CC0|done
+4CC8|done
+10D0|done
+4CD8|done
+1ED9|done
+10E0|done
+10F0|done
+12F0|done
+16F9|done
+1100|done
+1D03|done
+1110|done
+1F13|done
+1120|done
+1320|done
+1130|done
+1140|done
+1544|done
+1150|done
+1160|done
+1360|done
+1170|done
+1775|done
+1180|done
+1190|done
+11A0|done
+13A0|done
+13A9|done
+11B0|done
+11C0|done
+1FC0|done
+15C7|done
+11D0|done
+1BD0|done
+1DD7|done
+11E0|done
+11F0|done
+19FF|done
+4C20|failed|__libc_start_main|decompile returned None
+4C28|failed|strncpy|decompile returned None
+4C30|failed|puts|decompile returned None
+4C38|failed|write|decompile returned None
+4C40|failed|strlen|decompile returned None
+4C48|failed|__stack_chk_fail|decompile returned None
+4C50|failed|setbuf|decompile returned None
+4C58|failed|printf|decompile returned None
+4C60|failed|memset|decompile returned None
+4C68|failed|close|decompile returned None
+4C70|failed|read|decompile returned None
+4C78|failed|memcpy|decompile returned None
+4C80|failed|pthread_mutex_unlock|decompile returned None
+4C88|failed|pthread_create|decompile returned None
+4C90|failed|open|decompile returned None
+4C98|failed|atoi|decompile returned None
+4CA0|failed|exit|decompile returned None
+4CA8|failed|pthread_join|decompile returned None
+4CB0|failed|pthread_mutex_init|decompile returned None
+4CB8|failed|pthread_mutex_lock|decompile returned None
+4CC0|failed|usleep|decompile returned None
+4CC8|failed|__imp___cxa_finalize|decompile returned None
+4CD8|failed|__gmon_start__|decompile returned None

@@ -1,0 +1,27 @@
+pwndbg: loaded 212 pwndbg commands. Type pwndbg [filter] for a list.
+pwndbg: created 9 GDB functions (can be used with print/break). Type help function to see them.
+Reading symbols from ./attachments/main...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+(No debugging symbols found in ./attachments/main)
+Dump of assembler code for function GetSlotOffset:
+   0x0000000000001a72 <+0>:	endbr64
+   0x0000000000001a76 <+4>:	push   rbp
+   0x0000000000001a77 <+5>:	mov    rbp,rsp
+   0x0000000000001a7a <+8>:	mov    DWORD PTR [rbp-0x4],edi
+   0x0000000000001a7d <+11>:	mov    eax,DWORD PTR [rip+0x2881]        # 0x4304 <gc+4>
+   0x0000000000001a83 <+17>:	cmp    DWORD PTR [rbp-0x4],eax
+   0x0000000000001a86 <+20>:	jb     0x1a8f <GetSlotOffset+29>
+   0x0000000000001a88 <+22>:	mov    eax,0xffffffff
+   0x0000000000001a8d <+27>:	jmp    0x1aaa <GetSlotOffset+56>
+   0x0000000000001a8f <+29>:	mov    eax,DWORD PTR [rbp-0x4]
+   0x0000000000001a92 <+32>:	add    rax,0x102
+   0x0000000000001a98 <+38>:	lea    rdx,[rax*8+0x0]
+   0x0000000000001aa0 <+46>:	lea    rax,[rip+0x2861]        # 0x4308 <gc+8>
+   0x0000000000001aa7 <+53>:	mov    eax,DWORD PTR [rdx+rax*1]
+   0x0000000000001aaa <+56>:	pop    rbp
+   0x0000000000001aab <+57>:	ret
+End of assembler dump.

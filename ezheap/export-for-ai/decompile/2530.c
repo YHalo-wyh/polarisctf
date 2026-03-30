@@ -1,0 +1,12 @@
+/*
+ * func-name: ._ZSt16__throw_bad_castv
+ * func-address: 0x2530
+ * callers: 0x2cc0, 0x2f40, 0x2ff0, 0x30a0, 0x36a0, 0x3910, 0x3df0, 0x4230, 0x4870, 0x4d60, 0x55b0, 0x5d60, 0x6750, 0x6e90, 0x7fb0, 0x8a60
+ * callees: none
+ */
+
+// attributes: thunk
+void __noreturn std::__throw_bad_cast(void)
+{
+  _ZSt16__throw_bad_castv();
+}
