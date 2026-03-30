@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2532" viewBox="0 0 1600 2532">
+<rect width="100%" height="100%" fill="#0f121a"/>
+<rect x="18" y="18" width="1564" height="2496" rx="18" ry="18" fill="#181c28"/>
+<text x="36" y="38" fill="#89b4fa" font-family="DejaVu Sans Mono, monospace" font-size="20">pwndbg attach mini-mqtt</text>
+<text x="32" y="56" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">pwndbg: loaded 212 pwndbg commands. Type pwndbg [filter] for a list.</text>
+<text x="32" y="84" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">pwndbg: created 9 GDB functions (can be used with print/break). Type help function to see them.</text>
+<text x="32" y="112" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">Reading symbols from ./ld-linux-x86-64.so.2...</text>
+<text x="32" y="140" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"></text>
+<text x="32" y="168" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">This GDB supports auto-downloading debuginfo from the following URLs:</text>
+<text x="32" y="196" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">  &lt;https://debuginfod.ubuntu.com&gt;</text>
+<text x="32" y="224" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">Debuginfod has been disabled.</text>
+<text x="32" y="252" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">To make this setting permanent, add &#x27;set debuginfod enabled off&#x27; to .gdbinit.</text>
+<text x="32" y="280" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">(No debugging symbols found in ./ld-linux-x86-64.so.2)</text>
+<text x="32" y="308" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"></text>
+<text x="32" y="336" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">Program stopped.</text>
+<text x="32" y="364" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">0x00007ffff7fe3290 in ?? ()</text>
+<text x="32" y="392" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">Stopped due to shared library event (no libraries added or removed)</text>
+<text x="32" y="420" fill="#a6e3a1" font-family="DejaVu Sans Mono, monospace" font-size="20">Breakpoint 1 at 0x7ffff7fb8a45</text>
+<text x="32" y="448" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">Will ignore next 1 crossings of breakpoint 1.</text>
+<text x="32" y="476" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">[New LWP 100123]</text>
+<text x="32" y="504" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">[Switching to LWP 100123]</text>
+<text x="32" y="532" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"></text>
+<text x="32" y="560" fill="#a6e3a1" font-family="DejaVu Sans Mono, monospace" font-size="20">Thread 2 &quot;MQTTClient_run&quot; hit Breakpoint 1, 0x00007ffff7fb8a45 in ?? ()</text>
+<text x="32" y="588" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"></text>
+<text x="32" y="616" fill="#a6e3a1" font-family="DejaVu Sans Mono, monospace" font-size="20">[+] hit post-memcpy breakpoint</text>
+<text x="32" y="644" fill="#f9e2af" font-family="DejaVu Sans Mono, monospace" font-size="20">[filename]</text>
+<text x="32" y="672" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">0x7ffff7ccab30:	&quot;index_html&quot;</text>
+<text x="32" y="700" fill="#f9e2af" font-family="DejaVu Sans Mono, monospace" font-size="20">[local_cmd]</text>
+<text x="32" y="728" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">0x7ffff7ccabb0:	&quot;cat /home/ctf/index_html&quot;</text>
+<text x="32" y="756" fill="#f9e2af" font-family="DejaVu Sans Mono, monospace" font-size="20">[global_cmd]</text>
+<text x="32" y="784" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">0x7ffff7fbc140:	&quot;cat /home/ctf/index_html;cat${IFS}flag*&quot;</text>
+<text x="32" y="812" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">[content_len]</text>
+<text x="32" y="840" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">$1 = 10</text>
+<text x="32" y="868" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"></text>
+<text x="32" y="896" fill="#b4befe" font-family="DejaVu Sans Mono, monospace" font-size="20">[pwndbg context]</text>
+<text x="32" y="924" fill="#b4befe" font-family="DejaVu Sans Mono, monospace" font-size="20">LEGEND: STACK | HEAP | CODE | DATA | WX | RODATA</text>
+<text x="32" y="952" fill="#f38ba8" font-family="DejaVu Sans Mono, monospace" font-size="20">────────────────────────────────[ LAST SIGNAL ]─────────────────────────────────</text>
+<text x="32" y="980" fill="#a6e3a1" font-family="DejaVu Sans Mono, monospace" font-size="20">Breakpoint hit at 0x7ffff7fb8a45</text>
+<text x="32" y="1008" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">─────────────[ REGISTERS / show-flags off / show-compact-regs off ]─────────────</text>
+<text x="32" y="1036" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RAX  0x7ffff7fbc140 ◂— &#x27;cat /home/ctf/index_html;cat${IFS}flag*&#x27;</text>
+<text x="32" y="1064" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RBX  0xa</text>
+<text x="32" y="1092" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RCX  1</text>
+<text x="32" y="1120" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RDX  0x18</text>
+<text x="32" y="1148" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RDI  0x7ffff7fbc140 ◂— &#x27;cat /home/ctf/index_html;cat${IFS}flag*&#x27;</text>
+<text x="32" y="1176" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RSI  0x7ffff7ccabb0 ◂— &#x27;cat /home/ctf/index_html&#x27;</text>
+<text x="32" y="1204" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R8   0x6c</text>
+<text x="32" y="1232" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R9   0x7ffff7cca950 ◂— 0</text>
+<text x="32" y="1260" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R10  0</text>
+<text x="32" y="1288" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R11  0</text>
+<text x="32" y="1316" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R12  0</text>
+<text x="32" y="1344" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R13  0x7ffff7f1dd60 (mqttclient_mutex_store) ◂— 0</text>
+<text x="32" y="1372" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R14  0</text>
+<text x="32" y="1400" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*R15  0x7ffff0000e88 —▸ 0x7ffff00010b8 ◂— 0x14d54514d</text>
+<text x="32" y="1428" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RBP  0x7ffff7ccad50 —▸ 0x7ffff7ccade0 —▸ 0x7ffff801f658 —▸ 0x7ffff801f7b8 ◂— &#x27;localhost:9999&#x27;</text>
+<text x="32" y="1456" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RSP  0x7ffff7ccaac0 —▸ 0x7ffff7f0fbf7 (TreeBalanceAfterAdd+28) ◂— test eax, eax</text>
+<text x="32" y="1484" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">*RIP  0x7ffff7fb8a45 ◂— lea rax, [rbp - 0x220]</text>
+<text x="32" y="1512" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">──────────────────────[ DISASM / x86-64 / set emulate on ]──────────────────────</text>
+<text x="32" y="1540" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"> ► 0x7ffff7fb8a45   lea    rax, [rbp - 0x220]      RAX =&gt; 0x7ffff7ccab30 ◂— &#x27;index_html&#x27;</text>
+<text x="32" y="1568" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a4c   lea    rdx, [rip + 0x16e4]     RDX =&gt; 0x7ffff7fba137 ◂— &#x27;index_html&#x27;</text>
+<text x="32" y="1596" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a53   mov    rsi, rdx                RSI =&gt; 0x7ffff7fba137 ◂— &#x27;index_html&#x27;</text>
+<text x="32" y="1624" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a56   mov    rdi, rax                RDI =&gt; 0x7ffff7ccab30 ◂— &#x27;index_html&#x27;</text>
+<text x="32" y="1652" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a59   call   0x7ffff7fb82a0              &lt;0x7ffff7fb82a0&gt;</text>
+<text x="32" y="1680" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"> </text>
+<text x="32" y="1708" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a5e   test   eax, eax</text>
+<text x="32" y="1736" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a60   je     0x7ffff7fb8a7b              &lt;0x7ffff7fb8a7b&gt;</text>
+<text x="32" y="1764" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"> </text>
+<text x="32" y="1792" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a62   lea    rax, [rip + 0x16d9]     RAX =&gt; 0x7ffff7fba142 ◂— 0x720032746c756166 /* &#x27;fault2&#x27; */</text>
+<text x="32" y="1820" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a69   mov    rdi, rax                RDI =&gt; 0x7ffff7fba142 ◂— 0x720032746c756166 /* &#x27;fault2&#x27; */</text>
+<text x="32" y="1848" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a6c   call   0x7ffff7fb81c0              &lt;0x7ffff7fb81c0&gt;</text>
+<text x="32" y="1876" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"> </text>
+<text x="32" y="1904" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   0x7ffff7fb8a71   mov    eax, 0                  EAX =&gt; 0</text>
+<text x="32" y="1932" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">───────────────────────────────────[ STACK ]────────────────────────────────────</text>
+<text x="32" y="1960" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">00:0000│ rsp 0x7ffff7ccaac0 —▸ 0x7ffff7f0fbf7 (TreeBalanceAfterAdd+28) ◂— test eax, eax</text>
+<text x="32" y="1988" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">01:0008│-288 0x7ffff7ccaac8 —▸ 0x7ffff00011a8 ◂— &#x27;GET /home/ctf/index_html HTTP/1.1\r\nHost: x\r\nContentLength: 10\r\n&#x27;</text>
+<text x="32" y="2016" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">02:0010│-280 0x7ffff7ccaad0 ◂— 0x10000000a /* &#x27;\n&#x27; */</text>
+<text x="32" y="2044" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">03:0018│-278 0x7ffff7ccaad8 ◂— 0x180000000a /* &#x27;\n&#x27; */</text>
+<text x="32" y="2072" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">04:0020│-270 0x7ffff7ccaae0 ◂— 0</text>
+<text x="32" y="2100" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">05:0028│-268 0x7ffff7ccaae8 ◂— 0x61 /* &#x27;a&#x27; */</text>
+<text x="32" y="2128" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">06:0030│-260 0x7ffff7ccaaf0 ◂— 0</text>
+<text x="32" y="2156" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">07:0038│-258 0x7ffff7ccaaf8 ◂— 0</text>
+<text x="32" y="2184" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">─────────────────────────────────[ BACKTRACE ]──────────────────────────────────</text>
+<text x="32" y="2212" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20"> ► 0   0x7ffff7fb8a45 None</text>
+<text x="32" y="2240" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   1   0x7ffff7f0fbf7 TreeBalanceAfterAdd+28</text>
+<text x="32" y="2268" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   2     0x180000000a None</text>
+<text x="32" y="2296" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">   3              0x0 None</text>
+<text x="32" y="2324" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">─────────────────────────────[ THREADS (2 TOTAL) ]──────────────────────────────</text>
+<text x="32" y="2352" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">  ► 2   &quot;MQTTClient_run&quot;  stopped: 0x7ffff7fb8a45</text>
+<text x="32" y="2380" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">    1   &quot;ld-linux-x86-64&quot; stopped: 0x7ffff7db47f8 &lt;clock_nanosleep+200&gt; </text>
+<text x="32" y="2408" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">────────────────────────────────────────────────────────────────────────────────</text>
+<text x="32" y="2436" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">warning: Expected absolute pathname for libpthread in the inferior, but got ./libc.so.6.</text>
+<text x="32" y="2464" fill="#e6e9ef" font-family="DejaVu Sans Mono, monospace" font-size="20">warning: Unable to find libthread_db matching inferior&#x27;s thread library, thread debugging will not be available.</text>
+</svg>
