@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Files too large for a normal GitHub/Gitee repo
+pwn-firebox/firebox.raw.id1
+pwn-firebox/firebox_analysis/raw_disk.img
+pwn-firebox/firebox.raw
+pwn-firebox/p2.ext2
+pwn-firebox/firebox_analysis/part2.img
+pwn-firebox/p5.ext3
+pwn-firebox/FireboxV_12_7_1.ova
+pwn-firebox/FireboxV_12_7_1_signed-disk1.vmdk
+pwn-mw-user/pwn-mw-user.tar
+pwn-mw-user/pwn-mw-user/blobs/sha256/637657c69d3405849d9f832e92458b32f7c6b7271c982c3e7ec95b2e7dd7284a
+pwn-mw-user.zip
+
+# Unreadable under current WSL mount ACLs
+pwn-babykernel/extracted/NetRef.ko.id*
+pwn-babykernel/extracted/NetRef.ko.nam
+pwn-babykernel/extracted/NetRef.ko.til
