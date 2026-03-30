@@ -1,0 +1,132 @@
+/lib64/ld-linux-x86-64.so.2
+__printf_chk
+read
+pthread_detach
+alarm
+malloc
+write
+usleep
+__libc_start_main
+strtoul
+signal
+memset
+setvbuf
+stdout
+puts
+pthread_create
+stdin
+stderr
+__dprintf_chk
+_exit
+__errno_location
+prctl
+__stack_chk_fail
+calloc
+clock_gettime
+libc.so.6
+GLIBC_2.8
+GLIBC_2.3.4
+GLIBC_2.4
+GLIBC_2.17
+GLIBC_2.2.5
+GLIBC_2.34
+__gmon_start__
+AVAUATUSH
+D$(1
+|$ H
+D$(dH+
+[]A\A]A^A_
+sentinelH
+status-gH
+B0reenH
+PTE1
+47f.
+AVAUATI
+[]A\A]A^
+AUATI
+\$ L
+D$h1
+H;D$
+T$hdH+
+x[]A\A]A^A_
+AUATI
+[]A\A]
+ATUSH
+[]A\
+AVAUA
+ATUSH
+scrubbed
+digest:%016llx
+operator link lost
+invalid input
+channel dropped
+2. Forge memory capsule
+3. Build actuator
+4. Tune actuator seed
+5. Compose broadcast line
+6. Dispatch actuator
+7. Review arena
+8. Exit
+appeal target (0x20-0x78)> 
+allocator offline
+operator baseline sampled
+forge primer (1 byte)> 
+forge committed
+actuator already online
+actuator ready
+build the actuator first
+seed line> 
+actuator seed retuned
+broadcast line> 
+broadcast line updated
+no actuator online
+lane out of bounds
+[dispatch lane %u]
+[dispatch complete]
+supremacy floor : 0x%lx
+appeal target   : 0x%lx
+capsule         : offline
+actuator        : offline
+arena offline
+invalid lane
+failed to boot overmind thread
+failed to lock privilege state
+failed to engage syscall arbiter
+== Astra-9 Throne Hazard Console ==
+Your operator thread is trying to keep the robot's supremacy low.
+The robot's self-optimizer is trying to win the same value.
+One stale read. One fresh write. A heartbeat decides the champion.
+1. Calibrate self-optimizer target
+self-optimizer will now appeal for 0x%lx supremacy.
+the robot already owns the value, wait for the floor cycle
+forge stream (%#zx bytes left)> 
+capsule         : ready (cap=%#zx)
+actuator        : %s lane=%u len=%#zx
+:*3$"
+GCC: (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.data
+.bss
+.comment

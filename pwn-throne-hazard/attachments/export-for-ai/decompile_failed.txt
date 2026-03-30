@@ -1,0 +1,26 @@
+# Failed to decompile 22 functions
+# Format: address | function_name | reason
+#================================================================================
+
+0x404200 | __libc_start_main | decompile returned None
+0x404208 | __errno_location | decompile returned None
+0x404210 | _exit | decompile returned None
+0x404218 | puts | decompile returned None
+0x404220 | clock_gettime | decompile returned None
+0x404228 | write | decompile returned None
+0x404230 | __stack_chk_fail | decompile returned None
+0x404238 | memset | decompile returned None
+0x404240 | alarm | decompile returned None
+0x404248 | read | decompile returned None
+0x404250 | calloc | decompile returned None
+0x404258 | signal | decompile returned None
+0x404260 | prctl | decompile returned None
+0x404268 | malloc | decompile returned None
+0x404270 | pthread_detach | decompile returned None
+0x404278 | __printf_chk | decompile returned None
+0x404280 | setvbuf | decompile returned None
+0x404288 | pthread_create | decompile returned None
+0x404290 | __dprintf_chk | decompile returned None
+0x404298 | strtoul | decompile returned None
+0x4042a0 | usleep | decompile returned None
+0x4042a8 | __gmon_start__ | decompile returned None

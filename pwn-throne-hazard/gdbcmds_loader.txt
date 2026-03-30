@@ -1,0 +1,10 @@
+set pagination off
+set stop-on-solib-events 1
+run
+run
+break *0x4013f0
+continue
+printf "RSP=%p\n", $rsp
+printf "ENVIRON_PTR=%p\n", *__environ
+x/24gx $rsp
+quit

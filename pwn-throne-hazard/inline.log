@@ -1,0 +1,8 @@
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118100
+capsule 0x55555d36e3c0
+0x68 b'[dispatch lane 0]\ncat /etc/hostname\x00\n[dispatch complete]\n'
+0x58 b'[dispatch lane 0]\n\x12\x00\x00\x00\x00\x00\x00\x00\x18\xe46]UU\x00\x00ca\n[dispatch complete]\n'
+0x60 b'[dispatch lane 0]\n \xe46]UU\x00\x00cat /etc/h\n[dispatch complete]\n'
+0x70 b'[dispatch lane 0]\n/hostname\x00\x00\x00\x00\x00\x00\x00\x00\x00\n[dispatch complete]\n'
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118100)

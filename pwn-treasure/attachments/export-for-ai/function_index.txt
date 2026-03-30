@@ -1,0 +1,272 @@
+# Function Index
+# Total exported functions: 26
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x1000
+File: 1000.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4900 (__gmon_start__)
+
+================================================================================
+Function: sub_1020
+Address: 0x1020
+File: 1020.c
+
+Called by (7 callers):
+  - 0x1030 (sub_1030) -> 1030.c
+  - 0x1040 (sub_1040) -> 1040.c
+  - 0x1050 (sub_1050) -> 1050.c
+  - 0x1060 (sub_1060) -> 1060.c
+  - 0x1070 (sub_1070) -> 1070.c
+  - 0x1080 (sub_1080) -> 1080.c
+  - 0x1090 (sub_1090) -> 1090.c
+
+Calls: none
+
+================================================================================
+Function: sub_1030
+Address: 0x1030
+File: 1030.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1040
+Address: 0x1040
+File: 1040.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1050
+Address: 0x1050
+File: 1050.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1060
+Address: 0x1060
+File: 1060.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1070
+Address: 0x1070
+File: 1070.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1080
+Address: 0x1080
+File: 1080.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1090
+Address: 0x1090
+File: 1090.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: __cxa_finalize
+Address: 0x10a0
+File: 10A0.c
+
+Called by (1 callers):
+  - 0x11c0 (sub_11C0) -> 11C0.c
+
+Calls: none
+
+================================================================================
+Function: .puts
+Address: 0x10b0
+File: 10B0.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .__stack_chk_fail
+Address: 0x10c0
+File: 10C0.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .setbuf
+Address: 0x10d0
+File: 10D0.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .system
+Address: 0x10e0
+File: 10E0.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .printf
+Address: 0x10f0
+File: 10F0.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .read
+Address: 0x1100
+File: 1100.c
+
+Called by (2 callers):
+  - 0x1214 (sub_1214) -> 1214.c
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: .__isoc99_scanf
+Address: 0x1110
+File: 1110.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: start
+Address: 0x1120
+File: 1120.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x48b0 (__libc_start_main)
+
+================================================================================
+Function: sub_1150
+Address: 0x1150
+File: 1150.c
+
+Called by (1 callers):
+  - 0x11c0 (sub_11C0) -> 11C0.c
+
+Calls: none
+
+================================================================================
+Function: sub_1180
+Address: 0x1180
+File: 1180.c
+
+Called by (1 callers):
+  - 0x1200 (sub_1200) -> 1200.c
+
+Calls: none
+
+================================================================================
+Function: sub_11C0
+Address: 0x11c0
+File: 11C0.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x10a0 (__cxa_finalize) -> 10A0.c
+  - 0x1150 (sub_1150) -> 1150.c
+
+================================================================================
+Function: sub_1200
+Address: 0x1200
+File: 1200.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_1209
+Address: 0x1209
+File: 1209.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls: none
+
+================================================================================
+Function: sub_1214
+Address: 0x1214
+File: 1214.c
+
+Called by (1 callers):
+  - 0x12b3 (main) -> 12B3.c
+
+Calls (1 callees):
+  - 0x1100 (.read) -> 1100.c
+
+================================================================================
+Function: main
+Address: 0x12b3
+File: 12B3.c
+
+Called by (1 callers):
+  - 0x1120 (start) -> 1120.c
+
+Calls (8 callees):
+  - 0x10b0 (.puts) -> 10B0.c
+  - 0x10c0 (.__stack_chk_fail) -> 10C0.c
+  - 0x10d0 (.setbuf) -> 10D0.c
+  - 0x10e0 (.system) -> 10E0.c
+  - 0x10f0 (.printf) -> 10F0.c
+  - 0x1100 (.read) -> 1100.c
+  - 0x1110 (.__isoc99_scanf) -> 1110.c
+  - 0x1214 (sub_1214) -> 1214.c
+
+================================================================================
+Function: .term_proc
+Address: 0x15f0
+File: 15F0.c
+
+Called by: none
+
+Calls: none
+

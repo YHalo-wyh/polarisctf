@@ -1,0 +1,93 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x400318 | 28 | ASCII | /lib64/ld-linux-x86-64.so.2
+0x400869 | 15 | ASCII | __gmon_start__
+0x400878 | 13 | ASCII | uuid_unparse
+0x400885 | 14 | ASCII | uuid_generate
+0x400893 | 7 | ASCII | strcpy
+0x40089a | 9 | ASCII | snprintf
+0x4008a3 | 11 | ASCII | setsockopt
+0x4008ae | 7 | ASCII | perror
+0x4008b5 | 8 | ASCII | strncpy
+0x4008bd | 17 | ASCII | __stack_chk_fail
+0x4008d3 | 6 | ASCII | fread
+0x4008d9 | 10 | ASCII | sigaction
+0x4008e8 | 6 | ASCII | htons
+0x4008ee | 6 | ASCII | fopen
+0x4008f4 | 7 | ASCII | socket
+0x400905 | 7 | ASCII | strlen
+0x40090c | 7 | ASCII | strstr
+0x400913 | 6 | ASCII | _exit
+0x40091e | 7 | ASCII | malloc
+0x400925 | 18 | ASCII | __libc_start_main
+0x400937 | 7 | ASCII | listen
+0x40093e | 6 | ASCII | srand
+0x400944 | 8 | ASCII | sprintf
+0x40094c | 7 | ASCII | strchr
+0x400953 | 6 | ASCII | ftell
+0x400959 | 19 | ASCII | malloc_usable_size
+0x40096c | 7 | ASCII | accept
+0x400973 | 7 | ASCII | fclose
+0x40097a | 7 | ASCII | memset
+0x400981 | 7 | ASCII | signal
+0x400988 | 16 | ASCII | __isoc99_sscanf
+0x400998 | 12 | ASCII | sigemptyset
+0x4009a4 | 7 | ASCII | memcpy
+0x4009ab | 7 | ASCII | strcmp
+0x4009b2 | 6 | ASCII | fseek
+0x4009b8 | 17 | ASCII | __errno_location
+0x4009c9 | 6 | ASCII | write
+0x4009d4 | 8 | ASCII | strncmp
+0x4009dc | 13 | ASCII | libuuid.so.1
+0x4009e9 | 10 | ASCII | libc.so.6
+0x4009f3 | 9 | ASCII | UUID_1.0
+0x4009fc | 10 | ASCII | GLIBC_2.7
+0x400a06 | 11 | ASCII | GLIBC_2.14
+0x400a11 | 10 | ASCII | GLIBC_2.4
+0x400a1b | 11 | ASCII | GLIBC_2.34
+0x400a26 | 12 | ASCII | GLIBC_2.2.5
+0x404008 | 14 | ASCII | Socket failed
+0x404016 | 12 | ASCII | Bind failed
+0x404022 | 14 | ASCII | Listen failed
+0x40404c | 23 | ASCII | : http://localhost:%d\n
+0x404063 | 14 | ASCII | accept failed
+0x404071 | 12 | ASCII | fork failed
+0x404080 | 77 | ASCII | HTTP/1.1 500 Internal Server Error\r\nContent-Length: 0\r\nConnection: close\r\n\r\n
+0x4040de | 16 | ASCII | %15s %255s %15s
+0x4040ee | 15 | ASCII | Content-Length
+0x4040fd | 7 | ASCII | Cookie
+0x404104 | 6 | ASCII | token
+0x40410a | 7 | ASCII | /index
+0x404113 | 11 | ASCII | index.html
+0x40411e | 7 | ASCII | /login
+0x404125 | 11 | ASCII | login.html
+0x404130 | 8 | ASCII | /logout
+0x404138 | 21 | ASCII | token=%s; Max-Age=0;
+0x40414d | 13 | ASCII | /resetPasswd
+0x40415a | 18 | ASCII | reset_passwd.html
+0x40416c | 8 | ASCII | /config
+0x404174 | 12 | ASCII | config.html
+0x404180 | 11 | ASCII | /getCookie
+0x40418b | 10 | ASCII | token=%s;
+0x404195 | 9 | ASCII | 404.html
+0x40419e | 18 | ASCII | {"authLogin" : 1}
+0x4041b0 | 17 | ASCII | application/json
+0x4041c1 | 18 | ASCII | {"authLogin" : 0}
+0x4041d3 | 14 | ASCII | {"reset" : 1}
+0x4041e1 | 14 | ASCII | {"reset" : 0}
+0x4041ef | 16 | ASCII | {"setInfo" : 1}
+0x4041ff | 16 | ASCII | {"setInfo" : 0}
+0x404211 | 10 | ASCII | text/html
+0x404220 | 77 | ASCII | HTTP/1.1 %d %s\r\nContent-Type: %s\r\nContent-Length: %zu\r\nConnection: close\r\n\r\n
+0x40426d | 9 | ASCII | username
+0x404276 | 9 | ASCII | password
+0x404280 | 75 | ASCII | HTTP/1.1 302 Found\r\nLocation: %s\r\nContent-Length: 0\r\nConnection: close\r\n\r\n
+0x4042d0 | 91 | ASCII | HTTP/1.1 302 Found\r\nLocation: %s\r\nSet-Cookie: %s\r\nContent-Length: 0\r\nConnection: close\r\n\r\n
+0x40432b | 11 | ASCII | route_name
+0x404339 | 12 | ASCII | subnet_mask
+0x404345 | 8 | ASCII | gateway
+0x40434d | 13 | ASCII | new_password
+0x40435a | 17 | ASCII | confirm_password
+0x4044b7 | 6 | ASCII | 9*3$"

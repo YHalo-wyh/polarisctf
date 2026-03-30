@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>重置密码 · 路由器管理</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* === 全局极简重置 — 与整套UI语言一致 === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* 卡片容器：纯白、圆角、轻柔阴影 */
+        .reset-card {
+            width: 100%;
+            max-width: 440px;
+            background: white;
+            border-radius: 18px;
+            padding: 40px 32px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+            border: 1px solid #eaeef2;
+        }
+
+        /* 标题区 */
+        .page-title {
+            font-size: 26px;
+            font-weight: 540;
+            color: #0f1e2c;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: -0.3px;
+        }
+
+        .page-sub {
+            text-align: center;
+            font-size: 14px;
+            color: #6f7e8f;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #edf0f3;
+            padding-bottom: 22px;
+        }
+
+        /* 表单组 */
+        .input-group {
+            margin-bottom: 24px;
+        }
+
+        .input-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 550;
+            color: #415a6b;
+            margin-bottom: 6px;
+            letter-spacing: 0.3px;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 14px 18px;
+            background: #fafcfd;
+            border: 1px solid #d9e0e6;
+            border-radius: 10px;
+            font-size: 15px;
+            color: #1e2b38;
+            transition: all 0.15s ease;
+            outline: none;
+        }
+
+        .input-field input:focus {
+            border-color: #3498db;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(52,152,219,0.06);
+        }
+
+        .input-field input::placeholder {
+            color: #a0b3c2;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        /* 提交按钮 */
+        .reset-btn {
+            width: 100%;
+            padding: 14px;
+            background: #2563eb;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            font-weight: 520;
+            cursor: pointer;
+            transition: background 0.15s;
+            margin-top: 16px;
+            letter-spacing: 0.8px;
+        }
+
+        .reset-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .reset-btn:active {
+            background: #1e3a8a;
+        }
+
+        /* 反馈消息区域（与配置页风格统一） */
+        .result-message {
+            margin-top: 24px;
+            font-size: 14px;
+            text-align: center;
+            min-height: 24px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            transition: all 0.2s;
+        }
+
+        .success {
+            color: #0b6e4f;
+            background: #e3f9ed;
+        }
+
+        .error {
+            color: #b91c1c;
+            background: #fee9e9;
+        }
+
+        .info {
+            color: #2563eb;
+            background: #e6f0ff;
+        }
+
+        /* 辅助链接（返回主页） */
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 24px;
+            font-size: 13px;
+            color: #6c8599;
+            text-decoration: none;
+            transition: color 0.1s;
+        }
+
+        .back-link:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
+        /* 极简分割线 */
+        .hr-light {
+            margin: 26px 0 6px;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #d0d9e0, transparent);
+        }
+
+        @media (max-width: 500px) {
+            .reset-card {
+                padding: 30px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="reset-card">
+        <div class="page-title">🔐 重置密码</div>
+        <div class="page-sub">为管理员账户设置新密码</div>
+
+        <!-- 表单：仅新密码 + 确认密码 -->
+        <div class="input-group">
+            <div class="input-label">新密码</div>
+            <div class="input-field">
+                <input type="password" id="newPassword" placeholder="至少8位字符" autocomplete="new-password">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-label">确认新密码</div>
+            <div class="input-field">
+                <input type="password" id="confirmPassword" placeholder="再次输入新密码" autocomplete="new-password">
+            </div>
+        </div>
+
+        <!-- 提交按钮 -->
+        <button class="reset-btn" id="resetBtn">更新密码</button>
+
+        <!-- 动态反馈区域 -->
+        <div class="result-message" id="resultMsg"></div>
+
+        <div class="hr-light"></div>
+
+        <!-- 返回主页链接 -->
+        <a href="/" class="back-link">← 返回管理主页</a>
+    </div>
+
+    <script>
+        const resetBtn = document.getElementById('resetBtn');
+        const resultMsg = document.getElementById('resultMsg');
+
+        function showMessage(text, type = 'info') {
+            resultMsg.textContent = text;
+            resultMsg.className = 'result-message';
+            if (type === 'success') {
+                resultMsg.classList.add('success');
+            } else if (type === 'error') {
+                resultMsg.classList.add('error');
+            } else {
+                resultMsg.classList.add('info');
+            }
+        }
+
+        resetBtn.addEventListener('click', async function(e) {
+            e.preventDefault();
+
+            const newPwd = document.getElementById('newPassword').value;
+            const confirmPwd = document.getElementById('confirmPassword').value;
+
+            if (!newPwd || !confirmPwd) {
+                showMessage('❌ 密码不能为空', 'error');
+                return;
+            }
+            if (newPwd.length < 6) {
+                showMessage('❌ 密码长度至少6位', 'error');
+                return;
+            }
+            if (newPwd !== confirmPwd) {
+                showMessage('❌ 两次输入的密码不一致', 'error');
+                return;
+            }
+
+            showMessage('⏳ 正在更新密码…', 'info');
+
+            const bodyData = `new_password=${encodeURIComponent(newPwd)}&confirm_password=${encodeURIComponent(confirmPwd)}`;
+
+            try {
+                const response = await fetch('/resetPasswd', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                    },
+                    body: bodyData
+                });
+
+                const responseText = await response.text();
+                let data = null;
+                try {
+                    data = JSON.parse(responseText);
+                } catch (jsonError) {}
+
+                // ========== 检测 authLogin:0 → 显示未登录，延迟跳转 ==========
+                if (data && data.authLogin === 0) {
+                    showMessage('⚠️ 未登录，即将跳转至登录页…', 'info');
+                    setTimeout(() => {
+                        window.location.href = '/login';
+                    }, 1500);
+                    return;
+                }
+
+                if (response.ok) {
+                    if (data && data.reset === 1) {
+                        showMessage('✅ 密码修改成功，即将注销…', 'success');
+                        setTimeout(() => {
+                            window.location.href = '/logout';
+                        }, 1200);
+                    } else if (data && data.reset === 0) {
+                        showMessage('❌ 修改失败', 'error');
+                    } else {
+                        showMessage('❌ 未知响应', 'error');
+                    }
+                } else {
+                    showMessage(`❌ 请求失败 (HTTP ${response.status})`, 'error');
+                }
+            } catch (error) {
+                console.error('网络错误:', error);
+                showMessage('❌ 网络错误，请稍后重试', 'error');
+            }
+        });
+    </script>
+
+</body>
+</html>

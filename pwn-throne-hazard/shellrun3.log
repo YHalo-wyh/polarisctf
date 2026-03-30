@@ -1,0 +1,1092 @@
+no local shell hit
+tarting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114096
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x70c8302b5850
+[*] system = 0x70c8301f1d70
+[*] /bin/sh = 0x70c830379678
+[*] race hit lane=1 len=0x8 wait=0.294
+[*] race hit lane=0 len=0x8 wait=0.221
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114096)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 2
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114099
+[*] race hit lane=0 len=0x8 wait=0.204
+[*] read@libc = 0x7faa6ef14850
+[*] system = 0x7faa6ee50d70
+[*] /bin/sh = 0x7faa6efd8678
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114099)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 3
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114121
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] read@libc = 0x7cacfd454850
+[*] system = 0x7cacfd390d70
+[*] /bin/sh = 0x7cacfd518678
+[*] race hit lane=1 len=0x8 wait=0.212
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114121)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 4
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114217
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] read@libc = 0x7a536fb97850
+[*] system = 0x7a536fad3d70
+[*] /bin/sh = 0x7a536fc5b678
+[*] race hit lane=1 len=0x8 wait=0.296
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114217)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 5
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114778
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] read@libc = 0x7ca8f1744850
+[*] system = 0x7ca8f1680d70
+[*] /bin/sh = 0x7ca8f1808678
+[*] race hit lane=1 len=0x8 wait=0.240
+[*] race hit lane=0 len=0x8 wait=0.247
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114778)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 6
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114788
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] read@libc = 0x79b5ac77d850
+[*] system = 0x79b5ac6b9d70
+[*] /bin/sh = 0x79b5ac841678
+[*] race hit lane=1 len=0x8 wait=0.194
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114788)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 7
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114823
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] read@libc = 0x7da081b47850
+[*] system = 0x7da081a83d70
+[*] /bin/sh = 0x7da081c0b678
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114823)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 8
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 114825
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] read@libc = 0x76397104f850
+[*] system = 0x763970f8bd70
+[*] /bin/sh = 0x763971113678
+[*] race hit lane=1 len=0x8 wait=0.243
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 114825)
+[!] attempt 8 failed: 
+[*] attempt 9
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115011
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] read@libc = 0x729f3f584850
+[*] system = 0x729f3f4c0d70
+[*] /bin/sh = 0x729f3f648678
+[*] race hit lane=1 len=0x8 wait=0.302
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115011)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 10
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115013
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] read@libc = 0x7cae2cf06850
+[*] system = 0x7cae2ce42d70
+[*] /bin/sh = 0x7cae2cfca678
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115013)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 11
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115015
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] read@libc = 0x7da1ff0bf850
+[*] system = 0x7da1feffbd70
+[*] /bin/sh = 0x7da1ff183678
+[*] race hit lane=1 len=0x8 wait=0.207
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115015)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 12
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115017
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] read@libc = 0x784c28b40850
+[*] system = 0x784c28a7cd70
+[*] /bin/sh = 0x784c28c04678
+[*] race hit lane=1 len=0x8 wait=0.226
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115017)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 13
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115271
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] read@libc = 0x77299a3b4850
+[*] system = 0x77299a2f0d70
+[*] /bin/sh = 0x77299a478678
+[*] race hit lane=1 len=0x8 wait=0.219
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115271)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 14
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115273
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] read@libc = 0x741534ea0850
+[*] system = 0x741534ddcd70
+[*] /bin/sh = 0x741534f64678
+[*] race hit lane=1 len=0x8 wait=0.221
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115273)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 15
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115278
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] read@libc = 0x78397a4f6850
+[*] system = 0x78397a432d70
+[*] /bin/sh = 0x78397a5ba678
+[*] race hit lane=1 len=0x8 wait=0.247
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115278)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 16
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115280
+[*] race hit lane=0 len=0x8 wait=0.294
+[*] read@libc = 0x7b9f2a1f9850
+[*] system = 0x7b9f2a135d70
+[*] /bin/sh = 0x7b9f2a2bd678
+[*] race hit lane=1 len=0x8 wait=0.224
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115280)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 17
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115286
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x75d51f36a850
+[*] system = 0x75d51f2a6d70
+[*] /bin/sh = 0x75d51f42e678
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115286)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 18
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115292
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] read@libc = 0x7a00a3dbb850
+[*] system = 0x7a00a3cf7d70
+[*] /bin/sh = 0x7a00a3e7f678
+[*] race hit lane=1 len=0x8 wait=0.214
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115292)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 19
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115310
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] read@libc = 0x7b46d6d36850
+[*] system = 0x7b46d6c72d70
+[*] /bin/sh = 0x7b46d6dfa678
+[*] race hit lane=1 len=0x8 wait=0.298
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115310)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 20
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115312
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] read@libc = 0x7685c8668850
+[*] system = 0x7685c85a4d70
+[*] /bin/sh = 0x7685c872c678
+[*] race hit lane=1 len=0x8 wait=0.240
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115312)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 21
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115314
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] read@libc = 0x7f97f0a44850
+[*] system = 0x7f97f0980d70
+[*] /bin/sh = 0x7f97f0b08678
+[*] race hit lane=1 len=0x8 wait=0.238
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115314)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 22
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115319
+[*] race hit lane=0 len=0x8 wait=0.294
+[*] read@libc = 0x7d667cd20850
+[*] system = 0x7d667cc5cd70
+[*] /bin/sh = 0x7d667cde4678
+[*] race hit lane=1 len=0x8 wait=0.234
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115319)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 23
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115326
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] read@libc = 0x738a3fcf9850
+[*] system = 0x738a3fc35d70
+[*] /bin/sh = 0x738a3fdbd678
+[*] race hit lane=1 len=0x8 wait=0.307
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115326)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 24
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115334
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] read@libc = 0x75dbca08d850
+[*] system = 0x75dbc9fc9d70
+[*] /bin/sh = 0x75dbca151678
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115334)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 25
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115343
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] read@libc = 0x777a573f1850
+[*] system = 0x777a5732dd70
+[*] /bin/sh = 0x777a574b5678
+[*] race hit lane=1 len=0x8 wait=0.195
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115343)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 26
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115354
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x7ccb47a62850
+[*] system = 0x7ccb4799ed70
+[*] /bin/sh = 0x7ccb47b26678
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.204
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115354)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 27
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115377
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] read@libc = 0x7a24d56ae850
+[*] system = 0x7a24d55ead70
+[*] /bin/sh = 0x7a24d5772678
+[*] race hit lane=1 len=0x8 wait=0.205
+[*] race hit lane=0 len=0x8 wait=0.212
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115377)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 28
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115383
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] read@libc = 0x730e45d67850
+[*] system = 0x730e45ca3d70
+[*] /bin/sh = 0x730e45e2b678
+[*] race hit lane=1 len=0x8 wait=0.196
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115383)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 29
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115388
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] read@libc = 0x723e30ddd850
+[*] system = 0x723e30d19d70
+[*] /bin/sh = 0x723e30ea1678
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115388)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 30
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115390
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x7665f4489850
+[*] system = 0x7665f43c5d70
+[*] /bin/sh = 0x7665f454d678
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115390)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 31
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115394
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] read@libc = 0x7a7d969de850
+[*] system = 0x7a7d9691ad70
+[*] /bin/sh = 0x7a7d96aa2678
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115394)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 32
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115447
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] read@libc = 0x72ba5bc4d850
+[*] system = 0x72ba5bb89d70
+[*] /bin/sh = 0x72ba5bd11678
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.204
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115447)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 33
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115449
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] read@libc = 0x79b6f85aa850
+[*] system = 0x79b6f84e6d70
+[*] /bin/sh = 0x79b6f866e678
+[*] race hit lane=1 len=0x8 wait=0.233
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115449)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 34
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115453
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] read@libc = 0x7ada64540850
+[*] system = 0x7ada6447cd70
+[*] /bin/sh = 0x7ada64604678
+[*] race hit lane=1 len=0x8 wait=0.219
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115453)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 35
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115480
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] read@libc = 0x7ef82ad50850
+[*] system = 0x7ef82ac8cd70
+[*] /bin/sh = 0x7ef82ae14678
+[*] race hit lane=1 len=0x8 wait=0.215
+[*] race hit lane=0 len=0x8 wait=0.292
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115480)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 36
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115492
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] read@libc = 0x7d7eeb4d9850
+[*] system = 0x7d7eeb415d70
+[*] /bin/sh = 0x7d7eeb59d678
+[*] race hit lane=1 len=0x8 wait=0.198
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115492)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 37
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115542
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] read@libc = 0x7dc94c835850
+[*] system = 0x7dc94c771d70
+[*] /bin/sh = 0x7dc94c8f9678
+[*] race hit lane=1 len=0x8 wait=0.208
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115542)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 38
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115546
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] read@libc = 0x711e5e13e850
+[*] system = 0x711e5e07ad70
+[*] /bin/sh = 0x711e5e202678
+[*] race hit lane=1 len=0x8 wait=0.233
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115546)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 39
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115552
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] read@libc = 0x7571ba969850
+[*] system = 0x7571ba8a5d70
+[*] /bin/sh = 0x7571baa2d678
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115552)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 40
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 115794
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] read@libc = 0x7a44afdb2850
+[*] system = 0x7a44afceed70
+[*] /bin/sh = 0x7a44afe76678
+[*] race hit lane=1 len=0x8 wait=0.208
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 115794)
+[!] attempt 40 failed: 
+[*] attempt 41
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117334
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] read@libc = 0x7cb275a93850
+[*] system = 0x7cb2759cfd70
+[*] /bin/sh = 0x7cb275b57678
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117334)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 42
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117336
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x75e5c56c3850
+[*] system = 0x75e5c55ffd70
+[*] /bin/sh = 0x75e5c5787678
+[*] race hit lane=1 len=0x8 wait=0.204
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117336)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 43
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117343
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] read@libc = 0x7a8224b6b850
+[*] system = 0x7a8224aa7d70
+[*] /bin/sh = 0x7a8224c2f678
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.221
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117343)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 44
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117355
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] read@libc = 0x70567aabc850
+[*] system = 0x70567a9f8d70
+[*] /bin/sh = 0x70567ab80678
+[*] race hit lane=1 len=0x8 wait=0.234
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117355)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 45
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117360
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] read@libc = 0x7d755410b850
+[*] system = 0x7d7554047d70
+[*] /bin/sh = 0x7d75541cf678
+[*] race hit lane=1 len=0x8 wait=0.238
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117360)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 46
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117698
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] read@libc = 0x79ef45f49850
+[*] system = 0x79ef45e85d70
+[*] /bin/sh = 0x79ef4600d678
+[*] race hit lane=1 len=0x8 wait=0.307
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117698)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 47
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117817
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] read@libc = 0x7496179ff850
+[*] system = 0x74961793bd70
+[*] /bin/sh = 0x749617ac3678
+[*] race hit lane=1 len=0x8 wait=0.298
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117817)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 48
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117822
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] read@libc = 0x7b0079375850
+[*] system = 0x7b00792b1d70
+[*] /bin/sh = 0x7b0079439678
+[*] race hit lane=1 len=0x8 wait=0.212
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117822)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 49
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117852
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] read@libc = 0x7987fb10a850
+[*] system = 0x7987fb046d70
+[*] /bin/sh = 0x7987fb1ce678
+[*] race hit lane=1 len=0x8 wait=0.198
+[*] race hit lane=0 len=0x8 wait=0.221
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117852)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 50
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117856
+[*] race hit lane=0 len=0x8 wait=0.195
+[*] read@libc = 0x773759cf6850
+[*] system = 0x773759c32d70
+[*] /bin/sh = 0x773759dba678
+[*] race hit lane=1 len=0x8 wait=0.306
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117856)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 51
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117888
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] read@libc = 0x7d903c1f6850
+[*] system = 0x7d903c132d70
+[*] /bin/sh = 0x7d903c2ba678
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117888)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 52
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117896
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] read@libc = 0x7cd1e867b850
+[*] system = 0x7cd1e85b7d70
+[*] /bin/sh = 0x7cd1e873f678
+[*] race hit lane=1 len=0x8 wait=0.225
+[*] race hit lane=0 len=0x8 wait=0.195
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117896)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 53
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117920
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] read@libc = 0x7c310f585850
+[*] system = 0x7c310f4c1d70
+[*] /bin/sh = 0x7c310f649678
+[*] race hit lane=1 len=0x8 wait=0.205
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117920)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 54
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117923
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] read@libc = 0x74d2b8cc7850
+[*] system = 0x74d2b8c03d70
+[*] /bin/sh = 0x74d2b8d8b678
+[*] race hit lane=1 len=0x8 wait=0.199
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117923)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 55
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117969
+[*] race hit lane=0 len=0x8 wait=0.296
+[*] read@libc = 0x7690e12cd850
+[*] system = 0x7690e1209d70
+[*] /bin/sh = 0x7690e1391678
+[*] race hit lane=1 len=0x8 wait=0.240
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117969)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 56
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117976
+[*] race hit lane=0 len=0x8 wait=0.233
+[*] read@libc = 0x7b44f3270850
+[*] system = 0x7b44f31acd70
+[*] /bin/sh = 0x7b44f3334678
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117976)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 57
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117978
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] read@libc = 0x7b7a62ce5850
+[*] system = 0x7b7a62c21d70
+[*] /bin/sh = 0x7b7a62da9678
+[*] race hit lane=1 len=0x8 wait=0.207
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117978)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 58
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118003
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] read@libc = 0x701b3d74b850
+[*] system = 0x701b3d687d70
+[*] /bin/sh = 0x701b3d80f678
+[*] race hit lane=1 len=0x8 wait=0.206
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118003)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 59
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118043
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] read@libc = 0x795ada3d8850
+[*] system = 0x795ada314d70
+[*] /bin/sh = 0x795ada49c678
+[*] race hit lane=1 len=0x8 wait=0.225
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118043)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 60
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118074
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x7a63ffd59850
+[*] system = 0x7a63ffc95d70
+[*] /bin/sh = 0x7a63ffe1d678
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.299
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118074)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 61
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118102
+[*] race hit lane=0 len=0x8 wait=0.235
+[*] read@libc = 0x7b4e6a41b850
+[*] system = 0x7b4e6a357d70
+[*] /bin/sh = 0x7b4e6a4df678
+[*] race hit lane=1 len=0x8 wait=0.301
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118102)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 62
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118116
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] read@libc = 0x78141a9ab850
+[*] system = 0x78141a8e7d70
+[*] /bin/sh = 0x78141aa6f678
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118116)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 63
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118150
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] read@libc = 0x7cbeb0dc0850
+[*] system = 0x7cbeb0cfcd70
+[*] /bin/sh = 0x7cbeb0e84678
+[*] race hit lane=1 len=0x8 wait=0.301
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118150)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 64
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118176
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x7faba6e79850
+[*] system = 0x7faba6db5d70
+[*] /bin/sh = 0x7faba6f3d678
+[*] race hit lane=1 len=0x8 wait=0.218
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118176)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 65
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118190
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] read@libc = 0x7f15ede7c850
+[*] system = 0x7f15eddb8d70
+[*] /bin/sh = 0x7f15edf40678
+[*] race hit lane=1 len=0x8 wait=0.225
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118190)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 66
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118212
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] read@libc = 0x71acb0244850
+[*] system = 0x71acb0180d70
+[*] /bin/sh = 0x71acb0308678
+[*] race hit lane=1 len=0x8 wait=0.233
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118212)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 67
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118221
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] read@libc = 0x77c86d566850
+[*] system = 0x77c86d4a2d70
+[*] /bin/sh = 0x77c86d62a678
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118221)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 68
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118412
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] read@libc = 0x7c01aa924850
+[*] system = 0x7c01aa860d70
+[*] /bin/sh = 0x7c01aa9e8678
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118412)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 69
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118485
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x79c3bdf5b850
+[*] system = 0x79c3bde97d70
+[*] /bin/sh = 0x79c3be01f678
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.195
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118485)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 70
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118803
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] read@libc = 0x7a5464d22850
+[*] system = 0x7a5464c5ed70
+[*] /bin/sh = 0x7a5464de6678
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118803)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 71
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118833
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] read@libc = 0x75a8cb41b850
+[*] system = 0x75a8cb357d70
+[*] /bin/sh = 0x75a8cb4df678
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118833)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 72
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 118846
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] read@libc = 0x700db4432850
+[*] system = 0x700db436ed70
+[*] /bin/sh = 0x700db44f6678
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.232
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 118846)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 73
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119185
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] read@libc = 0x7d05f2b0e850
+[*] system = 0x7d05f2a4ad70
+[*] /bin/sh = 0x7d05f2bd2678
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119185)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 74
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119353
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x7b92f4d8e850
+[*] system = 0x7b92f4ccad70
+[*] /bin/sh = 0x7b92f4e52678
+[*] race hit lane=1 len=0x8 wait=0.217
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119353)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 75
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119442
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] read@libc = 0x7c8fdcd6a850
+[*] system = 0x7c8fdcca6d70
+[*] /bin/sh = 0x7c8fdce2e678
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119442)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 76
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119460
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x7356a28f1850
+[*] system = 0x7356a282dd70
+[*] /bin/sh = 0x7356a29b5678
+[*] race hit lane=1 len=0x8 wait=0.220
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119460)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 77
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119482
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] read@libc = 0x734778161850
+[*] system = 0x73477809dd70
+[*] /bin/sh = 0x734778225678
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119482)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 78
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119498
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] read@libc = 0x762006ae1850
+[*] system = 0x762006a1dd70
+[*] /bin/sh = 0x762006ba5678
+[*] race hit lane=1 len=0x8 wait=0.213
+[*] race hit lane=0 len=0x8 wait=0.233
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119498)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 79
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119517
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] read@libc = 0x7e2b879bc850
+[*] system = 0x7e2b878f8d70
+[*] /bin/sh = 0x7e2b87a80678
+[*] race hit lane=1 len=0x8 wait=0.218
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119517)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 80
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119528
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119528)
+[!] attempt 80 failed: 
+[*] attempt 81
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120226
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] read@libc = 0x7bf939249850
+[*] system = 0x7bf939185d70
+[*] /bin/sh = 0x7bf93930d678
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120226)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 82
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120248
+[*] race hit lane=0 len=0x8 wait=0.247
+[*] read@libc = 0x7368ae9a4850
+[*] system = 0x7368ae8e0d70
+[*] /bin/sh = 0x7368aea68678
+[*] race hit lane=1 len=0x8 wait=0.299
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120248)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 83
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120272
+[*] race hit lane=0 len=0x8 wait=0.214
+[*] read@libc = 0x7d16e223a850
+[*] system = 0x7d16e2176d70
+[*] /bin/sh = 0x7d16e22fe678
+[*] race hit lane=1 len=0x8 wait=0.306
+[*] race hit lane=0 len=0x8 wait=0.235
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120272)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 84
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120276
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] read@libc = 0x70bd25b30850
+[*] system = 0x70bd25a6cd70
+[*] /bin/sh = 0x70bd25bf4678
+[*] race hit lane=1 len=0x8 wait=0.233
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120276)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 85
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120335
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] read@libc = 0x7595decfa850
+[*] system = 0x7595dec36d70
+[*] /bin/sh = 0x7595dedbe678
+[*] race hit lane=1 len=0x8 wait=0.295
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120335)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 86
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120346
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x78226f9f7850
+[*] system = 0x78226f933d70
+[*] /bin/sh = 0x78226fabb678
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120346)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 87
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120384
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] read@libc = 0x75619af81850
+[*] system = 0x75619aebdd70
+[*] /bin/sh = 0x75619b045678
+[*] race hit lane=1 len=0x8 wait=0.239
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120384)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 88
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120386
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] read@libc = 0x7e91109d8850
+[*] system = 0x7e9110914d70
+[*] /bin/sh = 0x7e9110a9c678
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120386)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 89
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120430
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] read@libc = 0x7968aeb90850
+[*] system = 0x7968aeaccd70
+[*] /bin/sh = 0x7968aec54678
+[*] race hit lane=1 len=0x8 wait=0.296
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120430)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 90
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120440
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7818da1fe850
+[*] system = 0x7818da13ad70
+[*] /bin/sh = 0x7818da2c2678
+[*] race hit lane=1 len=0x8 wait=0.224
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120440)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 91
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120453
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x7bc6c41ae850
+[*] system = 0x7bc6c40ead70
+[*] /bin/sh = 0x7bc6c4272678
+[*] race hit lane=1 len=0x8 wait=0.216
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120453)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 92
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120462
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] read@libc = 0x7cc742dc2850
+[*] system = 0x7cc742cfed70
+[*] /bin/sh = 0x7cc742e86678
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120462)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 93
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120464
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] read@libc = 0x778706695850
+[*] system = 0x7787065d1d70
+[*] /bin/sh = 0x778706759678
+[*] race hit lane=1 len=0x8 wait=0.227
+[*] race hit lane=0 len=0x8 wait=0.294
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120464)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 94
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120480
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] read@libc = 0x760840d7f850
+[*] system = 0x760840cbbd70
+[*] /bin/sh = 0x760840e43678
+[*] race hit lane=1 len=0x8 wait=0.297
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120480)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 95
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120501
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] read@libc = 0x74a0bc3ce850
+[*] system = 0x74a0bc30ad70
+[*] /bin/sh = 0x74a0bc492678
+[*] race hit lane=1 len=0x8 wait=0.198
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120501)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 96
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120508
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] read@libc = 0x7fb24891b850
+[*] system = 0x7fb248857d70
+[*] /bin/sh = 0x7fb2489df678
+[*] race hit lane=1 len=0x8 wait=0.293
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120508)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 97
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120522
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x7e42dc89a850
+[*] system = 0x7e42dc7d6d70
+[*] /bin/sh = 0x7e42dc95e678
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120522)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 98
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120524
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] read@libc = 0x7991defa9850
+[*] system = 0x7991deee5d70
+[*] /bin/sh = 0x7991df06d678
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120524)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 99
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120536
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] read@libc = 0x75a8c1221850
+[*] system = 0x75a8c115dd70
+[*] /bin/sh = 0x75a8c12e5678
+[*] race hit lane=1 len=0x8 wait=0.243
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120536)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '
+[*] attempt 100
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120569
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] read@libc = 0x723842226850
+[*] system = 0x723842162d70
+[*] /bin/sh = 0x7238422ea678
+[*] race hit lane=1 len=0x8 wait=0.297
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120569)
+[*] non-shell output: b'[dispatch lane 0]\n\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> invalid input\n> invalid input\n> invalid input\n> '

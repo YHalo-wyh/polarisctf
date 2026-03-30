@@ -1,0 +1,630 @@
+# Function Index
+# Total exported functions: 58
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x401000
+File: 401000.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4042a8 (__gmon_start__)
+
+================================================================================
+Function: sub_401020
+Address: 0x401020
+File: 401020.c
+
+Called by (20 callers):
+  - 0x401030 (sub_401030) -> 401030.c
+  - 0x401040 (sub_401040) -> 401040.c
+  - 0x401050 (sub_401050) -> 401050.c
+  - 0x401060 (sub_401060) -> 401060.c
+  - 0x401070 (sub_401070) -> 401070.c
+  - 0x401080 (sub_401080) -> 401080.c
+  - 0x401090 (sub_401090) -> 401090.c
+  - 0x4010a0 (sub_4010A0) -> 4010A0.c
+  - 0x4010b0 (sub_4010B0) -> 4010B0.c
+  - 0x4010c0 (sub_4010C0) -> 4010C0.c
+  - 0x4010d0 (sub_4010D0) -> 4010D0.c
+  - 0x4010e0 (sub_4010E0) -> 4010E0.c
+  - 0x4010f0 (sub_4010F0) -> 4010F0.c
+  - 0x401100 (sub_401100) -> 401100.c
+  - 0x401110 (sub_401110) -> 401110.c
+  - 0x401120 (sub_401120) -> 401120.c
+  - 0x401130 (sub_401130) -> 401130.c
+  - 0x401140 (sub_401140) -> 401140.c
+  - 0x401150 (sub_401150) -> 401150.c
+  - 0x401160 (sub_401160) -> 401160.c
+
+Calls: none
+
+================================================================================
+Function: sub_401030
+Address: 0x401030
+File: 401030.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401040
+Address: 0x401040
+File: 401040.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401050
+Address: 0x401050
+File: 401050.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401060
+Address: 0x401060
+File: 401060.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401070
+Address: 0x401070
+File: 401070.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401080
+Address: 0x401080
+File: 401080.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401090
+Address: 0x401090
+File: 401090.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010A0
+Address: 0x4010a0
+File: 4010A0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010B0
+Address: 0x4010b0
+File: 4010B0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010C0
+Address: 0x4010c0
+File: 4010C0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010D0
+Address: 0x4010d0
+File: 4010D0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010E0
+Address: 0x4010e0
+File: 4010E0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010F0
+Address: 0x4010f0
+File: 4010F0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401100
+Address: 0x401100
+File: 401100.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401110
+Address: 0x401110
+File: 401110.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401120
+Address: 0x401120
+File: 401120.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401130
+Address: 0x401130
+File: 401130.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401140
+Address: 0x401140
+File: 401140.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401150
+Address: 0x401150
+File: 401150.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_401160
+Address: 0x401160
+File: 401160.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: .__errno_location
+Address: 0x401170
+File: 401170.c
+
+Called by (1 callers):
+  - 0x401b70 (sub_401B70) -> 401B70.c
+
+Calls: none
+
+================================================================================
+Function: ._exit
+Address: 0x401180
+File: 401180.c
+
+Called by (3 callers):
+  - 0x4019b0 (handler) -> 4019B0.c
+  - 0x4019d0 (sub_4019D0) -> 4019D0.c
+  - 0x401a80 (sub_401A80) -> 401A80.c
+
+Calls: none
+
+================================================================================
+Function: .puts
+Address: 0x401190
+File: 401190.c
+
+Called by (3 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+  - 0x401a80 (sub_401A80) -> 401A80.c
+  - 0x401b70 (sub_401B70) -> 401B70.c
+
+Calls: none
+
+================================================================================
+Function: .clock_gettime
+Address: 0x4011a0
+File: 4011A0.c
+
+Called by (1 callers):
+  - 0x401df0 (start_routine) -> 401DF0.c
+
+Calls: none
+
+================================================================================
+Function: .write
+Address: 0x4011b0
+File: 4011B0.c
+
+Called by (1 callers):
+  - 0x4019d0 (sub_4019D0) -> 4019D0.c
+
+Calls: none
+
+================================================================================
+Function: .__stack_chk_fail
+Address: 0x4011c0
+File: 4011C0.c
+
+Called by (4 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+  - 0x401aa0 (sub_401AA0) -> 401AA0.c
+  - 0x401b70 (sub_401B70) -> 401B70.c
+  - 0x401c50 (sub_401C50) -> 401C50.c
+
+Calls: none
+
+================================================================================
+Function: .memset
+Address: 0x4011d0
+File: 4011D0.c
+
+Called by (1 callers):
+  - 0x4019d0 (sub_4019D0) -> 4019D0.c
+
+Calls: none
+
+================================================================================
+Function: .alarm
+Address: 0x4011e0
+File: 4011E0.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .read
+Address: 0x4011f0
+File: 4011F0.c
+
+Called by (2 callers):
+  - 0x401aa0 (sub_401AA0) -> 401AA0.c
+  - 0x401d90 (sub_401D90) -> 401D90.c
+
+Calls: none
+
+================================================================================
+Function: .calloc
+Address: 0x401200
+File: 401200.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .signal
+Address: 0x401210
+File: 401210.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .prctl
+Address: 0x401220
+File: 401220.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .malloc
+Address: 0x401230
+File: 401230.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_detach
+Address: 0x401240
+File: 401240.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .__printf_chk
+Address: 0x401250
+File: 401250.c
+
+Called by (3 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+  - 0x401b70 (sub_401B70) -> 401B70.c
+  - 0x401c50 (sub_401C50) -> 401C50.c
+
+Calls: none
+
+================================================================================
+Function: .setvbuf
+Address: 0x401260
+File: 401260.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .pthread_create
+Address: 0x401270
+File: 401270.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls: none
+
+================================================================================
+Function: .__dprintf_chk
+Address: 0x401280
+File: 401280.c
+
+Called by (1 callers):
+  - 0x401a10 (sub_401A10) -> 401A10.c
+
+Calls: none
+
+================================================================================
+Function: .strtoul
+Address: 0x401290
+File: 401290.c
+
+Called by (1 callers):
+  - 0x401b70 (sub_401B70) -> 401B70.c
+
+Calls: none
+
+================================================================================
+Function: .usleep
+Address: 0x4012a0
+File: 4012A0.c
+
+Called by (1 callers):
+  - 0x401df0 (start_routine) -> 401DF0.c
+
+Calls: none
+
+================================================================================
+Function: main
+Address: 0x4012b0
+File: 4012B0.c
+
+Called by (1 callers):
+  - 0x4018a0 (start) -> 4018A0.c
+
+Calls (15 callees):
+  - 0x401190 (.puts) -> 401190.c
+  - 0x4011c0 (.__stack_chk_fail) -> 4011C0.c
+  - 0x4011e0 (.alarm) -> 4011E0.c
+  - 0x401200 (.calloc) -> 401200.c
+  - 0x401210 (.signal) -> 401210.c
+  - 0x401220 (.prctl) -> 401220.c
+  - 0x401230 (.malloc) -> 401230.c
+  - 0x401240 (.pthread_detach) -> 401240.c
+  - 0x401250 (.__printf_chk) -> 401250.c
+  - 0x401260 (.setvbuf) -> 401260.c
+  - 0x401270 (.pthread_create) -> 401270.c
+  - 0x401a80 (sub_401A80) -> 401A80.c
+  - 0x401b70 (sub_401B70) -> 401B70.c
+  - 0x401c50 (sub_401C50) -> 401C50.c
+  - 0x401d90 (sub_401D90) -> 401D90.c
+
+================================================================================
+Function: start
+Address: 0x4018a0
+File: 4018A0.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x404200 (__libc_start_main)
+
+================================================================================
+Function: sub_4018E0
+Address: 0x4018e0
+File: 4018E0.c
+
+Called by (1 callers):
+  - 0x401950 (sub_401950) -> 401950.c
+
+Calls: none
+
+================================================================================
+Function: sub_401950
+Address: 0x401950
+File: 401950.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4018e0 (sub_4018E0) -> 4018E0.c
+
+================================================================================
+Function: sub_401980
+Address: 0x401980
+File: 401980.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: handler
+Address: 0x4019b0
+File: 4019B0.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls (1 callees):
+  - 0x401180 (._exit) -> 401180.c
+
+================================================================================
+Function: sub_4019D0
+Address: 0x4019d0
+File: 4019D0.c
+
+Called by: none
+
+Calls (3 callees):
+  - 0x401180 (._exit) -> 401180.c
+  - 0x4011b0 (.write) -> 4011B0.c
+  - 0x4011d0 (.memset) -> 4011D0.c
+
+================================================================================
+Function: sub_401A10
+Address: 0x401a10
+File: 401A10.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x401280 (.__dprintf_chk) -> 401280.c
+
+================================================================================
+Function: sub_401A80
+Address: 0x401a80
+File: 401A80.c
+
+Called by (3 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+  - 0x401aa0 (sub_401AA0) -> 401AA0.c
+  - 0x401d90 (sub_401D90) -> 401D90.c
+
+Calls (2 callees):
+  - 0x401180 (._exit) -> 401180.c
+  - 0x401190 (.puts) -> 401190.c
+
+================================================================================
+Function: sub_401AA0
+Address: 0x401aa0
+File: 401AA0.c
+
+Called by (2 callers):
+  - 0x401b70 (sub_401B70) -> 401B70.c
+  - 0x401c50 (sub_401C50) -> 401C50.c
+
+Calls (3 callees):
+  - 0x4011c0 (.__stack_chk_fail) -> 4011C0.c
+  - 0x4011f0 (.read) -> 4011F0.c
+  - 0x401a80 (sub_401A80) -> 401A80.c
+
+================================================================================
+Function: sub_401B70
+Address: 0x401b70
+File: 401B70.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls (6 callees):
+  - 0x401170 (.__errno_location) -> 401170.c
+  - 0x401190 (.puts) -> 401190.c
+  - 0x4011c0 (.__stack_chk_fail) -> 4011C0.c
+  - 0x401250 (.__printf_chk) -> 401250.c
+  - 0x401290 (.strtoul) -> 401290.c
+  - 0x401aa0 (sub_401AA0) -> 401AA0.c
+
+================================================================================
+Function: sub_401C50
+Address: 0x401c50
+File: 401C50.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls (3 callees):
+  - 0x4011c0 (.__stack_chk_fail) -> 4011C0.c
+  - 0x401250 (.__printf_chk) -> 401250.c
+  - 0x401aa0 (sub_401AA0) -> 401AA0.c
+
+================================================================================
+Function: sub_401D90
+Address: 0x401d90
+File: 401D90.c
+
+Called by (2 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+  - 0x401de0 (sub_401DE0) -> 401DE0.c
+
+Calls (2 callees):
+  - 0x4011f0 (.read) -> 4011F0.c
+  - 0x401a80 (sub_401A80) -> 401A80.c
+
+================================================================================
+Function: sub_401DE0
+Address: 0x401de0
+File: 401DE0.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: start_routine
+Address: 0x401df0
+File: 401DF0.c
+
+Called by (1 callers):
+  - 0x4012b0 (main) -> 4012B0.c
+
+Calls (2 callees):
+  - 0x4011a0 (.clock_gettime) -> 4011A0.c
+  - 0x4012a0 (.usleep) -> 4012A0.c
+
+================================================================================
+Function: .term_proc
+Address: 0x401f10
+File: 401F10.c
+
+Called by: none
+
+Calls: none
+

@@ -1,0 +1,66 @@
+gdbcmds_loader.txt:8: Error in sourced command file:
+No symbol table is loaded.  Use the "file" command.
+ist.[0m
+[31m[1mpwndbg: [0m[31m[0m[91mcreated 9 GDB functions (can be used with print/break). Type [35mhelp function[0m[91m to see them.[0m
+Reading symbols from attachments/ld-linux-x86-64.so.2...
+(No debugging symbols found in attachments/ld-linux-x86-64.so.2)
+Stopped due to shared library event (no libraries added or removed)
+Stopped due to shared library event (no libraries added or removed)
+Breakpoint 1 at 0x4013f0
+Stopped due to shared library event:
+  Inferior loaded /mnt/c/Users/WYH/Desktop/polarisctf招新赛/pwn/pwn-throne-hazard/attachments/ld-linux-x86-64.so.2
+RSP=0x7fffffffe0c0
+[31m[1m------- tip of the day[0m[31m[0m[91m (disable with [35mset show-tips off[0m[91m)[0m[31m[1m -------[0m[31m[0m
+[33mheap-config[0m shows heap related configuration
+LEGEND: [33mSTACK[0m | [34mHEAP[0m | [31mCODE[0m | [35mDATA[0m | [4m[31mWX[0m[4m[0m | [0mRODATA[0m
+[34m────────────────────────────────[ LAST SIGNAL ]─────────────────────────────────[0m
+[33mBreakpoint hit at 0x7ffff7fe6300[0m
+[34m─────────────[ REGISTERS / show-flags off / show-compact-regs off ]─────────────[0m
+ [1mRAX [0m [35m0x403e08[0m[0m ◂— [0m0x15
+ [1mRBX [0m [35m0x7ffff7ffe118 (_r_debug)[0m[0m ◂— [0m1
+ [1mRCX [0m [0m0x7ffff7fc3270[0m[0m ◂— [0m0x46474e552
+ [1mRDX [0m [35m0x403dc8[0m[0m ◂— [0m5
+ [1mRDI [0m [0m0x7ffff7fc3000[0m[0m ◂— [0m0x3010102464c457f
+ [1mRSI [0m 0
+ [1mR8  [0m 0
+ [1mR9  [0m 2
+ [1mR10 [0m 0
+ [1mR11 [0m 8
+ [1mR12 [0m [33m0x7fffffffe138[0m[0m —▸ [0m[31m0x7ffff7fc1228[0m[0m ◂— [0m[38;5;148madd[39m[38;5;15m [39m[38;5;81mbyte[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;81mss[39m[38;5;15m:[39m[38;5;15m[[39m[38;5;81mrax[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mal[39m /* '6' */
+ [1mR13 [0m 0
+ [1mR14 [0m 0
+ [1mR15 [0m [35m0x7ffff7ffe2f0[0m[0m ◂— [0m0
+ [1mRBP [0m [33m0x7fffffffe380[0m[0m —▸ [0m[0m0x7ffff7fc3040[0m[0m ◂— [0m0x400000001
+ [1mRSP [0m [33m0x7fffffffe0c0[0m[0m ◂— [0m0
+ [1mRIP [0m [31m0x7ffff7fe6300[0m[0m ◂— [0m[38;5;148mnop[39m[38;5;15m [39m
+[34m──────────────────────[ DISASM / x86-64 / set emulate on ]──────────────────────[0m
+ ► [1m[32m0x7ffff7fe6300[0m[1m[0m [1m[32m[0m[1m[0m   [1m[32m[38;5;148mnop[39m[38;5;15m   [39m[0m[1m[0m
+   [0m0x7ffff7fe6301[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mesi[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m1[39m       [31m[1mESI[0m[31m[0m => 1
+   [0m0x7ffff7fe6306[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mrdi[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mr15[39m     [31m[1mRDI[0m[31m[0m => [35m0x7ffff7ffe2f0[0m[0m ◂— [0m0
+   [0m0x7ffff7fe6309[0m [0m[0m   [38;5;148m[1mcall[0m[39m[38;5;15m   [39m[38;5;141m0x7ffff7fde170[39m              <[31m0x7ffff7fde170[0m>
+ 
+   [0m0x7ffff7fe630e[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mqword[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x288[39m[38;5;15m][39m
+   [0m0x7ffff7fe6315[0m [0m[0m   [38;5;148mcmp[39m[38;5;15m    [39m[38;5;81mqword[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrax[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m
+   [0m0x7ffff7fe6319[0m [0m[0m   [38;5;148m[1mjne[0m[39m[38;5;15m    [39m[38;5;141m0x7ffff7fe8749[39m              <[31m0x7ffff7fe8749[0m>
+ 
+   [0m0x7ffff7fe631f[0m [0m[0m   [38;5;148mxor[39m[38;5;15m    [39m[38;5;81mr12d[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mr12d[39m                    [31m[1mR12D[0m[31m[0m => 0
+   [0m0x7ffff7fe6322[0m [0m[0m   [38;5;148mcmp[39m[38;5;15m    [39m[38;5;81mqword[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x58[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m
+   [0m0x7ffff7fe6327[0m [0m[0m   [38;5;148m[1mjne[0m[39m[38;5;15m    [39m[38;5;141m0x7ffff7fe7a9a[39m              <[31m0x7ffff7fe7a9a[0m>
+ 
+   [0m0x7ffff7fe632d[0m [0m[0m   [38;5;148mcmp[39m[38;5;15m    [39m[38;5;81mqword[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x50[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m
+[34m───────────────────────────────────[ STACK ]────────────────────────────────────[0m
+[0m00[0m[0m:[0m[0m0000[0m[0m│[0m[0m[0m [1mrsp[0m [33m0x7fffffffe0c0[0m[0m ◂— [0m0
+[0m... ↓        5 skipped[0m
+[0m06[0m[0m:[0m[0m0030[0m[0m│[0m[0m[0m-290 [33m0x7fffffffe0f0[0m[0m —▸ [0m[35m0x7ffff7ffe118 (_r_debug)[0m[0m ◂— [0m1
+[0m07[0m[0m:[0m[0m0038[0m[0m│[0m[0m[0m-288 [33m0x7fffffffe0f8[0m[0m —▸ [0m[35m0x7ffff7ffe948[0m[0m ◂— [0m0
+[34m─────────────────────────────────[ BACKTRACE ]──────────────────────────────────[0m
+ ► 0   0x7ffff7fe6300 None
+   1   0x7ffff7fe283c None
+   2   0x7ffff7fe4598 None
+   3   0x7ffff7fe3298 None
+   4              0x4 None
+   5   0x7fffffffe772 None
+   6   0x7fffffffe7d6 None
+   7   0x7fffffffe7e5 None
+[34m────────────────────────────────────────────────────────────────────────────────[0m
+[32m[1mpwndbg> [0m[32m[0m

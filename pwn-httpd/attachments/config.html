@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>路由器配置 · 修改网络参数</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* === 全局极简重置 — 与路由器管理套件完全统一 === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* 卡片容器：纯白、圆角、轻柔阴影 */
+        .config-card {
+            width: 100%;
+            max-width: 480px;
+            background: white;
+            border-radius: 18px;
+            padding: 40px 36px;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.03);
+            border: 1px solid #eef2f6;
+        }
+
+        /* 标题区 */
+        .page-title {
+            font-size: 26px;
+            font-weight: 550;
+            color: #0f1e2c;
+            text-align: center;
+            margin-bottom: 6px;
+            letter-spacing: -0.4px;
+        }
+
+        .page-sub {
+            text-align: center;
+            font-size: 14px;
+            color: #6f7e8f;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #edf0f3;
+            padding-bottom: 22px;
+        }
+
+        /* 表单组 */
+        .input-group {
+            margin-bottom: 24px;
+        }
+
+        .input-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 550;
+            color: #415a6b;
+            margin-bottom: 6px;
+            letter-spacing: 0.3px;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 14px 18px;
+            background: #fafcfd;
+            border: 1px solid #d9e0e6;
+            border-radius: 10px;
+            font-size: 15px;
+            color: #1e2b38;
+            transition: all 0.15s ease;
+            outline: none;
+        }
+
+        .input-field input:focus {
+            border-color: #3498db;
+            background: white;
+            box-shadow: 0 0 0 3px rgba(52,152,219,0.06);
+        }
+
+        .input-field input::placeholder {
+            color: #a0b3c2;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        /* 保存按钮 */
+        .save-btn {
+            width: 100%;
+            padding: 14px;
+            background: #2563eb;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 16px;
+            font-weight: 520;
+            cursor: pointer;
+            transition: background 0.15s;
+            margin-top: 16px;
+            letter-spacing: 0.8px;
+        }
+
+        .save-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .save-btn:active {
+            background: #1e3a8a;
+        }
+
+        /* 反馈消息区域（统一风格） */
+        .result-message {
+            margin-top: 24px;
+            font-size: 14px;
+            text-align: center;
+            min-height: 24px;
+            padding: 10px 16px;
+            border-radius: 30px;
+            transition: all 0.2s;
+        }
+
+        .success {
+            color: #0b6e4f;
+            background: #e3f9ed;
+        }
+
+        .error {
+            color: #b91c1c;
+            background: #fee9e9;
+        }
+
+        .info {
+            color: #2563eb;
+            background: #e6f0ff;
+        }
+
+        /* 辅助链接（返回主页） */
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 24px;
+            font-size: 13px;
+            color: #6c8599;
+            text-decoration: none;
+            transition: color 0.1s;
+        }
+
+        .back-link:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+
+        /* 极简分割线 */
+        .hr-light {
+            margin: 26px 0 6px;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #d0d9e0, transparent);
+        }
+
+        @media (max-width: 500px) {
+            .config-card {
+                padding: 30px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="config-card">
+        <div class="page-title">🌐 路由器配置</div>
+        <div class="page-sub">修改基本网络参数</div>
+
+        <div class="input-group">
+            <div class="input-label">📶 路由器名称</div>
+            <div class="input-field">
+                <input type="text" id="routeName" placeholder="例如: HomeWiFi" value="TEA-ROUTER" autocomplete="off">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-label">🌐 IP 地址</div>
+            <div class="input-field">
+                <input type="text" id="ipAddress" placeholder="192.168.1.1" value="192.168.31.1" autocomplete="off">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-label">🔹 子网掩码</div>
+            <div class="input-field">
+                <input type="text" id="subnetMask" placeholder="255.255.255.0" value="255.255.255.0" autocomplete="off">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-label">🚪 默认网关</div>
+            <div class="input-field">
+                <input type="text" id="defaultGateway" placeholder="192.168.1.254" value="192.168.31.1" autocomplete="off">
+            </div>
+        </div>
+
+        <button class="save-btn" id="saveBtn">保存设置</button>
+
+        <div class="result-message" id="resultMsg"></div>
+
+        <div class="hr-light"></div>
+
+        <a href="/" class="back-link">← 返回管理主页</a>
+    </div>
+
+    <script>
+        const saveBtn = document.getElementById('saveBtn');
+        const resultMsg = document.getElementById('resultMsg');
+
+        function showMessage(text, type = 'info') {
+            resultMsg.textContent = text;
+            resultMsg.className = 'result-message';
+            if (type === 'success') {
+                resultMsg.classList.add('success');
+            } else if (type === 'error') {
+                resultMsg.classList.add('error');
+            } else {
+                resultMsg.classList.add('info');
+            }
+        }
+
+        saveBtn.addEventListener('click', async function(e) {
+            e.preventDefault();
+
+            const routeName = document.getElementById('routeName').value.trim();
+            const ip = document.getElementById('ipAddress').value.trim();
+            const subnet = document.getElementById('subnetMask').value.trim();
+            const gateway = document.getElementById('defaultGateway').value.trim();
+
+            if (!routeName || !ip || !subnet || !gateway) {
+                showMessage('❌ 所有字段都必须填写', 'error');
+                return;
+            }
+
+            showMessage('⏳ 正在应用配置…', 'info');
+
+            const bodyData = new URLSearchParams({
+                route_name: routeName,
+                ip: ip,
+                subnet_mask: subnet,
+                gateway: gateway
+            }).toString();
+
+            try {
+                const response = await fetch('/config', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                    },
+                    body: bodyData
+                });
+
+                const responseText = await response.text();
+                let data = null;
+                try {
+                    data = JSON.parse(responseText);
+                } catch (jsonError) {}
+
+                // ========== 检测 authLogin:0 → 显示未登录，延迟跳转 ==========
+                if (data && data.authLogin === 0) {
+                    showMessage('⚠️ 未登录，即将跳转至登录页…', 'info');
+                    setTimeout(() => {
+                        window.location.href = '/login';
+                    }, 1500);
+                    return;
+                }
+
+                if (response.ok) {
+                    if (data && data.setInfo === 1) {
+                        showMessage('✅ 配置已保存，修改已生效', 'success');
+                    } else if (data && data.setInfo === 0) {
+                        showMessage('❌ 修改失败，请检查参数', 'error');
+                    } else {
+                        showMessage('❌ 未知响应格式', 'error');
+                    }
+                } else {
+                    showMessage(`❌ 请求失败 (HTTP ${response.status})`, 'error');
+                }
+            } catch (error) {
+                console.error('网络错误:', error);
+                showMessage('❌ 网络错误，请稍后重试', 'error');
+            }
+        });
+    </script>
+
+</body>
+</html>

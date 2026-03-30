@@ -1,0 +1,19 @@
+# Failed to decompile 15 functions
+# Format: address | function_name | reason
+#================================================================================
+
+0x4240 | memcpy | decompile returned None
+0x4248 | __imp___cxa_finalize | decompile returned None
+0x4250 | zend_parse_parameters | decompile returned None
+0x4260 | zend_strpprintf | decompile returned None
+0x4268 | zend_parse_arg_str_slow | decompile returned None
+0x4270 | zend_wrong_parameters_count_error | decompile returned None
+0x4278 | __gmon_start__ | decompile returned None
+0x4280 | php_info_print_table_end | decompile returned None
+0x4288 | php_printf | decompile returned None
+0x4290 | php_info_print_table_header | decompile returned None
+0x4298 | zend_wrong_parameters_none_error | decompile returned None
+0x42a0 | zend_wrong_parameter_error | decompile returned None
+0x42a8 | _efree | decompile returned None
+0x42b0 | _emalloc | decompile returned None
+0x42c0 | php_info_print_table_start | decompile returned None

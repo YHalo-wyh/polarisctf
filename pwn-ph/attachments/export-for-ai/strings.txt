@@ -1,0 +1,49 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x569 | 15 | ASCII | __gmon_start__
+0x578 | 28 | ASCII | _ITM_deregisterTMCloneTable
+0x594 | 26 | ASCII | _ITM_registerTMCloneTable
+0x5ae | 15 | ASCII | __cxa_finalize
+0x5bd | 17 | ASCII | zm_activate_vuln
+0x5ce | 10 | ASCII | zif_test1
+0x5d8 | 11 | ASCII | php_printf
+0x5e3 | 33 | ASCII | zend_wrong_parameters_none_error
+0x604 | 10 | ASCII | zif_test2
+0x60e | 16 | ASCII | zend_strpprintf
+0x61e | 24 | ASCII | zend_parse_arg_str_slow
+0x636 | 27 | ASCII | zend_wrong_parameter_error
+0x651 | 34 | ASCII | zend_wrong_parameters_count_error
+0x673 | 8 | ASCII | zif_add
+0x67b | 22 | ASCII | zend_parse_parameters
+0x696 | 9 | ASCII | _emalloc
+0x69f | 10 | ASCII | heap_size
+0x6a9 | 9 | ASCII | zif_edit
+0x6b2 | 7 | ASCII | memcpy
+0x6b9 | 11 | ASCII | zif_delete
+0x6c4 | 7 | ASCII | _efree
+0x6cb | 13 | ASCII | zm_info_vuln
+0x6d8 | 27 | ASCII | php_info_print_table_start
+0x6f3 | 28 | ASCII | php_info_print_table_header
+0x70f | 25 | ASCII | php_info_print_table_end
+0x728 | 11 | ASCII | get_module
+0x733 | 18 | ASCII | vuln_module_entry
+0x745 | 10 | ASCII | libc.so.6
+0x74f | 8 | ASCII | vuln.so
+0x757 | 12 | ASCII | GLIBC_2.2.5
+0x763 | 11 | ASCII | GLIBC_2.14
+0x2005 | 6 | ASCII | World
+0x200b | 9 | ASCII | Hello %s
+0x201a | 28 | ASCII | Index %d is not allocated\r\n
+0x2036 | 8 | ASCII | enabled
+0x203e | 13 | ASCII | vuln support
+0x204b | 6 | ASCII | 0.1.0
+0x2051 | 16 | ASCII | API20210902,NTS
+0x2061 | 6 | ASCII | test1
+0x2067 | 6 | ASCII | test2
+0x2076 | 7 | ASCII | delete
+0x2088 | 42 | ASCII | The extension %s is loaded and working!\r\n
+0x20b8 | 32 | ASCII | Index %d is already allocated\r\n
+0x20d8 | 35 | ASCII | Data size exceeds allocated size\r\n
+0x2227 | 6 | ASCII | ;*3$"

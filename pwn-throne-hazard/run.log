@@ -1,0 +1,114 @@
+[*] attempt 1
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96919
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96919)
+[!] attempt 1 failed: race miss left junk in stdin
+[*] attempt 2
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96921
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96921)
+[!] attempt 2 failed: race miss left junk in stdin
+[*] attempt 3
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96923
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96923)
+[!] attempt 3 failed: race miss left junk in stdin
+[*] attempt 4
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96931
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96931)
+[!] attempt 4 failed: race miss left junk in stdin
+[*] attempt 5
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96933
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96933)
+[!] attempt 5 failed: race miss left junk in stdin
+[*] attempt 6
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96935
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96935)
+[!] attempt 6 failed: race miss left junk in stdin
+[*] attempt 7
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96937
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96937)
+[!] attempt 7 failed: race miss left junk in stdin
+[*] attempt 8
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96939
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96939)
+[!] attempt 8 failed: race miss left junk in stdin
+[*] attempt 9
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96941
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96941)
+[!] attempt 9 failed: race miss left junk in stdin
+[*] attempt 10
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96943
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96943)
+[!] attempt 10 failed: race miss left junk in stdin
+[*] attempt 11
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96945
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96945)
+[!] attempt 11 failed: race miss left junk in stdin
+[*] attempt 12
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96947
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96947)
+[!] attempt 12 failed: race miss left junk in stdin
+[*] attempt 13
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96949
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96949)
+[!] attempt 13 failed: race miss left junk in stdin
+[*] attempt 14
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96951
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96951)
+[!] attempt 14 failed: race miss left junk in stdin
+[*] attempt 15
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96953
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96953)
+[!] attempt 15 failed: race miss left junk in stdin
+[*] attempt 16
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96955
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96955)
+[!] attempt 16 failed: race miss left junk in stdin
+[*] attempt 17
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96957
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96957)
+[!] attempt 17 failed: race miss left junk in stdin
+[*] attempt 18
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96959
+[*] arena blob: b'invalid input\n> '
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96959)
+[!] attempt 18 failed: race miss left junk in stdin
+[*] attempt 19
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 96961
+[*] dispatch raw: b'[dispatch lane 0]\nP\x88{pKq\x00\x00\n[dispatch complete]\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[+] read@libc = 0x714b707b8850
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 96961)

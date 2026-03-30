@@ -1,0 +1,16 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x48b0:__libc_start_main@@GLIBC_2.34
+0x48b8:puts@@GLIBC_2.2.5
+0x48c0:__stack_chk_fail@@GLIBC_2.4
+0x48c8:setbuf@@GLIBC_2.2.5
+0x48d0:system@@GLIBC_2.2.5
+0x48d8:printf@@GLIBC_2.2.5
+0x48e0:read@@GLIBC_2.2.5
+0x48e8:__isoc99_scanf@@GLIBC_2.7
+0x48f0:__cxa_finalize@@GLIBC_2.2.5
+0x48f8:_ITM_deregisterTMCloneTable
+0x4900:__gmon_start__
+0x4908:_ITM_registerTMCloneTable

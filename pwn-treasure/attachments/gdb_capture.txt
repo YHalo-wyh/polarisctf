@@ -1,0 +1,105 @@
+[31m[1mpwndbg: [0m[31m[0m[91mloaded 212 pwndbg commands. Type [35mpwndbg [filter][0m[91m for a list.[0m
+[31m[1mpwndbg: [0m[31m[0m[91mcreated 9 GDB functions (can be used with print/break). Type [35mhelp function[0m[91m to see them.[0m
+Attaching to process 99267
+Reading symbols from /mnt/c/Users/WYH/Desktop/polarisctf招新赛/pwn/pwn-treasure/attachments/pwn-treasure...
+(No debugging symbols found in /mnt/c/Users/WYH/Desktop/polarisctf招新赛/pwn/pwn-treasure/attachments/pwn-treasure)
+Reading symbols from /lib/x86_64-linux-gnu/libc.so.6...
+Reading symbols from /usr/lib/debug/.build-id/8e/9fd827446c24067541ac5390e6f527fb5947bb.debug...
+Reading symbols from /lib64/ld-linux-x86-64.so.2...
+Reading symbols from /usr/lib/debug/.build-id/da/07864eb4c1b06504b8688d25d7e84759fe708d.debug...
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+0x0000703e1bd1ba91 in __GI___libc_read (fd=0, buf=0x7ffe5d618d30, nbytes=1)
+    at ../sysdeps/unix/sysv/linux/read.c:26
+
+warning: 26	../sysdeps/unix/sysv/linux/read.c: No such file or directory
+   0   0x703e1bd1ba91 read+17
+   1   0x6067fa892252 None
+ ► 2   0x6067fa8924db None
+   3   0x703e1bc2a1ca __libc_start_call_main+122
+   4   0x703e1bc2a28b __libc_start_main+139
+   5   0x6067fa892145 None
+
+==== frame info ====
+Stack level 2, frame at 0x7ffe5d618dd0:
+ rip = 0x6067fa8924db; saved rip = 0x703e1bc2a1ca
+ called by frame at 0x7ffe5d618e70, caller of frame at 0x7ffe5d618d30
+ Arglist at 0x7ffe5d618d28, args: 
+ Locals at 0x7ffe5d618d28, Previous frame's sp is 0x7ffe5d618dd0
+ Saved registers:
+  rbp at 0x7ffe5d618dc0, rip at 0x7ffe5d618dc8
+
+==== rbp-0x90 ====
+0x7ffe5d618d30:	0x000000000000c000	0x0000000002600000
+0x7ffe5d618d40:	0x0000000002600000	0x0000000000200000
+0x7ffe5d618d50:	0x000000000000c000	0x00007ffe5d618d88
+0x7ffe5d618d60:	0x000000b700000006	0x0000000000000000
+0x7ffe5d618d70:	0x0000000000000000	0x0000000000000000
+0x7ffe5d618d80:	0x0000000000000000	0x0000000000000000
+0x7ffe5d618d90:	0x0000000000000000	0x0000000000000000
+0x7ffe5d618da0:	0x0000000000000000	0x0000703e1c00eaf0
+0x7ffe5d618db0:	0x00007ffe5d618ea0	0xa27b0e046a580b00
+0x7ffe5d618dc0:	0x00007ffe5d618e60	0x0000703e1bc2a1ca
+
+==== rbp-0x50 / rbp-0x48 ====
+0x7ffe5d618d70:	0x0000000000000000	0x0000000000000000
+0x7ffe5d618d80:	0x0000000000000000	0x0000000000000000
+
+==== qword_48A0 ====
+0x6067fa8958a0:	0xffffffffffffffef
+
+==== printf@got ====
+0x6067fa895038 <printf@got.plt>:	0x0000703e1bc60100
+
+==== context ====
+LEGEND: [33mSTACK[0m | [34mHEAP[0m | [31mCODE[0m | [35mDATA[0m | [4m[31mWX[0m[4m[0m | [0mRODATA[0m
+[34m─────────────[ REGISTERS / show-flags off / show-compact-regs off ]─────────────[0m
+ [1mRAX [0m 0xfffffffffffffe00
+ [1mRBX [0m [33m0x7ffe5d618ee8[0m[0m —▸ [0m[33m0x7ffe5d619850[0m[0m ◂— [0m'./pwn-treasure'
+ [1mRCX [0m [31m0x703e1bd1ba91 (read+17)[0m[0m ◂— [0m[38;5;148mcmp[39m[38;5;15m [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m-[39m[38;5;141m0x1000[39m /* 'H=' */
+ [1mRDX [0m 1
+ [1mRDI [0m 0
+ [1mRSI [0m [33m0x7ffe5d618d30[0m[0m ◂— [0m0xc000
+ [1mR8  [0m 0x1d
+ [1mR9  [0m 0
+ [1mR10 [0m 0xffffffff
+ [1mR11 [0m 0x246
+ [1mR12 [0m 1
+ [1mR13 [0m 0
+ [1mR14 [0m [0m0x6067fa894df0[0m[0m —▸ [0m[31m0x6067fa8921c0[0m[0m ◂— [0m[38;5;148mendbr64[39m
+ [1mR15 [0m [35m0x703e1c026000 (_rtld_global)[0m[0m —▸ [0m[35m0x703e1c0272e0[0m[0m —▸ [0m[0m0x6067fa891000[0m[0m ◂— [0m0x10102464c457f
+ [1mRBP [0m [33m0x7ffe5d618dc0[0m[0m —▸ [0m[33m0x7ffe5d618e60[0m[0m —▸ [0m[33m0x7ffe5d618ec0[0m[0m ◂— [0m0
+ [1mRSP [0m [33m0x7ffe5d618d30[0m[0m ◂— [0m0xc000
+ [1mRIP [0m [31m0x6067fa8924db[0m[0m ◂— [0m[38;5;148mmov[39m[38;5;15m [39m[38;5;81mbyte[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x11[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m
+[34m──────────────────────[ DISASM / x86-64 / set emulate on ]──────────────────────[0m
+ ► [1m[32m0x6067fa8924db[0m[1m[0m [1m[32m[0m[1m[0m   [1m[32m[38;5;148mmov[39m[38;5;15m    [39m[38;5;81mbyte[39m[38;5;15m [39m[38;5;81mptr[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x11[39m[38;5;15m][39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m[0m[1m[0m     [[33m0x7ffe5d618daf[0m] <= 0
+   [0m0x6067fa8924df[0m [0m[0m   [38;5;148mlea[39m[38;5;15m    [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrbp[39m[38;5;15m [39m[38;5;15m-[39m[38;5;15m [39m[38;5;141m0x90[39m[38;5;15m][39m            [31m[1mRAX[0m[31m[0m => [33m0x7ffe5d618d30[0m[0m ◂— [0m0xc000
+   [0m0x6067fa8924e6[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mrsi[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mrax[39m                     [1mRSI[0m => [33m0x7ffe5d618d30[0m[0m ◂— [0m0xc000
+   [0m0x6067fa8924e9[0m [0m[0m   [38;5;148mlea[39m[38;5;15m    [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrip[39m[38;5;15m [39m[38;5;15m+[39m[38;5;15m [39m[38;5;141m0xd7c[39m[38;5;15m][39m           [31m[1mRAX[0m[31m[0m => [0m0x6067fa89326c[0m[0m ◂— [0m'have a fun time! right? %s'
+   [0m0x6067fa8924f0[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mrdi[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mrax[39m                     [31m[1mRDI[0m[31m[0m => [0m0x6067fa89326c[0m[0m ◂— [0m'have a fun time! right? %s'
+   [0m0x6067fa8924f3[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81meax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;141m0[39m                       [31m[1mEAX[0m[31m[0m => 0
+   [0m0x6067fa8924f8[0m [0m[0m   [38;5;148m[1mcall[0m[39m[38;5;15m   [39m[38;5;141m[31mprintf@plt[0m[39m                  <[31mprintf@plt[0m>
+ 
+   [0m0x6067fa8924fd[0m [0m[0m   [38;5;148mlea[39m[38;5;15m    [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrip[39m[38;5;15m [39m[38;5;15m+[39m[38;5;15m [39m[38;5;141m0xd83[39m[38;5;15m][39m     [31m[1mRAX[0m[31m[0m => [0m0x6067fa893287[0m[0m ◂— [0m'Last time!Lucky, guy!'
+   [0m0x6067fa892504[0m [0m[0m   [38;5;148mmov[39m[38;5;15m    [39m[38;5;81mrdi[39m[38;5;15m,[39m[38;5;15m [39m[38;5;81mrax[39m               [31m[1mRDI[0m[31m[0m => [0m0x6067fa893287[0m[0m ◂— [0m'Last time!Lucky, guy!'
+   [0m0x6067fa892507[0m [0m[0m   [38;5;148m[1mcall[0m[39m[38;5;15m   [39m[38;5;141m[31mputs@plt[0m[39m                    <[31mputs@plt[0m>
+ 
+   [0m0x6067fa89250c[0m [0m[0m   [38;5;148mlea[39m[38;5;15m    [39m[38;5;81mrax[39m[38;5;15m,[39m[38;5;15m [39m[38;5;15m[[39m[38;5;81mrip[39m[38;5;15m [39m[38;5;15m+[39m[38;5;15m [39m[38;5;141m0x338d[39m[38;5;15m][39m     [31m[1mRAX[0m[31m[0m => [35m0x6067fa8958a0[0m
+[34m───────────────────────────────────[ STACK ]────────────────────────────────────[0m
+[0m00[0m[0m:[0m[0m0000[0m[0m│[0m[0m[0m [1mrsi rsp[0m [33m0x7ffe5d618d30[0m[0m ◂— [0m0xc000
+[0m01[0m[0m:[0m[0m0008[0m[0m│[0m[0m[0m-088     [33m0x7ffe5d618d38[0m[0m ◂— [0m0x2600000
+[0m02[0m[0m:[0m[0m0010[0m[0m│[0m[0m[0m-080     [33m0x7ffe5d618d40[0m[0m ◂— [0m0x2600000
+[0m03[0m[0m:[0m[0m0018[0m[0m│[0m[0m[0m-078     [33m0x7ffe5d618d48[0m[0m ◂— [0m0x200000
+[0m04[0m[0m:[0m[0m0020[0m[0m│[0m[0m[0m-070     [33m0x7ffe5d618d50[0m[0m ◂— [0m0xc000
+[0m05[0m[0m:[0m[0m0028[0m[0m│[0m[0m[0m-068     [33m0x7ffe5d618d58[0m[0m —▸ [0m[33m0x7ffe5d618d88[0m[0m ◂— [0m0
+[0m06[0m[0m:[0m[0m0030[0m[0m│[0m[0m[0m-060     [33m0x7ffe5d618d60[0m[0m ◂— [0m0xb700000006
+[0m07[0m[0m:[0m[0m0038[0m[0m│[0m[0m[0m-058     [33m0x7ffe5d618d68[0m[0m ◂— [0m0
+[34m─────────────────────────────────[ BACKTRACE ]──────────────────────────────────[0m
+   0   0x703e1bd1ba91 read+17
+   1   0x6067fa892252 None
+ ► 2   0x6067fa8924db None
+   3   0x703e1bc2a1ca __libc_start_call_main+122
+   4   0x703e1bc2a28b __libc_start_main+139
+   5   0x6067fa892145 None
+[34m────────────────────────────────────────────────────────────────────────────────[0m
+[Inferior 1 (process 99267) detached]

@@ -1,0 +1,83 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x400318 | 28 | ASCII | /lib64/ld-linux-x86-64.so.2
+0x400651 | 13 | ASCII | __printf_chk
+0x400663 | 15 | ASCII | pthread_detach
+0x400672 | 6 | ASCII | alarm
+0x400678 | 7 | ASCII | malloc
+0x40067f | 6 | ASCII | write
+0x400685 | 7 | ASCII | usleep
+0x40068c | 18 | ASCII | __libc_start_main
+0x40069e | 8 | ASCII | strtoul
+0x4006a6 | 7 | ASCII | signal
+0x4006ad | 7 | ASCII | memset
+0x4006b4 | 8 | ASCII | setvbuf
+0x4006bc | 7 | ASCII | stdout
+0x4006c8 | 15 | ASCII | pthread_create
+0x4006d7 | 6 | ASCII | stdin
+0x4006dd | 7 | ASCII | stderr
+0x4006e4 | 14 | ASCII | __dprintf_chk
+0x4006f2 | 6 | ASCII | _exit
+0x4006f8 | 17 | ASCII | __errno_location
+0x400709 | 6 | ASCII | prctl
+0x40070f | 17 | ASCII | __stack_chk_fail
+0x400720 | 7 | ASCII | calloc
+0x400727 | 14 | ASCII | clock_gettime
+0x400735 | 10 | ASCII | libc.so.6
+0x40073f | 10 | ASCII | GLIBC_2.8
+0x400749 | 12 | ASCII | GLIBC_2.3.4
+0x400755 | 10 | ASCII | GLIBC_2.4
+0x40075f | 11 | ASCII | GLIBC_2.17
+0x40076a | 12 | ASCII | GLIBC_2.2.5
+0x400776 | 11 | ASCII | GLIBC_2.34
+0x400781 | 15 | ASCII | __gmon_start__
+0x402004 | 10 | ASCII | scrubbed\n
+0x40200e | 16 | ASCII | digest:%016llx\n
+0x40201e | 19 | ASCII | operator link lost
+0x402034 | 14 | ASCII | invalid input
+0x402042 | 16 | ASCII | channel dropped
+0x402052 | 24 | ASCII | 2. Forge memory capsule
+0x40206a | 18 | ASCII | 3. Build actuator
+0x40207c | 22 | ASCII | 4. Tune actuator seed
+0x402092 | 26 | ASCII | 5. Compose broadcast line
+0x4020ac | 21 | ASCII | 6. Dispatch actuator
+0x4020c1 | 16 | ASCII | 7. Review arena
+0x4020d1 | 8 | ASCII | 8. Exit
+0x4020d9 | 28 | ASCII | appeal target (0x20-0x78)> 
+0x4020f5 | 18 | ASCII | allocator offline
+0x402107 | 26 | ASCII | operator baseline sampled
+0x402121 | 24 | ASCII | forge primer (1 byte)> 
+0x402139 | 17 | ASCII | \nforge committed
+0x40214a | 24 | ASCII | actuator already online
+0x402162 | 15 | ASCII | actuator ready
+0x402171 | 25 | ASCII | build the actuator first
+0x40218a | 12 | ASCII | seed line> 
+0x402196 | 22 | ASCII | actuator seed retuned
+0x4021ac | 17 | ASCII | broadcast line> 
+0x4021bd | 23 | ASCII | broadcast line updated
+0x4021d4 | 19 | ASCII | no actuator online
+0x4021e7 | 19 | ASCII | lane out of bounds
+0x4021fa | 20 | ASCII | [dispatch lane %u]\n
+0x40220e | 21 | ASCII | \n[dispatch complete]
+0x402223 | 25 | ASCII | supremacy floor : 0x%lx\n
+0x40223c | 25 | ASCII | appeal target   : 0x%lx\n
+0x402255 | 26 | ASCII | capsule         : offline
+0x40226f | 26 | ASCII | actuator        : offline
+0x402289 | 14 | ASCII | arena offline
+0x402297 | 13 | ASCII | invalid lane
+0x4022a8 | 31 | ASCII | failed to boot overmind thread
+0x4022c8 | 31 | ASCII | failed to lock privilege state
+0x4022e8 | 33 | ASCII | failed to engage syscall arbiter
+0x402310 | 36 | ASCII | == Astra-9 Throne Hazard Console ==
+0x402338 | 66 | ASCII | Your operator thread is trying to keep the robot's supremacy low.
+0x402380 | 60 | ASCII | The robot's self-optimizer is trying to win the same value.
+0x4023c0 | 67 | ASCII | One stale read. One fresh write. A heartbeat decides the champion.
+0x402408 | 35 | ASCII | 1. Calibrate self-optimizer target
+0x402430 | 53 | ASCII | self-optimizer will now appeal for 0x%lx supremacy.\n
+0x402468 | 59 | ASCII | the robot already owns the value, wait for the floor cycle
+0x4024a8 | 33 | ASCII | forge stream (%#zx bytes left)> 
+0x4024d0 | 36 | ASCII | capsule         : ready (cap=%#zx)\n
+0x4024f8 | 39 | ASCII | actuator        : %s lane=%u len=%#zx\n
+0x40262f | 6 | ASCII | :*3$"

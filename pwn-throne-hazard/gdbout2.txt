@@ -1,0 +1,37 @@
+[31m[1mpwndbg: [0m[31m[0m[91mloaded 212 pwndbg commands. Type [35mpwndbg [filter][0m[91m for a list.[0m
+[31m[1mpwndbg: [0m[31m[0m[91mcreated 9 GDB functions (can be used with print/break). Type [35mhelp function[0m[91m to see them.[0m
+Reading symbols from attachments/pwn...
+(No debugging symbols found in attachments/pwn)
+Breakpoint 1 at 0x4013f0
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff7bff6c0 (LWP 97622)]
+== Astra-9 Throne Hazard Console ==
+Your operator thread is trying to keep the robot's supremacy low.
+The robot's self-optimizer is trying to win the same value.
+One stale read. One fresh write. A heartbeat decides the champion.
+
+Thread 1 "pwn" hit Breakpoint 1, 0x00000000004013f0 in ?? ()
+RSP=0x7fffffffe3d0
+RBP=0x40207c
+ENVIRON_PTR=0x7fffffffe812
+0x7fffffffe3d0:	0x000000b700000006	0x0000000000000000
+0x7fffffffe3e0:	0x0000000000000000	0x0000000000000000
+0x7fffffffe3f0:	0x00007ffff7bff6c0	0xfabeac423f7ff800
+0x7fffffffe400:	0x0000000000000000	0x00007fffffffe558
+0x7fffffffe410:	0x00007fffffffe4d0	0x0000000000000001
+0x7fffffffe420:	0x0000000000000000	0x0000000000403d40
+0x7fffffffe430:	0x00007ffff7ffd000	0x00007ffff7c2a1ca
+0x7fffffffe440:	0x00007fffffffe480	0x00007fffffffe558
+0x7fffffffe450:	0x0000000100400040	0x00000000004012b0
+0x7fffffffe460:	0x00007fffffffe558	0xe7cc7b92edd0de48
+0x7fffffffe470:	0x0000000000000001	0x0000000000000000
+0x7fffffffe480:	0x0000000000403d40	0x00007ffff7ffd000
+0x7fffffffe490:	0xe7cc7b92ecf0de48	0xe7cc6be86772de48
+0x7fffffffe4a0:	0x00007fff00000000	0x0000000000000000
+0x7fffffffe4b0:	0x0000000000000000	0x0000000000000001
+0x7fffffffe4c0:	0x00007fffffffe550	0xfabeac423f7ff800
+0x7fffffffe4d0:	0x00007fffffffe530	0x00007ffff7c2a28b
+0x7fffffffe4e0:	0x00007fffffffe568	0x0000000000403d40
+0x7fffffffe4f0:	0x00007fffffffe568	0x00000000004012b0
+0x7fffffffe500:	0x0000000000000000	0x0000000000000000

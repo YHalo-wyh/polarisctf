@@ -1,0 +1,20 @@
+/*
+ * func-name: start
+ * func-address: 0x4015f0
+ * callers: none
+ * callees: 0x406208
+ */
+
+// positive sp value has been detected, the output may be wrong!
+void __fastcall __noreturn start(__int64 a1, __int64 a2, void (*a3)(void))
+{
+  __int64 v3; // rax
+  int v4; // esi
+  __int64 v5; // [rsp-8h] [rbp-8h] BYREF
+  char *retaddr; // [rsp+0h] [rbp+0h] BYREF
+
+  v4 = v5;
+  v5 = v3;
+  _libc_start_main(main, v4, &retaddr, 0LL, 0LL, a3, &v5);
+  __halt();
+}

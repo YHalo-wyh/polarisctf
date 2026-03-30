@@ -1,0 +1,21 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x4240:memcpy@@GLIBC_2.14
+0x4248:__cxa_finalize@@GLIBC_2.2.5
+0x4250:zend_parse_parameters
+0x4258:_ITM_deregisterTMCloneTable
+0x4260:zend_strpprintf
+0x4268:zend_parse_arg_str_slow
+0x4270:zend_wrong_parameters_count_error
+0x4278:__gmon_start__
+0x4280:php_info_print_table_end
+0x4288:php_printf
+0x4290:php_info_print_table_header
+0x4298:zend_wrong_parameters_none_error
+0x42a0:zend_wrong_parameter_error
+0x42a8:_efree
+0x42b0:_emalloc
+0x42b8:_ITM_registerTMCloneTable
+0x42c0:php_info_print_table_start

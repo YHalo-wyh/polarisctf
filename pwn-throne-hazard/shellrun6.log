@@ -1,0 +1,26 @@
+[*] attempt 1
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 117865
+[*] race hit lane=0 len=0x8 wait=0.235
+[*] read@libc = 0x727172a6e850
+[*] system = 0x7271729aad70
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] capsule = 0x555585ea23c0
+[*] race hit lane=1 len=0x8 wait=0.207
+[*] race hit lane=0 len=0x8 wait=0.233
+[*] table3 = 0x7271729aad70
+[*] race hit lane=3 len=0x12 wait=0.301
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 117865)
+[dispatch lane 3]
+
+[dispatch complete]
+
+1. Calibrate self-optimizer target
+2. Forge memory capsule
+3. Build actuator
+4. Tune actuator seed
+5. Compose broadcast line
+6. Dispatch actuator
+7. Review arena
+8. Exit
+> 

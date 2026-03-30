@@ -1,0 +1,41 @@
+# Strings exported from IDA
+# Format: address | length | type | string
+#================================================================================
+
+0x318 | 28 | ASCII | /lib64/ld-linux-x86-64.so.2
+0x569 | 15 | ASCII | __cxa_finalize
+0x57d | 18 | ASCII | __libc_start_main
+0x58f | 7 | ASCII | stdout
+0x59b | 7 | ASCII | system
+0x5a2 | 6 | ASCII | stdin
+0x5a8 | 15 | ASCII | __isoc99_scanf
+0x5b7 | 7 | ASCII | stderr
+0x5be | 7 | ASCII | setbuf
+0x5c5 | 17 | ASCII | __stack_chk_fail
+0x5d6 | 7 | ASCII | printf
+0x5dd | 10 | ASCII | libc.so.6
+0x5e7 | 10 | ASCII | GLIBC_2.7
+0x5f1 | 10 | ASCII | GLIBC_2.4
+0x5fb | 12 | ASCII | GLIBC_2.2.5
+0x607 | 11 | ASCII | GLIBC_2.34
+0x612 | 28 | ASCII | _ITM_deregisterTMCloneTable
+0x62e | 15 | ASCII | __gmon_start__
+0x63d | 26 | ASCII | _ITM_registerTMCloneTable
+0x2008 | 26 | ASCII | I'm the housekeeper here.
+0x2028 | 87 | ASCII | My master left a password for the system. Enter it correctly to manipulate the system.
+0x2080 | 84 | ASCII | now you can guess the password first!remember that you only one time!Carefully!guy!
+0x20d8 | 36 | ASCII | !@*(^@!#&*!#17362183612!@3!@3@!....
+0x20fc | 23 | ASCII | echo password is !!.!!
+0x2113 | 11 | ASCII | password: 
+0x2123 | 8 | ASCII | /bin/sh
+0x2130 | 61 | ASCII | Okay! My master anticipated that few would be able to guess.
+0x2170 | 50 | ASCII | so it left a back door. This time, can you do it?
+0x21a8 | 66 | ASCII | Now, you can choose a location to fix it.and you have twice time!
+0x21ea | 11 | ASCII | Which one?
+0x21fa | 26 | ASCII | Bad sit!There is nothing!
+0x2214 | 16 | ASCII | choose another!
+0x2228 | 38 | ASCII | after your operation, the context: %s
+0x224e | 30 | ASCII | you should tell me your name.
+0x226c | 27 | ASCII | have a fun time! right? %s
+0x2287 | 22 | ASCII | Last time!Lucky, guy!
+0x2337 | 6 | ASCII | :*3$"

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>路由器管理 · 主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* === 全局极简重置，与整套UI语言保持一致 === */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* 卡片容器：纯白、圆角、轻柔阴影 */
+        .home-card {
+            width: 100%;
+            max-width: 500px;
+            background: white;
+            border-radius: 20px;
+            padding: 40px 32px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.04);
+            border: 1px solid #eef2f6;
+        }
+
+        /* 标题区 */
+        .page-title {
+            font-size: 28px;
+            font-weight: 550;
+            color: #0b1c2e;
+            text-align: center;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .page-sub {
+            text-align: center;
+            font-size: 14px;
+            color: #6f7e8f;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #e9edf2;
+            padding-bottom: 24px;
+        }
+
+        /* 功能列表——干净的双卡片布局 */
+        .feature-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 16px;
+        }
+
+        .feature-item {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            padding: 24px 28px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .feature-item:hover {
+            background: #f9fcff;
+            border-color: #b1c8dd;
+            box-shadow: 0 6px 14px rgba(37,99,235,0.06);
+        }
+
+        /* 功能信息区 */
+        .feature-info {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .feature-name {
+            font-size: 18px;
+            font-weight: 540;
+            color: #1a2c3e;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-desc {
+            font-size: 13px;
+            color: #5f6c7a;
+            line-height: 1.5;
+            max-width: 260px;
+        }
+
+        /* 右箭头符号 */
+        .arrow-icon {
+            font-size: 22px;
+            color: #8a9cad;
+            transition: transform 0.2s, color 0.2s;
+        }
+
+        .feature-item:hover .arrow-icon {
+            color: #2563eb;
+            transform: translateX(4px);
+        }
+
+        /* 纯分割线（极淡） */
+        .hr-soft {
+            margin: 28px 0 12px;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #d7dee6, transparent);
+        }
+
+        /* 页脚提示 */
+        .footer-note {
+            font-size: 12px;
+            color: #9aa6b5;
+            text-align: center;
+            margin-top: 16px;
+            font-weight: 400;
+        }
+
+        /* 完全响应式 */
+        @media (max-width: 500px) {
+            .home-card {
+                padding: 32px 24px;
+            }
+            .feature-item {
+                padding: 20px;
+            }
+        }
+
+        /* 模拟图标简单点缀（纯字符，无依赖） */
+        .emoji-icon {
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="home-card">
+        <div class="page-title">🛜 路由器管理</div>
+        <div class="page-sub">已安全登录 · 请选择功能</div>
+
+        <!-- 功能列表 —— 两个核心入口 -->
+        <div class="feature-list">
+            <!-- 1. 修改密码 · 点击跳转 /resetPassword -->
+            <a href="/resetPasswd" class="feature-item">
+                <div class="feature-info">
+                    <span class="feature-name">
+                        <span class="emoji-icon">🔐</span> 修改密码
+                    </span>
+                    <span class="feature-desc">
+                        更新管理员登录密码，增强设备安全
+                    </span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a>
+
+            <!-- 2. 路由器配置 · 点击跳转 /setRoute -->
+            <a href="/config" class="feature-item">
+                <div class="feature-info">
+                    <span class="feature-name">
+                        <span class="emoji-icon">🌐</span> 路由器配置
+                    </span>
+                    <span class="feature-desc">
+                        修改IP地址、子网掩码、网关及设备名称
+                    </span>
+                </div>
+                <span class="arrow-icon">→</span>
+            </a>
+        </div>
+
+        <div class="hr-soft"></div>
+
+        <!-- 极简状态提示（无动态交互，仅文案） -->
+        <div class="footer-note">
+            ⚡ 当前版本 v2.1.8 · 配置立即生效
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x1250:zif_test1
+0x1430:zif_delete
+0x114e:zm_info_vuln
+0x1390:zif_edit
+0x1270:zif_test2
+0x40a0:vuln_module_entry
+0x1490:get_module
+0x1310:zif_add
+0x41c0:heap
+0x4180:heap_size
+0x1240:zm_activate_vuln
+0x1000:.init_proc
+0x1498:.term_proc

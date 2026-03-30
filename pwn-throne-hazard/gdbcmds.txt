@@ -1,0 +1,8 @@
+set pagination off
+break *0x4013f0
+run
+printf "RSP=%p\n", $rsp
+printf "RBP=%p\n", $rbp
+printf "ENVIRON_PTR=%p\n", *__environ
+x/40gx $rsp
+quit

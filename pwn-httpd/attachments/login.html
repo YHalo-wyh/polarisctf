@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>路由器管理登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 全局极简重置（与之前相同，仅微调凭据展示区样式） */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background: #f5f7fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .login-card {
+            width: 100%;
+            max-width: 400px;
+            background: white;
+            border-radius: 12px;
+            padding: 40px 32px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.02);
+            border: 1px solid #eaeef2;
+        }
+
+        .login-title {
+            font-size: 24px;
+            font-weight: 500;
+            color: #1a2634;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .login-sub {
+            text-align: center;
+            font-size: 14px;
+            color: #7a8b9b;
+            margin-bottom: 32px;
+            border-bottom: 1px solid #edf0f3;
+            padding-bottom: 24px;
+        }
+
+        /* 提示信息，代替原先的凭据展示 */
+        .login-hint {
+            background: #f8fafc;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 28px;
+            font-size: 14px;
+            color: #2c3e50;
+            border: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: #4a5c6c;
+            margin-bottom: 6px;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 12px 16px;
+            background: #f9fcff;
+            border: 1px solid #d0d9e0;
+            border-radius: 8px;
+            font-size: 15px;
+            color: #1e2b38;
+            transition: 0.2s;
+            outline: none;
+        }
+
+        .input-field input:focus {
+            border-color: #3498db;
+            background: white;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background: #2563eb;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.15s;
+            margin-top: 8px;
+        }
+
+        .login-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .login-btn:active {
+            background: #1e3a8a;
+        }
+
+        .message {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+            min-height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="login-title">路由器管理</div>
+        <div class="login-sub">请输入管理员凭证</div>
+
+        <!-- 移除了固定凭据展示，改为通用提示 -->
+        <div class="login-hint">
+            使用您的账号密码登录
+        </div>
+
+        <!-- 输入框不再只读，且初始为空，由用户填写 -->
+        <div class="input-group">
+            <div class="input-label">用户名</div>
+            <div class="input-field">
+                <input type="text" id="username" placeholder="请输入用户名">
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="input-label">密码</div>
+            <div class="input-field">
+                <input type="password" id="password" placeholder="请输入密码">
+            </div>
+        </div>
+
+        <button class="login-btn" id="loginBtn">立即登录</button>
+        <div class="message" id="resultMessage"></div>
+    </div>
+
+    <script>
+        const loginBtn = document.getElementById('loginBtn');
+        const resultMsg = document.getElementById('resultMessage');
+
+        loginBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            // 动态获取用户输入的用户名和密码
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+
+            // 简单非空校验
+            if (!username || !password) {
+                resultMsg.textContent = '❌ 用户名和密码不能为空';
+                resultMsg.style.color = '#ef4444';
+                return;
+            }
+
+            // 构造请求体（URL 编码格式）
+            const bodyData = `username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
+
+            resultMsg.textContent = '正在验证…';
+            resultMsg.style.color = '#3b82f6';
+
+            fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
+                },
+                body: bodyData,
+                redirect: 'manual'   // 拦截 302 重定向
+            })
+            .then(async response => {
+                // 情况1：服务器返回 3xx 重定向（通常是登录成功）
+                if (response.status >= 300 && response.status < 400) {
+                    // 尝试读取响应体中的 JSON（可能包含 {"authLogin":1}）
+                    let json = null;
+                    try {
+                        json = await response.json();
+                    } catch (e) {
+                        // 无 JSON 体或解析失败，仍视为成功（若服务端未返回 JSON 体）
+                    }
+
+                    // 如果明确收到 authLogin === 0，说明重定向是错误的，按失败处理
+                    if (json && json.authLogin === 0) {
+                        resultMsg.textContent = '❌ 用户名或密码错误';
+                        resultMsg.style.color = '#ef4444';
+                        return;
+                    }
+
+                    // 正常成功逻辑：显示成功，并跳转至 /get_cookie
+                    resultMsg.textContent = '✓ 登录成功，正在跳转…';
+                    resultMsg.style.color = '#10b981';
+
+                    const locationUrl = response.headers.get('Location');
+                    if (locationUrl) {
+                        window.location.href = locationUrl;
+                    } else {
+                        // 若服务端未提供 Location 头，默认跳转到 /get_cookie
+                        window.location.href = '/getCookie';
+                    }
+                    return;
+                }
+
+                // 情况2：服务器返回 200 OK（期望响应体为 JSON）
+                if (response.ok) {
+                    const data = await response.json();
+                    if (data.authLogin === 1) {
+                        // 成功但未重定向，手动跳转到 /get_cookie
+                        resultMsg.textContent = '✓ 登录成功，正在跳转…';
+                        resultMsg.style.color = '#10b981';
+                        window.location.href = '/getCookie';
+                    } else if (data.authLogin === 0) {
+                        // 明确登录失败，仅提示错误，不跳转
+                        resultMsg.textContent = '❌ 用户名或密码错误';
+                        resultMsg.style.color = '#ef4444';
+                    } else {
+                        // 其他未知返回值
+                        resultMsg.textContent = '❌ 登录失败，请稍后重试';
+                        resultMsg.style.color = '#ef4444';
+                    }
+                    return;
+                }
+
+                // 情况3：服务器返回其他状态码（500、404 等）
+                resultMsg.textContent = `❌ 登录失败 (HTTP ${response.status})`;
+                resultMsg.style.color = '#ef4444';
+            })
+            .catch(error => {
+                console.error('请求出错:', error);
+                resultMsg.textContent = '❌ 网络错误，请稍后重试';
+                resultMsg.style.color = '#ef4444';
+            });
+        });
+    </script>
+</body>
+</html>

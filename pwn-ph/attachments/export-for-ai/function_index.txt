@@ -1,0 +1,322 @@
+# Function Index
+# Total exported functions: 31
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x1000
+File: 1000.c
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4278 (__gmon_start__)
+
+================================================================================
+Function: sub_1020
+Address: 0x1020
+File: 1020.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: .zend_parse_parameters
+Address: 0x1030
+File: 1030.c
+
+Called by (3 callers):
+  - 0x1310 (zif_add) -> 1310.c
+  - 0x1390 (zif_edit) -> 1390.c
+  - 0x1430 (zif_delete) -> 1430.c
+
+Calls: none
+
+================================================================================
+Function: .zend_strpprintf
+Address: 0x1040
+File: 1040.c
+
+Called by (1 callers):
+  - 0x1270 (zif_test2) -> 1270.c
+
+Calls: none
+
+================================================================================
+Function: .zend_parse_arg_str_slow
+Address: 0x1050
+File: 1050.c
+
+Called by (1 callers):
+  - 0x1270 (zif_test2) -> 1270.c
+
+Calls: none
+
+================================================================================
+Function: .zend_wrong_parameters_count_error
+Address: 0x1060
+File: 1060.c
+
+Called by (1 callers):
+  - 0x1270 (zif_test2) -> 1270.c
+
+Calls: none
+
+================================================================================
+Function: .php_info_print_table_end
+Address: 0x1070
+File: 1070.c
+
+Called by (1 callers):
+  - 0x114e (zm_info_vuln) -> 114E.c
+
+Calls: none
+
+================================================================================
+Function: .memcpy
+Address: 0x1080
+File: 1080.c
+
+Called by (1 callers):
+  - 0x1390 (zif_edit) -> 1390.c
+
+Calls: none
+
+================================================================================
+Function: .php_printf
+Address: 0x1090
+File: 1090.c
+
+Called by (4 callers):
+  - 0x1250 (zif_test1) -> 1250.c
+  - 0x1310 (zif_add) -> 1310.c
+  - 0x1390 (zif_edit) -> 1390.c
+  - 0x1430 (zif_delete) -> 1430.c
+
+Calls: none
+
+================================================================================
+Function: .php_info_print_table_header
+Address: 0x10a0
+File: 10A0.c
+
+Called by (1 callers):
+  - 0x114e (zm_info_vuln) -> 114E.c
+
+Calls: none
+
+================================================================================
+Function: .zend_wrong_parameters_none_error
+Address: 0x10b0
+File: 10B0.c
+
+Called by (1 callers):
+  - 0x1110 (zif_test1.cold) -> 1110.c
+
+Calls: none
+
+================================================================================
+Function: .zend_wrong_parameter_error
+Address: 0x10c0
+File: 10C0.c
+
+Called by (1 callers):
+  - 0x1115 (zif_test2.cold) -> 1115.c
+
+Calls: none
+
+================================================================================
+Function: ._efree
+Address: 0x10d0
+File: 10D0.c
+
+Called by (1 callers):
+  - 0x1430 (zif_delete) -> 1430.c
+
+Calls: none
+
+================================================================================
+Function: ._emalloc
+Address: 0x10e0
+File: 10E0.c
+
+Called by (1 callers):
+  - 0x1310 (zif_add) -> 1310.c
+
+Calls: none
+
+================================================================================
+Function: .php_info_print_table_start
+Address: 0x10f0
+File: 10F0.c
+
+Called by (1 callers):
+  - 0x114e (zm_info_vuln) -> 114E.c
+
+Calls: none
+
+================================================================================
+Function: __cxa_finalize
+Address: 0x1100
+File: 1100.c
+
+Called by (1 callers):
+  - 0x11f0 (__do_global_dtors_aux) -> 11F0.c
+
+Calls: none
+
+================================================================================
+Function: zif_test1.cold
+Address: 0x1110
+File: 1110.c
+
+Called by (1 callers):
+  - 0x1250 (zif_test1) -> 1250.c
+
+Calls: none
+
+================================================================================
+Function: zif_test2.cold
+Address: 0x1115
+File: 1115.c
+
+Called by (1 callers):
+  - 0x1270 (zif_test2) -> 1270.c
+
+Calls: none
+
+================================================================================
+Function: zm_info_vuln
+Address: 0x114e
+File: 114E.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x10a0 (.php_info_print_table_header) -> 10A0.c
+  - 0x10f0 (.php_info_print_table_start) -> 10F0.c
+
+================================================================================
+Function: deregister_tm_clones
+Address: 0x1180
+File: 1180.c
+
+Called by (1 callers):
+  - 0x11f0 (__do_global_dtors_aux) -> 11F0.c
+
+Calls: none
+
+================================================================================
+Function: register_tm_clones
+Address: 0x11b0
+File: 11B0.c
+
+Called by (1 callers):
+  - 0x1230 (frame_dummy) -> 1230.c
+
+Calls: none
+
+================================================================================
+Function: __do_global_dtors_aux
+Address: 0x11f0
+File: 11F0.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x1100 (__cxa_finalize) -> 1100.c
+  - 0x1180 (deregister_tm_clones) -> 1180.c
+
+================================================================================
+Function: frame_dummy
+Address: 0x1230
+File: 1230.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: zm_activate_vuln
+Address: 0x1240
+File: 1240.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: zif_test1
+Address: 0x1250
+File: 1250.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: zif_test2
+Address: 0x1270
+File: 1270.c
+
+Called by: none
+
+Calls (2 callees):
+  - 0x1040 (.zend_strpprintf) -> 1040.c
+  - 0x1050 (.zend_parse_arg_str_slow) -> 1050.c
+
+================================================================================
+Function: zif_add
+Address: 0x1310
+File: 1310.c
+
+Called by: none
+
+Calls (3 callees):
+  - 0x1030 (.zend_parse_parameters) -> 1030.c
+  - 0x1090 (.php_printf) -> 1090.c
+  - 0x10e0 (._emalloc) -> 10E0.c
+
+================================================================================
+Function: zif_edit
+Address: 0x1390
+File: 1390.c
+
+Called by: none
+
+Calls (3 callees):
+  - 0x1030 (.zend_parse_parameters) -> 1030.c
+  - 0x1080 (.memcpy) -> 1080.c
+  - 0x1090 (.php_printf) -> 1090.c
+
+================================================================================
+Function: zif_delete
+Address: 0x1430
+File: 1430.c
+
+Called by: none
+
+Calls (3 callees):
+  - 0x1030 (.zend_parse_parameters) -> 1030.c
+  - 0x1090 (.php_printf) -> 1090.c
+  - 0x10d0 (._efree) -> 10D0.c
+
+================================================================================
+Function: get_module
+Address: 0x1490
+File: 1490.c
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: .term_proc
+Address: 0x1498
+File: 1498.c
+
+Called by: none
+
+Calls: none
+

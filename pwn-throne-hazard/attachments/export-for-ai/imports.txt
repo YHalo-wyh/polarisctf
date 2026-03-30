@@ -1,0 +1,26 @@
+# Imports
+# Format: func-addr:func-name
+#============================================================
+
+0x404200:__libc_start_main@@GLIBC_2.34
+0x404208:__errno_location@@GLIBC_2.2.5
+0x404210:_exit@@GLIBC_2.2.5
+0x404218:puts@@GLIBC_2.2.5
+0x404220:clock_gettime@@GLIBC_2.17
+0x404228:write@@GLIBC_2.2.5
+0x404230:__stack_chk_fail@@GLIBC_2.4
+0x404238:memset@@GLIBC_2.2.5
+0x404240:alarm@@GLIBC_2.2.5
+0x404248:read@@GLIBC_2.2.5
+0x404250:calloc@@GLIBC_2.2.5
+0x404258:signal@@GLIBC_2.2.5
+0x404260:prctl@@GLIBC_2.2.5
+0x404268:malloc@@GLIBC_2.2.5
+0x404270:pthread_detach@@GLIBC_2.34
+0x404278:__printf_chk@@GLIBC_2.3.4
+0x404280:setvbuf@@GLIBC_2.2.5
+0x404288:pthread_create@@GLIBC_2.34
+0x404290:__dprintf_chk@@GLIBC_2.8
+0x404298:strtoul@@GLIBC_2.2.5
+0x4042a0:usleep@@GLIBC_2.2.5
+0x4042a8:__gmon_start__

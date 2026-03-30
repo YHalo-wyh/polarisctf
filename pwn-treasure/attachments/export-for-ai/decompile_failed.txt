@@ -1,0 +1,14 @@
+# Failed to decompile 10 functions
+# Format: address | function_name | reason
+#================================================================================
+
+0x48b0 | __libc_start_main | decompile returned None
+0x48b8 | puts | decompile returned None
+0x48c0 | __stack_chk_fail | decompile returned None
+0x48c8 | setbuf | decompile returned None
+0x48d0 | system | decompile returned None
+0x48d8 | printf | decompile returned None
+0x48e0 | read | decompile returned None
+0x48e8 | __isoc99_scanf | decompile returned None
+0x48f0 | __imp___cxa_finalize | decompile returned None
+0x4900 | __gmon_start__ | decompile returned None

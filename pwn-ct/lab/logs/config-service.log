@@ -1,0 +1,3 @@
+listening on 127.0.0.1:3002
+[3002] 127.0.0.1 - - "GET /api/config/flag HTTP/1.0" 200 -
+[3002] 127.0.0.1 - - "GET /api/config/flag HTTP/1.0" 200 -

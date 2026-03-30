@@ -1,0 +1,1565 @@
+no local shell hit
+tarting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119609
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7292e4cfa850
+[*] open = 0x7292e4cfa560
+[*] readv = 0x7292e4d00a20
+[*] writev = 0x7292e4d00ac0
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] capsule = 0x555564c2f3c0
+[*] race hit lane=1 len=0x30 wait=0.300
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] table3(open) = 0x7292e4cfa560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119609)
+[!] attempt 1 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 2
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119621
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x794721bed850
+[*] open = 0x794721bed560
+[*] readv = 0x794721bf3a20
+[*] writev = 0x794721bf3ac0
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] capsule = 0x55556eb8f3c0
+[*] race hit lane=1 len=0x30 wait=0.204
+[*] race hit lane=1 len=0x8 wait=0.236
+[*] race hit lane=0 len=0x8 wait=0.294
+[*] table3(open) = 0x794721bed560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119621)
+[!] attempt 2 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 3
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119652
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] read@libc = 0x72d75a075850
+[*] open = 0x72d75a075560
+[*] readv = 0x72d75a07ba20
+[*] writev = 0x72d75a07bac0
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] capsule = 0x5555805623c0
+[*] race hit lane=1 len=0x30 wait=0.302
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] table3(open) = 0x72d75a075560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119652)
+[!] attempt 3 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 4
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 119660
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] read@libc = 0x7c3979f01850
+[*] open = 0x7c3979f01560
+[*] readv = 0x7c3979f07a20
+[*] writev = 0x7c3979f07ac0
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] capsule = 0x55558a2923c0
+[*] race hit lane=1 len=0x30 wait=0.213
+[*] race hit lane=1 len=0x8 wait=0.304
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] table3(open) = 0x7c3979f01560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 119660)
+[!] attempt 4 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 5
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120073
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] read@libc = 0x7affa2997850
+[*] open = 0x7affa2997560
+[*] readv = 0x7affa299da20
+[*] writev = 0x7affa299dac0
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] capsule = 0x555581d743c0
+[*] race hit lane=1 len=0x30 wait=0.234
+[*] race hit lane=1 len=0x8 wait=0.299
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120073)
+[!] attempt 5 failed: 
+[*] attempt 6
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120451
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x7b137be94850
+[*] open = 0x7b137be94560
+[*] readv = 0x7b137be9aa20
+[*] writev = 0x7b137be9aac0
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] capsule = 0x55556e3fb3c0
+[*] race hit lane=1 len=0x30 wait=0.306
+[*] race hit lane=1 len=0x8 wait=0.199
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] table3(open) = 0x7b137be94560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120451)
+[!] attempt 6 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 7
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120457
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] read@libc = 0x7f3f6bfdf850
+[*] open = 0x7f3f6bfdf560
+[*] readv = 0x7f3f6bfe5a20
+[*] writev = 0x7f3f6bfe5ac0
+[*] race hit lane=0 len=0x8 wait=0.248
+[*] capsule = 0x555567ea93c0
+[*] race hit lane=1 len=0x30 wait=0.201
+[*] race hit lane=1 len=0x8 wait=0.206
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] table3(open) = 0x7f3f6bfdf560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120457)
+[!] attempt 7 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 8
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120478
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] read@libc = 0x7e98bfe1e850
+[*] open = 0x7e98bfe1e560
+[*] readv = 0x7e98bfe24a20
+[*] writev = 0x7e98bfe24ac0
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] capsule = 0x555568b603c0
+[*] race hit lane=1 len=0x30 wait=0.222
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] table3(open) = 0x7e98bfe1e560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120478)
+[!] attempt 8 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 9
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120518
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] read@libc = 0x752c17acb850
+[*] open = 0x752c17acb560
+[*] readv = 0x752c17ad1a20
+[*] writev = 0x752c17ad1ac0
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] capsule = 0x55556f57e3c0
+[*] race hit lane=1 len=0x30 wait=0.293
+[*] race hit lane=1 len=0x8 wait=0.299
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] table3(open) = 0x752c17acb560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120518)
+[!] attempt 9 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 10
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120534
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] read@libc = 0x731c2074c850
+[*] open = 0x731c2074c560
+[*] readv = 0x731c20752a20
+[*] writev = 0x731c20752ac0
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] capsule = 0x5555831963c0
+[*] race hit lane=1 len=0x30 wait=0.237
+[*] race hit lane=1 len=0x8 wait=0.305
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] table3(open) = 0x731c2074c560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120534)
+[!] attempt 10 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 11
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120572
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] read@libc = 0x78e3d27a7850
+[*] open = 0x78e3d27a7560
+[*] readv = 0x78e3d27ada20
+[*] writev = 0x78e3d27adac0
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] capsule = 0x555557a003c0
+[*] race hit lane=1 len=0x30 wait=0.199
+[*] race hit lane=1 len=0x8 wait=0.236
+[*] race hit lane=0 len=0x8 wait=0.221
+[*] table3(open) = 0x78e3d27a7560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120572)
+[!] attempt 11 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 12
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120590
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] read@libc = 0x70c47799e850
+[*] open = 0x70c47799e560
+[*] readv = 0x70c4779a4a20
+[*] writev = 0x70c4779a4ac0
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] capsule = 0x55556f1d53c0
+[*] race hit lane=1 len=0x30 wait=0.245
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] table3(open) = 0x70c47799e560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120590)
+[!] attempt 12 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 13
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 120619
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] read@libc = 0x76c817ffe850
+[*] open = 0x76c817ffe560
+[*] readv = 0x76c818004a20
+[*] writev = 0x76c818004ac0
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] capsule = 0x5555789823c0
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 120619)
+[!] attempt 13 failed: 
+[*] attempt 14
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121251
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] read@libc = 0x773d83e1b850
+[*] open = 0x773d83e1b560
+[*] readv = 0x773d83e21a20
+[*] writev = 0x773d83e21ac0
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] capsule = 0x5555926bf3c0
+[*] race hit lane=1 len=0x30 wait=0.297
+[*] race hit lane=1 len=0x8 wait=0.233
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] table3(open) = 0x773d83e1b560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121251)
+[!] attempt 14 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 15
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121308
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] read@libc = 0x7b8a2177a850
+[*] open = 0x7b8a2177a560
+[*] readv = 0x7b8a21780a20
+[*] writev = 0x7b8a21780ac0
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] capsule = 0x5555751763c0
+[*] race hit lane=1 len=0x30 wait=0.297
+[*] race hit lane=1 len=0x8 wait=0.227
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] table3(open) = 0x7b8a2177a560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121308)
+[!] attempt 15 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 16
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121319
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x76b1e1e40850
+[*] open = 0x76b1e1e40560
+[*] readv = 0x76b1e1e46a20
+[*] writev = 0x76b1e1e46ac0
+[*] Process './attachments/ld-linux-x86-64.so.2' stopped with exit code 0 (pid 121319)
+[!] attempt 16 failed: 
+[*] attempt 17
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121482
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] read@libc = 0x731591ef4850
+[*] open = 0x731591ef4560
+[*] readv = 0x731591efaa20
+[*] writev = 0x731591efaac0
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] capsule = 0x5555561853c0
+[*] race hit lane=1 len=0x30 wait=0.224
+[*] race hit lane=1 len=0x8 wait=0.226
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] table3(open) = 0x731591ef4560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121482)
+[!] attempt 17 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 18
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121490
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] read@libc = 0x7f7285638850
+[*] open = 0x7f7285638560
+[*] readv = 0x7f728563ea20
+[*] writev = 0x7f728563eac0
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] capsule = 0x55555e9fc3c0
+[*] race hit lane=1 len=0x30 wait=0.295
+[*] race hit lane=1 len=0x8 wait=0.203
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] table3(open) = 0x7f7285638560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121490)
+[!] attempt 18 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 19
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121512
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] read@libc = 0x747b2263f850
+[*] open = 0x747b2263f560
+[*] readv = 0x747b22645a20
+[*] writev = 0x747b22645ac0
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] capsule = 0x5555821c53c0
+[*] race hit lane=1 len=0x30 wait=0.298
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] table3(open) = 0x747b2263f560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121512)
+[!] attempt 19 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 20
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121518
+[*] race hit lane=0 len=0x8 wait=0.294
+[*] read@libc = 0x785825e73850
+[*] open = 0x785825e73560
+[*] readv = 0x785825e79a20
+[*] writev = 0x785825e79ac0
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] capsule = 0x5555565a23c0
+[*] race hit lane=1 len=0x30 wait=0.247
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] table3(open) = 0x785825e73560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121518)
+[!] attempt 20 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 21
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121532
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] read@libc = 0x711d3c399850
+[*] open = 0x711d3c399560
+[*] readv = 0x711d3c39fa20
+[*] writev = 0x711d3c39fac0
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] capsule = 0x5555860f93c0
+[*] race hit lane=1 len=0x30 wait=0.217
+[*] race hit lane=1 len=0x8 wait=0.200
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] table3(open) = 0x711d3c399560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121532)
+[!] attempt 21 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 22
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 121579
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] read@libc = 0x7db809d9e850
+[*] open = 0x7db809d9e560
+[*] readv = 0x7db809da4a20
+[*] writev = 0x7db809da4ac0
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] capsule = 0x55559126c3c0
+[*] race hit lane=1 len=0x30 wait=0.307
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.204
+[*] table3(open) = 0x7db809d9e560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 121579)
+[!] attempt 22 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 23
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122319
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] read@libc = 0x7f3948434850
+[*] open = 0x7f3948434560
+[*] readv = 0x7f394843aa20
+[*] writev = 0x7f394843aac0
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] capsule = 0x555577c693c0
+[*] race hit lane=1 len=0x30 wait=0.194
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] table3(open) = 0x7f3948434560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122319)
+[!] attempt 23 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 24
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122337
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] read@libc = 0x7b5da9f6d850
+[*] open = 0x7b5da9f6d560
+[*] readv = 0x7b5da9f73a20
+[*] writev = 0x7b5da9f73ac0
+[*] race hit lane=0 len=0x8 wait=0.295
+[*] capsule = 0x555568a963c0
+[*] race hit lane=1 len=0x30 wait=0.232
+[*] race hit lane=1 len=0x8 wait=0.293
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] table3(open) = 0x7b5da9f6d560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122337)
+[!] attempt 24 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 25
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122705
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] read@libc = 0x788d5cbc0850
+[*] open = 0x788d5cbc0560
+[*] readv = 0x788d5cbc6a20
+[*] writev = 0x788d5cbc6ac0
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] capsule = 0x55558a7b33c0
+[*] race hit lane=1 len=0x30 wait=0.193
+[*] race hit lane=1 len=0x8 wait=0.199
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] table3(open) = 0x788d5cbc0560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122705)
+[!] attempt 25 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 26
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122817
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] read@libc = 0x77a675f21850
+[*] open = 0x77a675f21560
+[*] readv = 0x77a675f27a20
+[*] writev = 0x77a675f27ac0
+[*] race hit lane=0 len=0x8 wait=0.225
+[*] capsule = 0x555582c0d3c0
+[*] race hit lane=1 len=0x30 wait=0.301
+[*] race hit lane=1 len=0x8 wait=0.305
+[*] race hit lane=0 len=0x8 wait=0.233
+[*] table3(open) = 0x77a675f21560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122817)
+[!] attempt 26 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 27
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122834
+[*] race hit lane=0 len=0x8 wait=0.235
+[*] read@libc = 0x7fd46d3c7850
+[*] open = 0x7fd46d3c7560
+[*] readv = 0x7fd46d3cda20
+[*] writev = 0x7fd46d3cdac0
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] capsule = 0x55555d23b3c0
+[*] race hit lane=1 len=0x30 wait=0.243
+[*] race hit lane=1 len=0x8 wait=0.247
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] table3(open) = 0x7fd46d3c7560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122834)
+[!] attempt 27 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 28
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 122848
+[*] race hit lane=0 len=0x8 wait=0.306
+[*] read@libc = 0x758e08140850
+[*] open = 0x758e08140560
+[*] readv = 0x758e08146a20
+[*] writev = 0x758e08146ac0
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] capsule = 0x5555885053c0
+[*] race hit lane=1 len=0x30 wait=0.213
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 122848)
+[!] attempt 28 failed: 
+[*] attempt 29
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123229
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] read@libc = 0x7579fb96a850
+[*] open = 0x7579fb96a560
+[*] readv = 0x7579fb970a20
+[*] writev = 0x7579fb970ac0
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] capsule = 0x5555714e33c0
+[*] race hit lane=1 len=0x30 wait=0.244
+[*] race hit lane=1 len=0x8 wait=0.304
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] table3(open) = 0x7579fb96a560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123229)
+[!] attempt 29 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 30
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123242
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7cbf8e780850
+[*] open = 0x7cbf8e780560
+[*] readv = 0x7cbf8e786a20
+[*] writev = 0x7cbf8e786ac0
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] capsule = 0x55558eb0f3c0
+[*] race hit lane=1 len=0x30 wait=0.238
+[*] race hit lane=1 len=0x8 wait=0.217
+[*] race hit lane=0 len=0x8 wait=0.248
+[*] table3(open) = 0x7cbf8e780560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123242)
+[!] attempt 30 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 31
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123246
+[*] race hit lane=0 len=0x8 wait=0.236
+[*] read@libc = 0x70443946d850
+[*] open = 0x70443946d560
+[*] readv = 0x704439473a20
+[*] writev = 0x704439473ac0
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] capsule = 0x55556553e3c0
+[*] race hit lane=1 len=0x30 wait=0.245
+[*] race hit lane=1 len=0x8 wait=0.220
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] table3(open) = 0x70443946d560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123246)
+[!] attempt 31 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 32
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123252
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] read@libc = 0x7b48b6b8b850
+[*] open = 0x7b48b6b8b560
+[*] readv = 0x7b48b6b91a20
+[*] writev = 0x7b48b6b91ac0
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] capsule = 0x5555580173c0
+[*] race hit lane=1 len=0x30 wait=0.225
+[*] race hit lane=1 len=0x8 wait=0.196
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] table3(open) = 0x7b48b6b8b560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123252)
+[!] attempt 32 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 33
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123256
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] read@libc = 0x700092d5e850
+[*] open = 0x700092d5e560
+[*] readv = 0x700092d64a20
+[*] writev = 0x700092d64ac0
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] capsule = 0x5555644193c0
+[*] race hit lane=1 len=0x30 wait=0.197
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] table3(open) = 0x700092d5e560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123256)
+[!] attempt 33 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 34
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123268
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] read@libc = 0x710b669cd850
+[*] open = 0x710b669cd560
+[*] readv = 0x710b669d3a20
+[*] writev = 0x710b669d3ac0
+[*] race hit lane=0 len=0x8 wait=0.238
+[*] capsule = 0x5555612c03c0
+[*] race hit lane=1 len=0x30 wait=0.296
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] table3(open) = 0x710b669cd560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123268)
+[!] attempt 34 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 35
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123274
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] read@libc = 0x70a87aef8850
+[*] open = 0x70a87aef8560
+[*] readv = 0x70a87aefea20
+[*] writev = 0x70a87aefeac0
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] capsule = 0x55555faeb3c0
+[*] race hit lane=1 len=0x30 wait=0.296
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] table3(open) = 0x70a87aef8560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123274)
+[!] attempt 35 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 36
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123278
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] read@libc = 0x7c919c854850
+[*] open = 0x7c919c854560
+[*] readv = 0x7c919c85aa20
+[*] writev = 0x7c919c85aac0
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] capsule = 0x555563cc93c0
+[*] race hit lane=1 len=0x30 wait=0.204
+[*] race hit lane=1 len=0x8 wait=0.238
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] table3(open) = 0x7c919c854560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123278)
+[!] attempt 36 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 37
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123287
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] read@libc = 0x79ce6db80850
+[*] open = 0x79ce6db80560
+[*] readv = 0x79ce6db86a20
+[*] writev = 0x79ce6db86ac0
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] capsule = 0x5555737ef3c0
+[*] race hit lane=1 len=0x30 wait=0.247
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] table3(open) = 0x79ce6db80560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123287)
+[!] attempt 37 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 38
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123366
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] read@libc = 0x7fb4f117e850
+[*] open = 0x7fb4f117e560
+[*] readv = 0x7fb4f1184a20
+[*] writev = 0x7fb4f1184ac0
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] capsule = 0x5555906ec3c0
+[*] race hit lane=1 len=0x30 wait=0.197
+[*] race hit lane=1 len=0x8 wait=0.193
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] table3(open) = 0x7fb4f117e560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123366)
+[!] attempt 38 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 39
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123410
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] read@libc = 0x74a0893fe850
+[*] open = 0x74a0893fe560
+[*] readv = 0x74a089404a20
+[*] writev = 0x74a089404ac0
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] capsule = 0x555582cef3c0
+[*] race hit lane=1 len=0x30 wait=0.220
+[*] race hit lane=1 len=0x8 wait=0.302
+[*] race hit lane=0 len=0x8 wait=0.233
+[*] table3(open) = 0x74a0893fe560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123410)
+[!] attempt 39 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 40
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123417
+[*] race hit lane=0 len=0x8 wait=0.292
+[*] read@libc = 0x705ad879a850
+[*] open = 0x705ad879a560
+[*] readv = 0x705ad87a0a20
+[*] writev = 0x705ad87a0ac0
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] capsule = 0x55558b1313c0
+[*] race hit lane=1 len=0x30 wait=0.233
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] table3(open) = 0x705ad879a560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123417)
+[!] attempt 40 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 41
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123425
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x73083bc33850
+[*] open = 0x73083bc33560
+[*] readv = 0x73083bc39a20
+[*] writev = 0x73083bc39ac0
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] capsule = 0x555591c833c0
+[*] race hit lane=1 len=0x30 wait=0.218
+[*] race hit lane=1 len=0x8 wait=0.246
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] table3(open) = 0x73083bc33560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123425)
+[!] attempt 41 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 42
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123434
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] read@libc = 0x7bc4dc07d850
+[*] open = 0x7bc4dc07d560
+[*] readv = 0x7bc4dc083a20
+[*] writev = 0x7bc4dc083ac0
+[*] race hit lane=0 len=0x8 wait=0.214
+[*] capsule = 0x555593f9b3c0
+[*] race hit lane=1 len=0x30 wait=0.233
+[*] race hit lane=1 len=0x8 wait=0.207
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] table3(open) = 0x7bc4dc07d560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123434)
+[!] attempt 42 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 43
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123642
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] read@libc = 0x7638423b4850
+[*] open = 0x7638423b4560
+[*] readv = 0x7638423baa20
+[*] writev = 0x7638423baac0
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] capsule = 0x555572a4a3c0
+[*] race hit lane=1 len=0x30 wait=0.227
+[*] race hit lane=1 len=0x8 wait=0.218
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] table3(open) = 0x7638423b4560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123642)
+[!] attempt 43 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 44
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123818
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] read@libc = 0x745fa0090850
+[*] open = 0x745fa0090560
+[*] readv = 0x745fa0096a20
+[*] writev = 0x745fa0096ac0
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] capsule = 0x5555847113c0
+[*] race hit lane=1 len=0x30 wait=0.203
+[*] race hit lane=1 len=0x8 wait=0.302
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] table3(open) = 0x745fa0090560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123818)
+[!] attempt 44 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 45
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123858
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7f771b467850
+[*] open = 0x7f771b467560
+[*] readv = 0x7f771b46da20
+[*] writev = 0x7f771b46dac0
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] capsule = 0x55557d9e63c0
+[*] race hit lane=1 len=0x30 wait=0.242
+[*] race hit lane=1 len=0x8 wait=0.246
+[*] race hit lane=0 len=0x8 wait=0.195
+[*] table3(open) = 0x7f771b467560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123858)
+[!] attempt 45 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 46
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 123903
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] read@libc = 0x7e741865b850
+[*] open = 0x7e741865b560
+[*] readv = 0x7e7418661a20
+[*] writev = 0x7e7418661ac0
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] capsule = 0x55558ffe73c0
+[*] race hit lane=1 len=0x30 wait=0.302
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] table3(open) = 0x7e741865b560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 123903)
+[!] attempt 46 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 47
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124039
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] read@libc = 0x76cb604da850
+[*] open = 0x76cb604da560
+[*] readv = 0x76cb604e0a20
+[*] writev = 0x76cb604e0ac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x55558caa23c0
+[*] race hit lane=1 len=0x30 wait=0.300
+[*] race hit lane=1 len=0x8 wait=0.244
+[*] race hit lane=0 len=0x8 wait=0.248
+[*] table3(open) = 0x76cb604da560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124039)
+[!] attempt 47 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 48
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124041
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] read@libc = 0x7019a4156850
+[*] open = 0x7019a4156560
+[*] readv = 0x7019a415ca20
+[*] writev = 0x7019a415cac0
+[*] race hit lane=0 len=0x8 wait=0.201
+[*] capsule = 0x5555743583c0
+[*] race hit lane=1 len=0x30 wait=0.219
+[*] race hit lane=1 len=0x8 wait=0.193
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] table3(open) = 0x7019a4156560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124041)
+[!] attempt 48 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 49
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124043
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] read@libc = 0x721e5db58850
+[*] open = 0x721e5db58560
+[*] readv = 0x721e5db5ea20
+[*] writev = 0x721e5db5eac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x55556b44e3c0
+[*] race hit lane=1 len=0x30 wait=0.205
+[*] race hit lane=1 len=0x8 wait=0.232
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] table3(open) = 0x721e5db58560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124043)
+[!] attempt 49 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 50
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124325
+[*] race hit lane=0 len=0x8 wait=0.195
+[*] read@libc = 0x774c02892850
+[*] open = 0x774c02892560
+[*] readv = 0x774c02898a20
+[*] writev = 0x774c02898ac0
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] capsule = 0x55558aeb43c0
+[*] race hit lane=1 len=0x30 wait=0.200
+[*] race hit lane=1 len=0x8 wait=0.248
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] table3(open) = 0x774c02892560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124325)
+[!] attempt 50 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 51
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124362
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] read@libc = 0x753da852c850
+[*] open = 0x753da852c560
+[*] readv = 0x753da8532a20
+[*] writev = 0x753da8532ac0
+[*] race hit lane=0 len=0x8 wait=0.223
+[*] capsule = 0x55558fc533c0
+[*] race hit lane=1 len=0x30 wait=0.299
+[*] race hit lane=1 len=0x8 wait=0.196
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] table3(open) = 0x753da852c560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124362)
+[!] attempt 51 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 52
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124364
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] read@libc = 0x7987bcbd0850
+[*] open = 0x7987bcbd0560
+[*] readv = 0x7987bcbd6a20
+[*] writev = 0x7987bcbd6ac0
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] capsule = 0x5555729b93c0
+[*] race hit lane=1 len=0x30 wait=0.217
+[*] race hit lane=1 len=0x8 wait=0.201
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] table3(open) = 0x7987bcbd0560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124364)
+[!] attempt 52 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 53
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124367
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] read@libc = 0x7d237e8e1850
+[*] open = 0x7d237e8e1560
+[*] readv = 0x7d237e8e7a20
+[*] writev = 0x7d237e8e7ac0
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] capsule = 0x5555577083c0
+[*] race hit lane=1 len=0x30 wait=0.243
+[*] race hit lane=1 len=0x8 wait=0.199
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] table3(open) = 0x7d237e8e1560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124367)
+[!] attempt 53 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 54
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124369
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x73cd354b4850
+[*] open = 0x73cd354b4560
+[*] readv = 0x73cd354baa20
+[*] writev = 0x73cd354baac0
+[*] race hit lane=0 len=0x8 wait=0.212
+[*] capsule = 0x5555565583c0
+[*] race hit lane=1 len=0x30 wait=0.198
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] table3(open) = 0x73cd354b4560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124369)
+[!] attempt 54 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 55
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124371
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7c5f52387850
+[*] open = 0x7c5f52387560
+[*] readv = 0x7c5f5238da20
+[*] writev = 0x7c5f5238dac0
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] capsule = 0x5555736123c0
+[*] race hit lane=1 len=0x30 wait=0.195
+[*] race hit lane=1 len=0x8 wait=0.246
+[*] race hit lane=0 len=0x8 wait=0.296
+[*] table3(open) = 0x7c5f52387560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124371)
+[!] attempt 55 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 56
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124373
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] read@libc = 0x7149a1a97850
+[*] open = 0x7149a1a97560
+[*] readv = 0x7149a1a9da20
+[*] writev = 0x7149a1a9dac0
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] capsule = 0x55558014a3c0
+[*] race hit lane=1 len=0x30 wait=0.202
+[*] race hit lane=1 len=0x8 wait=0.193
+[*] race hit lane=0 len=0x8 wait=0.197
+[*] table3(open) = 0x7149a1a97560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124373)
+[!] attempt 56 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 57
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124375
+[*] race hit lane=0 len=0x8 wait=0.202
+[*] read@libc = 0x7d3a32242850
+[*] open = 0x7d3a32242560
+[*] readv = 0x7d3a32248a20
+[*] writev = 0x7d3a32248ac0
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] capsule = 0x5555884d73c0
+[*] race hit lane=1 len=0x30 wait=0.213
+[*] race hit lane=1 len=0x8 wait=0.223
+[*] race hit lane=0 len=0x8 wait=0.208
+[*] table3(open) = 0x7d3a32242560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124375)
+[!] attempt 57 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 58
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124481
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] read@libc = 0x7a7ae19b5850
+[*] open = 0x7a7ae19b5560
+[*] readv = 0x7a7ae19bba20
+[*] writev = 0x7a7ae19bbac0
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] capsule = 0x55558f5013c0
+[*] race hit lane=1 len=0x30 wait=0.240
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] table3(open) = 0x7a7ae19b5560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124481)
+[!] attempt 58 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 59
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124491
+[*] race hit lane=0 len=0x8 wait=0.296
+[*] read@libc = 0x71d1de99f850
+[*] open = 0x71d1de99f560
+[*] readv = 0x71d1de9a5a20
+[*] writev = 0x71d1de9a5ac0
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] capsule = 0x555555e5b3c0
+[*] race hit lane=1 len=0x30 wait=0.224
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] table3(open) = 0x71d1de99f560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124491)
+[!] attempt 59 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 60
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124493
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] read@libc = 0x70383ae50850
+[*] open = 0x70383ae50560
+[*] readv = 0x70383ae56a20
+[*] writev = 0x70383ae56ac0
+[*] race hit lane=0 len=0x8 wait=0.296
+[*] capsule = 0x555582a933c0
+[*] race hit lane=1 len=0x30 wait=0.218
+[*] race hit lane=1 len=0x8 wait=0.202
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] table3(open) = 0x70383ae50560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124493)
+[!] attempt 60 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 61
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124496
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] read@libc = 0x79c737f18850
+[*] open = 0x79c737f18560
+[*] readv = 0x79c737f1ea20
+[*] writev = 0x79c737f1eac0
+[*] race hit lane=0 len=0x8 wait=0.299
+[*] capsule = 0x55555d6f83c0
+[*] race hit lane=1 len=0x30 wait=0.296
+[*] race hit lane=1 len=0x8 wait=0.224
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] table3(open) = 0x79c737f18560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124496)
+[!] attempt 61 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 62
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124499
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] read@libc = 0x76e13bec6850
+[*] open = 0x76e13bec6560
+[*] readv = 0x76e13becca20
+[*] writev = 0x76e13beccac0
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] capsule = 0x55557215f3c0
+[*] race hit lane=1 len=0x30 wait=0.193
+[*] race hit lane=1 len=0x8 wait=0.242
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] table3(open) = 0x76e13bec6560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124499)
+[!] attempt 62 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 63
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124501
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] read@libc = 0x7756c373a850
+[*] open = 0x7756c373a560
+[*] readv = 0x7756c3740a20
+[*] writev = 0x7756c3740ac0
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] capsule = 0x5555872ce3c0
+[*] race hit lane=1 len=0x30 wait=0.239
+[*] race hit lane=1 len=0x8 wait=0.234
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] table3(open) = 0x7756c373a560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124501)
+[!] attempt 63 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 64
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124508
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] read@libc = 0x70c065931850
+[*] open = 0x70c065931560
+[*] readv = 0x70c065937a20
+[*] writev = 0x70c065937ac0
+[*] race hit lane=0 len=0x8 wait=0.205
+[*] capsule = 0x5555743fa3c0
+[*] race hit lane=1 len=0x30 wait=0.238
+[*] race hit lane=1 len=0x8 wait=0.196
+[*] race hit lane=0 len=0x8 wait=0.299
+[*] table3(open) = 0x70c065931560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124508)
+[!] attempt 64 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 65
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124554
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] read@libc = 0x79b9d86c4850
+[*] open = 0x79b9d86c4560
+[*] readv = 0x79b9d86caa20
+[*] writev = 0x79b9d86caac0
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] capsule = 0x5555943283c0
+[*] race hit lane=1 len=0x30 wait=0.218
+[*] race hit lane=1 len=0x8 wait=0.237
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] table3(open) = 0x79b9d86c4560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124554)
+[!] attempt 65 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 66
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124952
+[*] race hit lane=0 len=0x8 wait=0.296
+[*] read@libc = 0x751184b8c850
+[*] open = 0x751184b8c560
+[*] readv = 0x751184b92a20
+[*] writev = 0x751184b92ac0
+[*] race hit lane=0 len=0x8 wait=0.221
+[*] capsule = 0x5555667f63c0
+[*] race hit lane=1 len=0x30 wait=0.299
+[*] race hit lane=1 len=0x8 wait=0.301
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] table3(open) = 0x751184b8c560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124952)
+[!] attempt 66 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 67
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 124986
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] read@libc = 0x7607ac233850
+[*] open = 0x7607ac233560
+[*] readv = 0x7607ac239a20
+[*] writev = 0x7607ac239ac0
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] capsule = 0x555558a0e3c0
+[*] race hit lane=1 len=0x30 wait=0.204
+[*] race hit lane=1 len=0x8 wait=0.295
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] table3(open) = 0x7607ac233560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 124986)
+[!] attempt 67 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 68
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125260
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] read@libc = 0x77fb0ab27850
+[*] open = 0x77fb0ab27560
+[*] readv = 0x77fb0ab2da20
+[*] writev = 0x77fb0ab2dac0
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] capsule = 0x55556b3323c0
+[*] race hit lane=1 len=0x30 wait=0.247
+[*] race hit lane=1 len=0x8 wait=0.214
+[*] race hit lane=0 len=0x8 wait=0.235
+[*] table3(open) = 0x77fb0ab27560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125260)
+[!] attempt 68 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 69
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125264
+[*] race hit lane=0 len=0x8 wait=0.200
+[*] read@libc = 0x7d4b2c3c9850
+[*] open = 0x7d4b2c3c9560
+[*] readv = 0x7d4b2c3cfa20
+[*] writev = 0x7d4b2c3cfac0
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] capsule = 0x5555898f53c0
+[*] race hit lane=1 len=0x30 wait=0.206
+[*] race hit lane=1 len=0x8 wait=0.238
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] table3(open) = 0x7d4b2c3c9560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125264)
+[!] attempt 69 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 70
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125282
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] read@libc = 0x71616d747850
+[*] open = 0x71616d747560
+[*] readv = 0x71616d74da20
+[*] writev = 0x71616d74dac0
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125282)
+[!] attempt 70 failed: 
+[*] attempt 71
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125389
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7411ef678850
+[*] open = 0x7411ef678560
+[*] readv = 0x7411ef67ea20
+[*] writev = 0x7411ef67eac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x55557b6043c0
+[*] race hit lane=1 len=0x30 wait=0.295
+[*] race hit lane=1 len=0x8 wait=0.293
+[*] race hit lane=0 len=0x8 wait=0.219
+[*] table3(open) = 0x7411ef678560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125389)
+[!] attempt 71 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 72
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125403
+[*] race hit lane=0 len=0x8 wait=0.206
+[*] read@libc = 0x7554e6350850
+[*] open = 0x7554e6350560
+[*] readv = 0x7554e6356a20
+[*] writev = 0x7554e6356ac0
+[*] race hit lane=0 len=0x8 wait=0.307
+[*] capsule = 0x5555576ef3c0
+[*] race hit lane=1 len=0x30 wait=0.301
+[*] race hit lane=1 len=0x8 wait=0.235
+[*] race hit lane=0 len=0x8 wait=0.306
+[*] table3(open) = 0x7554e6350560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125403)
+[!] attempt 72 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 73
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125408
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] read@libc = 0x7484fa02a850
+[*] open = 0x7484fa02a560
+[*] readv = 0x7484fa030a20
+[*] writev = 0x7484fa030ac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x555572f923c0
+[*] race hit lane=1 len=0x30 wait=0.221
+[*] race hit lane=1 len=0x8 wait=0.296
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] table3(open) = 0x7484fa02a560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125408)
+[!] attempt 73 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 74
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125410
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] read@libc = 0x7cff683c8850
+[*] open = 0x7cff683c8560
+[*] readv = 0x7cff683cea20
+[*] writev = 0x7cff683ceac0
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] capsule = 0x5555592133c0
+[*] race hit lane=1 len=0x30 wait=0.248
+[*] race hit lane=1 len=0x8 wait=0.302
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] table3(open) = 0x7cff683c8560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125410)
+[!] attempt 74 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 75
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125431
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] read@libc = 0x725409230850
+[*] open = 0x725409230560
+[*] readv = 0x725409236a20
+[*] writev = 0x725409236ac0
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] capsule = 0x555584eb03c0
+[*] race hit lane=1 len=0x30 wait=0.300
+[*] race hit lane=1 len=0x8 wait=0.197
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] table3(open) = 0x725409230560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125431)
+[!] attempt 75 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 76
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 125437
+[*] race hit lane=0 len=0x8 wait=0.232
+[*] read@libc = 0x74dec286b850
+[*] open = 0x74dec286b560
+[*] readv = 0x74dec2871a20
+[*] writev = 0x74dec2871ac0
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] capsule = 0x55557903c3c0
+[*] race hit lane=1 len=0x30 wait=0.216
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 125437)
+[!] attempt 76 failed: 
+[*] attempt 77
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126466
+[*] race hit lane=0 len=0x8 wait=0.196
+[*] read@libc = 0x7d78afab1850
+[*] open = 0x7d78afab1560
+[*] readv = 0x7d78afab7a20
+[*] writev = 0x7d78afab7ac0
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] capsule = 0x5555915843c0
+[*] race hit lane=1 len=0x30 wait=0.205
+[*] race hit lane=1 len=0x8 wait=0.205
+[*] race hit lane=0 len=0x8 wait=0.226
+[*] table3(open) = 0x7d78afab1560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126466)
+[!] attempt 77 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 78
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126468
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] read@libc = 0x7fa4f4ec0850
+[*] open = 0x7fa4f4ec0560
+[*] readv = 0x7fa4f4ec6a20
+[*] writev = 0x7fa4f4ec6ac0
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] capsule = 0x55558cf5d3c0
+[*] race hit lane=1 len=0x30 wait=0.204
+[*] race hit lane=1 len=0x8 wait=0.203
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] table3(open) = 0x7fa4f4ec0560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126468)
+[!] attempt 78 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 79
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126471
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] read@libc = 0x73448c947850
+[*] open = 0x73448c947560
+[*] readv = 0x73448c94da20
+[*] writev = 0x73448c94dac0
+[*] race hit lane=0 len=0x8 wait=0.192
+[*] capsule = 0x55555dffa3c0
+[*] race hit lane=1 len=0x30 wait=0.299
+[*] race hit lane=1 len=0x8 wait=0.292
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] table3(open) = 0x73448c947560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126471)
+[!] attempt 79 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 80
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126474
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x75743c6c0850
+[*] open = 0x75743c6c0560
+[*] readv = 0x75743c6c6a20
+[*] writev = 0x75743c6c6ac0
+[*] race hit lane=0 len=0x8 wait=0.246
+[*] capsule = 0x55558d4163c0
+[*] race hit lane=1 len=0x30 wait=0.203
+[*] race hit lane=1 len=0x8 wait=0.245
+[*] race hit lane=0 len=0x8 wait=0.203
+[*] table3(open) = 0x75743c6c0560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126474)
+[!] attempt 80 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 81
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126476
+[*] race hit lane=0 len=0x8 wait=0.217
+[*] read@libc = 0x7344249b3850
+[*] open = 0x7344249b3560
+[*] readv = 0x7344249b9a20
+[*] writev = 0x7344249b9ac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x55556ed413c0
+[*] race hit lane=1 len=0x30 wait=0.299
+[*] race hit lane=1 len=0x8 wait=0.297
+[*] race hit lane=0 len=0x8 wait=0.238
+[*] table3(open) = 0x7344249b3560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126476)
+[!] attempt 81 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 82
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126478
+[*] race hit lane=0 len=0x8 wait=0.239
+[*] read@libc = 0x7403ce782850
+[*] open = 0x7403ce782560
+[*] readv = 0x7403ce788a20
+[*] writev = 0x7403ce788ac0
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] capsule = 0x55555e0cf3c0
+[*] race hit lane=1 len=0x30 wait=0.212
+[*] race hit lane=1 len=0x8 wait=0.297
+[*] race hit lane=0 len=0x8 wait=0.304
+[*] table3(open) = 0x7403ce782560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126478)
+[!] attempt 82 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 83
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126714
+[*] race hit lane=0 len=0x8 wait=0.218
+[*] read@libc = 0x768774089850
+[*] open = 0x768774089560
+[*] readv = 0x76877408fa20
+[*] writev = 0x76877408fac0
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] capsule = 0x555585b873c0
+[*] race hit lane=1 len=0x30 wait=0.215
+[*] race hit lane=1 len=0x8 wait=0.213
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] table3(open) = 0x768774089560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126714)
+[!] attempt 83 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 84
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126822
+[*] race hit lane=0 len=0x8 wait=0.234
+[*] read@libc = 0x704e23c85850
+[*] open = 0x704e23c85560
+[*] readv = 0x704e23c8ba20
+[*] writev = 0x704e23c8bac0
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] capsule = 0x5555910e03c0
+[*] race hit lane=1 len=0x30 wait=0.306
+[*] race hit lane=1 len=0x8 wait=0.200
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] table3(open) = 0x704e23c85560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126822)
+[!] attempt 84 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 85
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126837
+[*] race hit lane=0 len=0x8 wait=0.301
+[*] read@libc = 0x7eb31aeb1850
+[*] open = 0x7eb31aeb1560
+[*] readv = 0x7eb31aeb7a20
+[*] writev = 0x7eb31aeb7ac0
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] capsule = 0x5555645683c0
+[*] race hit lane=1 len=0x30 wait=0.198
+[*] race hit lane=1 len=0x8 wait=0.246
+[*] race hit lane=0 len=0x8 wait=0.238
+[*] table3(open) = 0x7eb31aeb1560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126837)
+[!] attempt 85 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 86
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 126839
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] read@libc = 0x780feb46d850
+[*] open = 0x780feb46d560
+[*] readv = 0x780feb473a20
+[*] writev = 0x780feb473ac0
+[*] race hit lane=0 len=0x8 wait=0.303
+[*] capsule = 0x55555f6c63c0
+[*] race hit lane=1 len=0x30 wait=0.215
+[*] race hit lane=1 len=0x8 wait=0.234
+[*] race hit lane=0 len=0x8 wait=0.242
+[*] table3(open) = 0x780feb46d560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 126839)
+[!] attempt 86 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 87
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 127200
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] read@libc = 0x726e283bb850
+[*] open = 0x726e283bb560
+[*] readv = 0x726e283c1a20
+[*] writev = 0x726e283c1ac0
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] capsule = 0x5555923d13c0
+[*] race hit lane=1 len=0x30 wait=0.232
+[*] race hit lane=1 len=0x8 wait=0.217
+[*] race hit lane=0 len=0x8 wait=0.213
+[*] table3(open) = 0x726e283bb560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 127200)
+[!] attempt 87 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 88
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 127399
+[*] race hit lane=0 len=0x8 wait=0.194
+[*] read@libc = 0x7a06a67e3850
+[*] open = 0x7a06a67e3560
+[*] readv = 0x7a06a67e9a20
+[*] writev = 0x7a06a67e9ac0
+[*] race hit lane=0 len=0x8 wait=0.199
+[*] capsule = 0x55558c3673c0
+[*] race hit lane=1 len=0x30 wait=0.195
+[*] race hit lane=1 len=0x8 wait=0.213
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] table3(open) = 0x7a06a67e3560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 127399)
+[!] attempt 88 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 89
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 127479
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] read@libc = 0x7a3ff4d2c850
+[*] open = 0x7a3ff4d2c560
+[*] readv = 0x7a3ff4d32a20
+[*] writev = 0x7a3ff4d32ac0
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] capsule = 0x555560db43c0
+[*] race hit lane=1 len=0x30 wait=0.299
+[*] race hit lane=1 len=0x8 wait=0.200
+[*] race hit lane=0 len=0x8 wait=0.198
+[*] table3(open) = 0x7a3ff4d2c560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 127479)
+[!] attempt 89 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 90
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 127787
+[*] race hit lane=0 len=0x8 wait=0.207
+[*] read@libc = 0x7c0850e24850
+[*] open = 0x7c0850e24560
+[*] readv = 0x7c0850e2aa20
+[*] writev = 0x7c0850e2aac0
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] capsule = 0x55555b5733c0
+[*] race hit lane=1 len=0x30 wait=0.240
+[*] race hit lane=1 len=0x8 wait=0.195
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] table3(open) = 0x7c0850e24560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 127787)
+[!] attempt 90 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 91
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 127806
+[*] race hit lane=0 len=0x8 wait=0.220
+[*] read@libc = 0x702103a48850
+[*] open = 0x702103a48560
+[*] readv = 0x702103a4ea20
+[*] writev = 0x702103a4eac0
+[*] race hit lane=0 len=0x8 wait=0.215
+[*] capsule = 0x555585b8c3c0
+[*] race hit lane=1 len=0x30 wait=0.240
+[*] race hit lane=1 len=0x8 wait=0.243
+[*] race hit lane=0 len=0x8 wait=0.204
+[*] table3(open) = 0x702103a48560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 127806)
+[!] attempt 91 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 92
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 128162
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] read@libc = 0x754122aee850
+[*] open = 0x754122aee560
+[*] readv = 0x754122af4a20
+[*] writev = 0x754122af4ac0
+[*] race hit lane=0 len=0x8 wait=0.293
+[*] capsule = 0x555575ce03c0
+[*] race hit lane=1 len=0x30 wait=0.241
+[*] race hit lane=1 len=0x8 wait=0.195
+[*] race hit lane=0 len=0x8 wait=0.243
+[*] table3(open) = 0x754122aee560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 128162)
+[!] attempt 92 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 93
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 128845
+[*] race hit lane=0 len=0x8 wait=0.228
+[*] read@libc = 0x7f604db6f850
+[*] open = 0x7f604db6f560
+[*] readv = 0x7f604db75a20
+[*] writev = 0x7f604db75ac0
+[*] race hit lane=0 len=0x8 wait=0.244
+[*] capsule = 0x55556d8893c0
+[*] race hit lane=1 len=0x30 wait=0.192
+[*] race hit lane=1 len=0x8 wait=0.221
+[*] race hit lane=0 len=0x8 wait=0.297
+[*] table3(open) = 0x7f604db6f560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 128845)
+[!] attempt 93 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 94
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 128988
+[*] race hit lane=0 len=0x8 wait=0.193
+[*] read@libc = 0x76a3b1651850
+[*] open = 0x76a3b1651560
+[*] readv = 0x76a3b1657a20
+[*] writev = 0x76a3b1657ac0
+[*] race hit lane=0 len=0x8 wait=0.224
+[*] capsule = 0x55555c1e13c0
+[*] race hit lane=1 len=0x30 wait=0.200
+[*] race hit lane=1 len=0x8 wait=0.222
+[*] race hit lane=0 len=0x8 wait=0.222
+[*] table3(open) = 0x76a3b1651560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 128988)
+[!] attempt 94 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 95
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129206
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129206)
+[!] attempt 95 failed: 
+[*] attempt 96
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129317
+[*] race hit lane=0 len=0x8 wait=0.240
+[*] read@libc = 0x772cb916f850
+[*] open = 0x772cb916f560
+[*] readv = 0x772cb9175a20
+[*] writev = 0x772cb9175ac0
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] capsule = 0x555568e6a3c0
+[*] race hit lane=1 len=0x30 wait=0.232
+[*] race hit lane=1 len=0x8 wait=0.201
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] table3(open) = 0x772cb916f560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129317)
+[!] attempt 96 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 97
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129343
+[*] race hit lane=0 len=0x8 wait=0.300
+[*] read@libc = 0x792a1197d850
+[*] open = 0x792a1197d560
+[*] readv = 0x792a11983a20
+[*] writev = 0x792a11983ac0
+[*] race hit lane=0 len=0x8 wait=0.216
+[*] capsule = 0x555559a743c0
+[*] race hit lane=1 len=0x30 wait=0.192
+[*] race hit lane=1 len=0x8 wait=0.221
+[*] race hit lane=0 len=0x8 wait=0.241
+[*] table3(open) = 0x792a1197d560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129343)
+[!] attempt 97 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 98
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129345
+[*] race hit lane=0 len=0x8 wait=0.298
+[*] read@libc = 0x722cc0140850
+[*] open = 0x722cc0140560
+[*] readv = 0x722cc0146a20
+[*] writev = 0x722cc0146ac0
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] capsule = 0x5555742023c0
+[*] race hit lane=1 len=0x30 wait=0.214
+[*] race hit lane=1 len=0x8 wait=0.198
+[*] race hit lane=0 len=0x8 wait=0.302
+[*] table3(open) = 0x722cc0140560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129345)
+[!] attempt 98 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 99
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129356
+[*] race hit lane=0 len=0x8 wait=0.245
+[*] read@libc = 0x78805aa6b850
+[*] open = 0x78805aa6b560
+[*] readv = 0x78805aa71a20
+[*] writev = 0x78805aa71ac0
+[*] race hit lane=0 len=0x8 wait=0.227
+[*] capsule = 0x5555641c33c0
+[*] race hit lane=1 len=0x30 wait=0.296
+[*] race hit lane=1 len=0x8 wait=0.241
+[*] race hit lane=0 len=0x8 wait=0.305
+[*] table3(open) = 0x78805aa6b560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129356)
+[!] attempt 99 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
+[*] attempt 100
+[x] Starting local process './attachments/ld-linux-x86-64.so.2'
+[+] Starting local process './attachments/ld-linux-x86-64.so.2': pid 129364
+[*] race hit lane=0 len=0x8 wait=0.214
+[*] read@libc = 0x7b7e2216b850
+[*] open = 0x7b7e2216b560
+[*] readv = 0x7b7e22171a20
+[*] writev = 0x7b7e22171ac0
+[*] race hit lane=0 len=0x8 wait=0.247
+[*] capsule = 0x555561c663c0
+[*] race hit lane=1 len=0x30 wait=0.197
+[*] race hit lane=1 len=0x8 wait=0.232
+[*] race hit lane=0 len=0x8 wait=0.237
+[*] table3(open) = 0x7b7e2216b560
+[*] Stopped process './attachments/ld-linux-x86-64.so.2' (pid 129364)
+[!] attempt 100 failed: unexpected review blob: b'supremacy floor : 0x20\nappeal target   : 0x78\ncapsule         : ready (cap=0x30)\nactuator        : AAAAAAAAAAAAAAAA\x03 lane=3 len=0\n\n1. Calibrate self-optimizer target\n2. Forge memory capsule\n3. Build actuator\n4. Tune actuator seed\n5. Compose broadcast line\n6. Dispatch actuator\n7. Review arena\n8. Exit\n> '
